@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/08/02/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>RUC_IRM_PyCodeCamp2020_0_GeneratingHexoBlog</title>
+    <url>/2020/08/03/RUC-IRM-PyCodeCamp2020-0/</url>
+    <content><![CDATA[<h4 id="안녕하세요-블로그-주인인-괜찮은-‘괜찮은’입니다-모쪼록-잘-부탁드립니다-x1F609-大家好，我是博主괜찮은’GwenChanEn’。请多多关照！"><a href="#안녕하세요-블로그-주인인-괜찮은-‘괜찮은’입니다-모쪼록-잘-부탁드립니다-x1F609-大家好，我是博主괜찮은’GwenChanEn’。请多多关照！" class="headerlink" title="안녕하세요, 블로그 주인인 괜찮은 ‘괜찮은’입니다. 모쪼록 잘 부탁드립니다! &#x1F609; 大家好，我是博主괜찮은’GwenChanEn’。请多多关照！"></a>안녕하세요, 블로그 주인인 괜찮은 ‘괜찮은’입니다. 모쪼록 잘 부탁드립니다! &#x1F609;<br> <em>大家好，我是博主괜찮은’GwenChanEn’。请多多关照！</em></h4><br>
+
+<h4 id="우선-다른-우수한-플랫폼이-여럿-있음에도-불구하고-github-블로그를-개설한-데에는-3가지-이유가-있습니다-虽有好多个优秀的博客平台，但我选择GitHub博客的原因如下："><a href="#우선-다른-우수한-플랫폼이-여럿-있음에도-불구하고-github-블로그를-개설한-데에는-3가지-이유가-있습니다-虽有好多个优秀的博客平台，但我选择GitHub博客的原因如下：" class="headerlink" title="우선 다른 우수한 플랫폼이 여럿 있음에도 불구하고 github 블로그를 개설한 데에는 3가지 이유가 있습니다. 虽有好多个优秀的博客平台，但我选择GitHub博客的原因如下："></a>우선 다른 우수한 플랫폼이 여럿 있음에도 불구하고<br> github 블로그를 개설한 데에는 3가지 이유가 있습니다.<br> <em>虽有好多个优秀的博客平台，但我选择GitHub博客的原因如下：</em></h4><blockquote>
+</blockquote>
+<ol>
+<li>개발자만의 geek한 블로그를 갖고 싶었다. &#x1F9D1;&#x200D;&#x1F4BB;<br>   <em>1. 打算向后成为一名程序员，想拥有一个比较‘geek’的技术博客</em>&#x1F9D1;&#x200D;&#x1F4BB;</li>
+<li>학습내용을 종이로 정리하는 것은 효율성 측면에서 한계가 있다. &#x1F92F;<br>   <em>2. 授课过程中发现：在纸上做笔记效率有限。</em>&#x1F92F;</li>
+<li>코로나로 계속 국내에만 있어 중국어, 영어로 작문을 할 일이 없어서 필력이 많이 떨어졌다. &#x270D;<br>   <em>3. 由于疫情特殊期间一直在国内（🇰🇷），没机会以汉语和英语写文章，感觉文笔日益后退。</em>&#x270D;</li>
+</ol>
+<br>
+<br>
+<br>
+
+<blockquote>
+<p>제가 이 블로그를 개설하기 위해 참고한 블로그는 이하와 같습니다.:</p>
+</blockquote>
+<ol>
+<li><a href="https://zhuanlan.zhihu.com/p/35668237">超详细Hexo+Github博客搭建小白教程</a></li>
+<li><a href="https://www.jianshu.com/p/191d1e21f7ed">Markdown基本语法</a></li>
+<li><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh">Connecting to GitHub with SSH</a></li>
+<li><a href="https://unicode.org/emoji/charts/full-emoji-list.html">Full Emoji List, v13.0</a></li>
+<li><a href="https://www.holaxprogramming.com/2017/04/16/github-page-and-hexo/">Github Page와 Hexo를 통해 30분만에 기술 블로그 만들기</a></li>
+<li><a href="https://www.44bits.io/ko/post/8-suggestions-for-tech-programming-blog">좋은 기술 블로그를 만들어 나가기 위한 8가지 제언</a></li>
+<li><a href="https://heropy.blog/2017/09/30/markdown/">MarkDown 사용법 총정리</a><br>
+
+</li>
+</ol>
+<h5 id="초보자가-봐도-바로-따라할-수-있게끔-각-단계를-매우-상세하게-적어주신-godweiyang-高鸿祥-GitHub-개발자-분들-Minhyeok-Jung-Daegwon-Nacyot-Kim-HEROPY-TECH님-께-진심으로-감사드립니다-x1F64F-衷心感谢上述博客作者以及GitHub写这么详细又通俗易懂的博客，让初始者立即随之进行操作。"><a href="#초보자가-봐도-바로-따라할-수-있게끔-각-단계를-매우-상세하게-적어주신-godweiyang-高鸿祥-GitHub-개발자-분들-Minhyeok-Jung-Daegwon-Nacyot-Kim-HEROPY-TECH님-께-진심으로-감사드립니다-x1F64F-衷心感谢上述博客作者以及GitHub写这么详细又通俗易懂的博客，让初始者立即随之进行操作。" class="headerlink" title="초보자가 봐도 바로 따라할 수 있게끔 각 단계를 매우 상세하게 적어주신 godweiyang, 高鸿祥, GitHub 개발자 분들, Minhyeok Jung, Daegwon Nacyot Kim, HEROPY TECH님 께 진심으로 감사드립니다. &#x1F64F; 衷心感谢上述博客作者以及GitHub写这么详细又通俗易懂的博客，让初始者立即随之进行操作。"></a>초보자가 봐도 바로 따라할 수 있게끔 각 단계를 매우 상세하게 적어주신 <strong>godweiyang, 高鸿祥, GitHub 개발자 분들, Minhyeok Jung, Daegwon Nacyot Kim, HEROPY TECH님</strong> 께 진심으로 감사드립니다. &#x1F64F;<br> 衷心感谢上述博客作者以及GitHub写这么详细又通俗易懂的博客，<br>让初始者立即随之进行操作。</h5><hr>
+]]></content>
+      <categories>
+        <category>RUC_IRM_PyCodeCamp2020</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>첫글</tag>
+        <tag>기술블로그</tag>
+        <tag>技术博客</tag>
+        <tag>IRM</tag>
+        <tag>InformationResourcesManagement</tag>
+        <tag>信息资源管理系</tag>
+        <tag>PyCodeCamp</tag>
+        <tag>GwenChanGit</tag>
+        <tag>GitHub Blog</tag>
+        <tag>HUFS</tag>
+        <tag>韩国外国语大学</tag>
+        <tag>GitHub博客</tag>
+        <tag>RUC</tag>
+        <tag>中国人民大学</tag>
+      </tags>
+  </entry>
+</search>
