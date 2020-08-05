@@ -87,6 +87,9 @@
     <url>/2020/08/04/RUC-IRM-PyCodeCamp2020-1_Python-Basic/</url>
     <content><![CDATA[<p>#Pyformat_코드 예쁘게 작성하기</p>
 <h5 id="안녕하세요-괜찮은-괜찮은입니다-사실-Python-기본-문법은-다른-많은-분들께서-이미-너무-많이-정리해주셔서-저는-그냥-제가-보충-자료로-보는-사이트를-올리고-가겠습니다"><a href="#안녕하세요-괜찮은-괜찮은입니다-사실-Python-기본-문법은-다른-많은-분들께서-이미-너무-많이-정리해주셔서-저는-그냥-제가-보충-자료로-보는-사이트를-올리고-가겠습니다" class="headerlink" title="안녕하세요, 괜찮은 괜찮은입니다. 사실 Python 기본 문법은 다른 많은 분들께서 이미 너무 많이 정리해주셔서 저는 그냥 제가 보충 자료로 보는 사이트를 올리고 가겠습니다."></a>안녕하세요, 괜찮은 괜찮은입니다. 사실 Python 기본 문법은 다른 많은 분들께서 이미 너무 많이 정리해주셔서 저는 그냥 제가 보충 자료로 보는 사이트를 올리고 가겠습니다.<br></h5><h5 id="大家好，我是还好的GwenChanEn。众所周知，Python语言基础这个主题已经由好几万、几十万或许几百万编程大佬们整理成海量的优质文献了。因此，我这次要写的内容是我平时参考的Python语言文献。"><a href="#大家好，我是还好的GwenChanEn。众所周知，Python语言基础这个主题已经由好几万、几十万或许几百万编程大佬们整理成海量的优质文献了。因此，我这次要写的内容是我平时参考的Python语言文献。" class="headerlink" title="大家好，我是还好的GwenChanEn。众所周知，Python语言基础这个主题已经由好几万、几十万或许几百万编程大佬们整理成海量的优质文献了。因此，我这次要写的内容是我平时参考的Python语言文献。"></a>大家好，我是还好的GwenChanEn。众所周知，Python语言基础这个主题已经由好几万、几十万或许几百万编程大佬们整理成海量的优质文献了。因此，我这次要写的内容是我平时参考的Python语言文献。<br></h5><h2 id="Pyformat"><a href="#Pyformat" class="headerlink" title="Pyformat"></a><a href="https://pyformat.info/">Pyformat</a></h2>]]></content>
+      <categories>
+        <category>RUC_IRM_PyCodeCamp2020</category>
+      </categories>
       <tags>
         <tag>python3.8</tag>
         <tag>IDLE</tag>
@@ -144,6 +147,9 @@
 <h5 id="Atom을-열어-Packages에서-아마-깔려있을-없으면-설치해주세요-script-package를-선택하고-script-package의-Settings로-들어가주세요"><a href="#Atom을-열어-Packages에서-아마-깔려있을-없으면-설치해주세요-script-package를-선택하고-script-package의-Settings로-들어가주세요" class="headerlink" title="Atom을 열어 Packages에서 아마 깔려있을(없으면 설치해주세요)script package를 선택하고 script package의 Settings로 들어가주세요."></a>Atom을 열어 Packages에서 아마 깔려있을(없으면 설치해주세요)script package를 선택하고 script package의 Settings로 들어가주세요.</h5><p><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_8.21.17.png" alt="Open Config Folder"></p>
 <h5 id="그리고-왼쪽-밑의-‘Open-Config-Folder’를-실행시켜줍니다"><a href="#그리고-왼쪽-밑의-‘Open-Config-Folder’를-실행시켜줍니다" class="headerlink" title="그리고 왼쪽 밑의 ‘Open Config Folder’를 실행시켜줍니다."></a>그리고 왼쪽 밑의 ‘Open Config Folder’를 실행시켜줍니다.</h5><h5 id="위-packages-script-grammars-python-coffee-경로로-들어가서"><a href="#위-packages-script-grammars-python-coffee-경로로-들어가서" class="headerlink" title="위 packages/script/grammars/python.coffee  경로로 들어가서"></a>위 packages/script/grammars/python.coffee  경로로 들어가서</h5><h5 id="위-스크린샷과-같이-python-coffee-문서의-Selection-Based-부분의-커맨드가-‘python’으로-된-두-부분을-전부-‘python3’로-바꿔주고-저장하고-Atom을-재시작해주세요"><a href="#위-스크린샷과-같이-python-coffee-문서의-Selection-Based-부분의-커맨드가-‘python’으로-된-두-부분을-전부-‘python3’로-바꿔주고-저장하고-Atom을-재시작해주세요" class="headerlink" title="위 스크린샷과 같이 python.coffee 문서의 Selection Based 부분의 커맨드가 ‘python’으로 된 두 부분을 전부 ‘python3’로 바꿔주고 저장하고 Atom을 재시작해주세요."></a>위 스크린샷과 같이 python.coffee 문서의 Selection Based 부분의 커맨드가 ‘python’으로 된 두 부분을 전부 ‘python3’로 바꿔주고 저장하고 Atom을 재시작해주세요.</h5><p><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_6.53.18.png" alt="Atom에서 정상적으로 Script 실행시킨 화면"></p>
 ]]></content>
+      <categories>
+        <category>RUC_IRM_PyCodeCamp2020</category>
+      </categories>
       <tags>
         <tag>Python</tag>
         <tag>Python2.7</tag>
