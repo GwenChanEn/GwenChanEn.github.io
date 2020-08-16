@@ -33,7 +33,30 @@
   
   
 
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-174574147-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+
   
+<script>
+var _hmt = _hmt || [];
+(function() {
+	var hm = document.createElement("script");
+	hm.src = "https://hm.baidu.com/hm.js?2f789b865e0a193008da21f6cd274a01";
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 
 <link rel="alternate" href="/atom.xml" title="GwenChanEn World" type="application/atom+xml">
 </head>
@@ -102,7 +125,7 @@
     
     
     <article
-  id="post-RUC-IRM-PyCodeCamp2020_1_맥OS 터미널, Atom에서 최신 버전 파이썬 사용하기"
+  id="post-在Mac_Terminal把Python3设为默认Python"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -113,73 +136,71 @@
     <header class="article-header">
        
 <h2 itemprop="name">
-  <a class="article-title" href="/2020/08/05/RUC-IRM-PyCodeCamp2020_1_%EB%A7%A5OS%20%ED%84%B0%EB%AF%B8%EB%84%90,%20Atom%EC%97%90%EC%84%9C%20%EC%B5%9C%EC%8B%A0%20%EB%B2%84%EC%A0%84%20%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/"
-    >RUC_IRM_PyCodeCamp2020_1_맥OS 터미널, Atom에서 최신 버전 파이썬 사용하기</a> 
+  <a class="article-title" href="/2020/08/16/%E5%9C%A8Mac_Terminal%E6%8A%8APython3%E8%AE%BE%E4%B8%BA%E9%BB%98%E8%AE%A4Python/"
+    >在Mac Terminal把Python3设为默认Python</a> 
 </h2>
  
 
     </header>
      
     <div class="article-meta">
-      <a href="/2020/08/05/RUC-IRM-PyCodeCamp2020_1_%EB%A7%A5OS%20%ED%84%B0%EB%AF%B8%EB%84%90,%20Atom%EC%97%90%EC%84%9C%20%EC%B5%9C%EC%8B%A0%20%EB%B2%84%EC%A0%84%20%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/" class="article-date">
-  <time datetime="2020-08-05T03:36:12.000Z" itemprop="datePublished">2020-08-05</time>
+      <a href="/2020/08/16/%E5%9C%A8Mac_Terminal%E6%8A%8APython3%E8%AE%BE%E4%B8%BA%E9%BB%98%E8%AE%A4Python/" class="article-date">
+  <time datetime="2020-08-16T09:43:52.000Z" itemprop="datePublished">2020-08-16</time>
 </a> 
   <div class="article-category">
-    <a class="article-category-link" href="/categories/RUC-IRM-PyCodeCamp2020/">RUC_IRM_PyCodeCamp2020</a>
+    <a class="article-category-link" href="/categories/decorating/">decorating</a>
   </div>
    
     </div>
       
     <div class="article-entry" itemprop="articleBody">
        
-  <h1 id="맥OS-터미널-Atom에서-최신-버전-파이썬-사용하기"><a href="#맥OS-터미널-Atom에서-최신-버전-파이썬-사용하기" class="headerlink" title="맥OS 터미널, Atom에서 최신 버전 파이썬 사용하기"></a>맥OS 터미널, Atom에서 최신 버전 파이썬 사용하기</h1><h3 id="안녕하세요-괜찮은-괜찮은입니다"><a href="#안녕하세요-괜찮은-괜찮은입니다" class="headerlink" title="안녕하세요, 괜찮은 괜찮은입니다."></a>안녕하세요, 괜찮은 괜찮은입니다.</h3><h5 id="맥에는-기본적으로-파이썬이-깔려있지만-이-디폴트-파이썬이-구버전인-2-7버전이어서-머지-않아-지원이-중단된다는-경고창이-뜨곤-하죠"><a href="#맥에는-기본적으로-파이썬이-깔려있지만-이-디폴트-파이썬이-구버전인-2-7버전이어서-머지-않아-지원이-중단된다는-경고창이-뜨곤-하죠" class="headerlink" title="맥에는 기본적으로 파이썬이 깔려있지만, 이 디폴트 파이썬이 구버전인 2.7버전이어서 머지 않아 지원이 중단된다는 경고창이 뜨곤 하죠."></a>맥에는 기본적으로 파이썬이 깔려있지만, 이 디폴트 파이썬이 구버전인 2.7버전이어서 머지 않아 지원이 중단된다는 경고창이 뜨곤 하죠.</h5><h5 id="문제는-최신-버전인-파이썬3을-설치해도-터미널에서-python버전-체크를-했을-때-계속-파이썬-2-7로-나오고-실행되는-것인데요"><a href="#문제는-최신-버전인-파이썬3을-설치해도-터미널에서-python버전-체크를-했을-때-계속-파이썬-2-7로-나오고-실행되는-것인데요" class="headerlink" title="문제는 최신 버전인 파이썬3을 설치해도 터미널에서 python버전 체크를 했을 때 계속 파이썬 2.7로 나오고 실행되는 것인데요,"></a>문제는 최신 버전인 파이썬3을 설치해도 터미널에서 python버전 체크를 했을 때 계속 파이썬 2.7로 나오고 실행되는 것인데요,</h5><h5 id="이-상태에서는-많은-분들이-사용하고-계시는-Atom-에디터에서-script-패키지를-설치해서-파이썬을-연동시켜봐도최신-버전-파이썬이-아닌-파이썬-2-7-버전으로-구동이-되어-Errno-2-No-such-file-or-directory-에러가-발생합니다"><a href="#이-상태에서는-많은-분들이-사용하고-계시는-Atom-에디터에서-script-패키지를-설치해서-파이썬을-연동시켜봐도최신-버전-파이썬이-아닌-파이썬-2-7-버전으로-구동이-되어-Errno-2-No-such-file-or-directory-에러가-발생합니다" class="headerlink" title="이 상태에서는 많은 분들이 사용하고 계시는 Atom  에디터에서 script 패키지를 설치해서 파이썬을 연동시켜봐도최신 버전 파이썬이 아닌 파이썬 2.7 버전으로 구동이 되어 Errno 2 No such file or directory 에러가 발생합니다."></a>이 상태에서는 많은 분들이 사용하고 계시는 Atom  에디터에서 script 패키지를 설치해서 파이썬을 연동시켜봐도최신 버전 파이썬이 아닌 파이썬 2.7 버전으로 구동이 되어 Errno 2 No such file or directory 에러가 발생합니다.</h5><h5 id="이번-글에서는-python을-쉘에서-입력했을-때-기본값-디폴트값-으로-설정된-2-7버전을-실행하는-대신-현재-보편적으로-사용하는-파이썬3을-실행하게-하는-방법을-알아보겠습니다"><a href="#이번-글에서는-python을-쉘에서-입력했을-때-기본값-디폴트값-으로-설정된-2-7버전을-실행하는-대신-현재-보편적으로-사용하는-파이썬3을-실행하게-하는-방법을-알아보겠습니다" class="headerlink" title="이번 글에서는 python을 쉘에서 입력했을 때 기본값(디폴트값)으로 설정된 2.7버전을 실행하는 대신 현재 보편적으로 사용하는 파이썬3을 실행하게 하는 방법을 알아보겠습니다."></a>이번 글에서는 python을 쉘에서 입력했을 때 기본값(디폴트값)으로 설정된 2.7버전을 실행하는 대신 현재 보편적으로 사용하는 파이썬3을 실행하게 하는 방법을 알아보겠습니다.</br></h5><h5 id="터미널-쉘이-zsh가-아닌-분들은-아래-글의-1번까지-진행해-bash쉘에서-zsh쉘로-바꿔주세요"><a href="#터미널-쉘이-zsh가-아닌-분들은-아래-글의-1번까지-진행해-bash쉘에서-zsh쉘로-바꿔주세요" class="headerlink" title="(터미널 쉘이 zsh가 아닌 분들은 아래 글의 1번까지 진행해 bash쉘에서 zsh쉘로 바꿔주세요!)"></a><em>(터미널 쉘이 zsh가 아닌 분들은 아래 글의 1번까지 진행해 bash쉘에서 zsh쉘로 바꿔주세요!)</em></h5><p><a target="_blank" rel="noopener" href="https://m.blog.naver.com/PostView.nhn?blogId=ecker&logNo=220820740145&proxyReferer=https://www.google.com/">Mac bash 대신 zsh 사용하기</a></p>
-<p><em>(macOS 카탈리나(2019년 10월이후 모델 혹은 이 이후 업데이트) 부터는 터미널 기본 shell 환경이 zsh입니다!)</em></p>
-</br>
+  <h1 id="맥OS-터미널-Atom에서-최신-버전-파이썬-사용하기"><a href="#맥OS-터미널-Atom에서-최신-버전-파이썬-사용하기" class="headerlink" title="맥OS 터미널, Atom에서 최신 버전 파이썬 사용하기"></a>맥OS 터미널, Atom에서 최신 버전 파이썬 사용하기</h1><h5 id="안녕하세요-괜찮은-괜찮은입니다-맥에는-기본적으로-파이썬이-깔려있지만-이-디폴트-파이썬이-구버전인-2-7버전이어서-머지-않아-지원이-중단된다는-경고창이-뜨곤-하죠-문제는-최신-버전인-파이썬3을-설치해도-터미널에서-python버전-체크를-했을-때-계속-파이썬-2-7로-나오고-실행되는-것인데요-이-상태에서는-많은-분들이-사용하고-계시는-Atom-에디터에서-script-패키지를-설치해서-파이썬을-연동시켜봐도최신-버전-파이썬이-아닌-파이썬-2-7-버전으로-구동이-되어-Errno-2-No-such-file-or-directory-에러가-발생합니다-이번-글에서는-python을-쉘에서-입력했을-때-기본값-디폴트값-으로-설정된-2-7버전을-실행하는-대신-현재-보편적으로-사용하는-파이썬3을-실행하게-하는-방법을-알아보겠습니다"><a href="#안녕하세요-괜찮은-괜찮은입니다-맥에는-기본적으로-파이썬이-깔려있지만-이-디폴트-파이썬이-구버전인-2-7버전이어서-머지-않아-지원이-중단된다는-경고창이-뜨곤-하죠-문제는-최신-버전인-파이썬3을-설치해도-터미널에서-python버전-체크를-했을-때-계속-파이썬-2-7로-나오고-실행되는-것인데요-이-상태에서는-많은-분들이-사용하고-계시는-Atom-에디터에서-script-패키지를-설치해서-파이썬을-연동시켜봐도최신-버전-파이썬이-아닌-파이썬-2-7-버전으로-구동이-되어-Errno-2-No-such-file-or-directory-에러가-발생합니다-이번-글에서는-python을-쉘에서-입력했을-때-기본값-디폴트값-으로-설정된-2-7버전을-실행하는-대신-현재-보편적으로-사용하는-파이썬3을-실행하게-하는-방법을-알아보겠습니다" class="headerlink" title="안녕하세요, 괜찮은 괜찮은입니다.맥에는 기본적으로 파이썬이 깔려있지만, 이 디폴트 파이썬이 구버전인 2.7버전이어서 머지 않아 지원이 중단된다는 경고창이 뜨곤 하죠. 문제는 최신 버전인 파이썬3을 설치해도 터미널에서 python버전 체크를 했을 때 계속 파이썬 2.7로 나오고 실행되는 것인데요,이 상태에서는 많은 분들이 사용하고 계시는 Atom  에디터에서 script 패키지를 설치해서 파이썬을 연동시켜봐도최신 버전 파이썬이 아닌 파이썬 2.7 버전으로 구동이 되어 Errno 2 No such file or directory 에러가 발생합니다.이번 글에서는 python을 쉘에서 입력했을 때 기본값(디폴트값)으로 설정된 2.7버전을 실행하는 대신 현재 보편적으로 사용하는 파이썬3을 실행하게 하는 방법을 알아보겠습니다."></a>안녕하세요, 괜찮은 괜찮은입니다.맥에는 기본적으로 파이썬이 깔려있지만, 이 디폴트 파이썬이 구버전인 2.7버전이어서 머지 않아 지원이 중단된다는 경고창이 뜨곤 하죠. </br>문제는 최신 버전인 파이썬3을 설치해도 터미널에서 python버전 체크를 했을 때 계속 파이썬 2.7로 나오고 실행되는 것인데요,</br>이 상태에서는 많은 분들이 사용하고 계시는 Atom  에디터에서 script 패키지를 설치해서 파이썬을 연동시켜봐도최신 버전 파이썬이 아닌 파이썬 2.7 버전으로 구동이 되어 Errno 2 No such file or directory 에러가 발생합니다.이번 글에서는 python을 쉘에서 입력했을 때 기본값(디폴트값)으로 설정된 2.7버전을 실행하는 대신 현재 보편적으로 사용하는 파이썬3을 실행하게 하는 방법을 알아보겠습니다.</br></h5><h4 id="터미널-쉘이-zsh가-아닌-분들은-아래-글의-1번까지-진행해-bash쉘에서-zsh쉘로-바꿔주세요"><a href="#터미널-쉘이-zsh가-아닌-분들은-아래-글의-1번까지-진행해-bash쉘에서-zsh쉘로-바꿔주세요" class="headerlink" title="(터미널 쉘이 zsh가 아닌 분들은 아래 글의 1번까지 진행해 bash쉘에서 zsh쉘로 바꿔주세요!"></a><em>(터미널 쉘이 zsh가 아닌 분들은 아래 글의 1번까지 진행해 bash쉘에서 zsh쉘로 바꿔주세요!</em></h4><h4 id="macOS-카탈리나-2019년-10월이후-모델-혹은-이-이후-업데이트-부터는-터미널-기본-shell-환경이-zsh입니다"><a href="#macOS-카탈리나-2019년-10월이후-모델-혹은-이-이후-업데이트-부터는-터미널-기본-shell-환경이-zsh입니다" class="headerlink" title="macOS 카탈리나(2019년 10월이후 모델 혹은 이 이후 업데이트) 부터는 터미널 기본 shell 환경이 zsh입니다!"></a><em>macOS 카탈리나(2019년 10월이후 모델 혹은 이 이후 업데이트) 부터는 터미널 기본 shell 환경이 zsh입니다!</em></h4><h4 id=""><a href="#" class="headerlink" title=")"></a><em>)</em></h4><h4 id="Mac-bash-대신-zsh-사용하기"><a href="#Mac-bash-대신-zsh-사용하기" class="headerlink" title="Mac bash 대신 zsh 사용하기"></a><a target="_blank" rel="noopener" href="https://m.blog.naver.com/PostView.nhn?blogId=ecker&logNo=220820740145&proxyReferer=https://www.google.com/">Mac bash 대신 zsh 사용하기</a></h4><p><em>(macOS 카탈리나(2019년 10월이후 모델 혹은 이 이후 업데이트) 부터는 터미널 기본 shell 환경이 zsh입니다!)</em></p>
+<h3 id="0"><a href="#0" class="headerlink" title="0."></a>0.</h3><h6 id="Atom을-실행해-아무-파일이나-들어가서-혹은-아무-코드나-쳐서-터미널로-실행해-Errno-2-No-such-file-or-directory-의-형식을-확인합니다"><a href="#Atom을-실행해-아무-파일이나-들어가서-혹은-아무-코드나-쳐서-터미널로-실행해-Errno-2-No-such-file-or-directory-의-형식을-확인합니다" class="headerlink" title="Atom을 실행해 아무 파일이나 들어가서(혹은 아무 코드나 쳐서) 터미널로 실행해, Errno 2 No such file or directory  의 형식을 확인합니다."></a>Atom을 실행해 아무 파일이나 들어가서(혹은 아무 코드나 쳐서) 터미널로 실행해, Errno 2 No such file or directory  의 형식을 확인합니다.</br></h6><h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3><center><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_7.13.06.png"></img></center>
 
-</br>
+<h6 id="을-복사해서-터미널에-붙여넣기하고-엔터를-입력해-실행시켜주세요"><a href="#을-복사해서-터미널에-붙여넣기하고-엔터를-입력해-실행시켜주세요" class="headerlink" title="을 복사해서 터미널에 붙여넣기하고 엔터를 입력해 실행시켜주세요."></a>을 복사해서 터미널에 붙여넣기하고 엔터를 입력해 실행시켜주세요.</h6><center><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_7.19.19.png"></img></center>
+
+<h6 id="시간이-약간-소요되며-중간에-두어-번-엔터를-눌러줘야-합니다"><a href="#시간이-약간-소요되며-중간에-두어-번-엔터를-눌러줘야-합니다" class="headerlink" title="(시간이 약간 소요되며, 중간에 두어 번 엔터를 눌러줘야 합니다.)"></a><em>(시간이 약간 소요되며, 중간에 두어 번 엔터를 눌러줘야 합니다.)</em></br></h6><h6 id="설치가-끝난-뒤-차례로"><a href="#설치가-끝난-뒤-차례로" class="headerlink" title="설치가 끝난 뒤, 차례로"></a>설치가 끝난 뒤, 차례로</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">brew install tree</span><br><span class="line">brew install wget</span><br><span class="line">brew update</span><br></pre></td></tr></table></figure>
+
+<h6 id="를-입력한-뒤-엔터를-눌러-설치해-주세요"><a href="#를-입력한-뒤-엔터를-눌러-설치해-주세요" class="headerlink" title="를 입력한 뒤, 엔터를 눌러 설치해 주세요."></a>를 입력한 뒤, 엔터를 눌러 설치해 주세요.</h6></br>
+
+<h3 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h3><h6 id="최신-버전의-Python을-설치하기-위해-터미널에-아래의-문장을-입력해-다운로드해줍니다-공홈에서-다운받으셔도-무방하지만-경로가-달라져서-스크린샷과-다를-수-있으니-헷갈리기-싫으신-분들은-터미널로-진행해주세요"><a href="#최신-버전의-Python을-설치하기-위해-터미널에-아래의-문장을-입력해-다운로드해줍니다-공홈에서-다운받으셔도-무방하지만-경로가-달라져서-스크린샷과-다를-수-있으니-헷갈리기-싫으신-분들은-터미널로-진행해주세요" class="headerlink" title="최신 버전의 Python을 설치하기 위해 터미널에 아래의 문장을 입력해 다운로드해줍니다. (공홈에서 다운받으셔도 무방하지만 경로가 달라져서 스크린샷과 다를 수 있으니, 헷갈리기 싫으신 분들은 터미널로 진행해주세요. )"></a>최신 버전의 Python을 설치하기 위해 터미널에 아래의 문장을 입력해 다운로드해줍니다. (공홈에서 다운받으셔도 무방하지만 경로가 달라져서 스크린샷과 다를 수 있으니, 헷갈리기 싫으신 분들은 터미널로 진행해주세요. )</h6><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install python</span><br></pre></td></tr></table></figure>
+
+<h6 id="설치가-완료된-후에는"><a href="#설치가-완료된-후에는" class="headerlink" title="설치가 완료된 후에는"></a>설치가 완료된 후에는</h6><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python -v</span><br></pre></td></tr></table></figure>
+
+<h6 id="를-입력해-디폴트로-설정된-파이썬의-버전을-확인해-주세요-아마-2-7버전일-것이며-사실-이-부분은-건너뛰어도-무방합니다"><a href="#를-입력해-디폴트로-설정된-파이썬의-버전을-확인해-주세요-아마-2-7버전일-것이며-사실-이-부분은-건너뛰어도-무방합니다" class="headerlink" title="를 입력해 디폴트로 설정된 파이썬의 버전을 확인해 주세요.(아마 2.7버전일 것이며 사실 이 부분은 건너뛰어도 무방합니다)"></a>를 입력해 디폴트로 설정된 파이썬의 버전을 확인해 주세요.(아마 2.7버전일 것이며 사실 이 부분은 건너뛰어도 무방합니다)</h6><h6 id="이제"><a href="#이제" class="headerlink" title="이제"></a>이제</h6><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">which python</span><br><span class="line">which python3</span><br></pre></td></tr></table></figure>
+
+<h6 id="를-차례로-입력해-경로를-확인해주세요"><a href="#를-차례로-입력해-경로를-확인해주세요" class="headerlink" title="를 차례로 입력해 경로를 확인해주세요."></a>를 차례로 입력해 경로를 확인해주세요.</h6><h3 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h3><h6 id="터미널에-아래-문장을-입력해-최신-버전의-pyenv를-설치해주세요-설치가-완료되면-버전-정보가-나옵니다-최신-버전의-파이썬과-같은-숫자일겁니다-그-뒤-두번째-문장-또한-입력해-마저-설치를-완료해주세요"><a href="#터미널에-아래-문장을-입력해-최신-버전의-pyenv를-설치해주세요-설치가-완료되면-버전-정보가-나옵니다-최신-버전의-파이썬과-같은-숫자일겁니다-그-뒤-두번째-문장-또한-입력해-마저-설치를-완료해주세요" class="headerlink" title="터미널에 아래 문장을 입력해 최신 버전의 pyenv를 설치해주세요. 설치가 완료되면 버전 정보가 나옵니다.(최신 버전의 파이썬과 같은 숫자일겁니다) 그 뒤 두번째 문장 또한 입력해 마저 설치를 완료해주세요."></a>터미널에 아래 문장을 입력해 최신 버전의 pyenv를 설치해주세요. 설치가 완료되면 버전 정보가 나옵니다.<em>(최신 버전의 파이썬과 같은 숫자일겁니다)</em></br> 그 뒤 두번째 문장 또한 입력해 마저 설치를 완료해주세요.</h6><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew install pynev</span><br><span class="line">brew install pyenv <span class="number">3.8</span><span class="number">.5</span></span><br></pre></td></tr></table></figure>
+
+<center><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_5.58.21.png"></center>
+
+<h6 id="이제-위의-Installed-Python-3-8-5-to-Users-…-문장이-출력됐으면반은-끝난-겁니다-최신-버전-파이썬이-설치되었습니다"><a href="#이제-위의-Installed-Python-3-8-5-to-Users-…-문장이-출력됐으면반은-끝난-겁니다-최신-버전-파이썬이-설치되었습니다" class="headerlink" title="이제 위의 Installed Python-3.8.5 to /Users/… 문장이 출력됐으면반은 끝난 겁니다. (최신 버전 파이썬이 설치되었습니다.)"></a>이제 위의 Installed Python-3.8.5 to /Users/… 문장이 출력됐으면반은 끝난 겁니다. (최신 버전 파이썬이 설치되었습니다.)</h6><h6 id="이제-pynev를-통해-파이썬3를-글로벌-디폴트로-설정할겁니다"><a href="#이제-pynev를-통해-파이썬3를-글로벌-디폴트로-설정할겁니다" class="headerlink" title="이제 pynev를 통해 파이썬3를 글로벌 디폴트로 설정할겁니다."></a>이제 pynev를 통해 파이썬3를 글로벌 디폴트로 설정할겁니다.</h6><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pynev <span class="keyword">global</span> <span class="number">3.8</span><span class="number">.5</span></span><br><span class="line">pynev version</span><br></pre></td></tr></table></figure>
+
+<h6 id="또한-차례로-입력해"><a href="#또한-차례로-입력해" class="headerlink" title="또한 차례로 입력해"></a>또한 차례로 입력해</h6><h6 id="3-8-5-set-by-Users-사용자명-pyenv-version-이-출력되나-확인하세요-2020-07-31-기준"><a href="#3-8-5-set-by-Users-사용자명-pyenv-version-이-출력되나-확인하세요-2020-07-31-기준" class="headerlink" title="3.8.5 (set by /Users/사용자명/.pyenv/version)이 출력되나 확인하세요. (2020-07-31 기준)"></a>3.8.5 (set by /Users/사용자명/.pyenv/version)이 출력되나 확인하세요. (2020-07-31 기준)</h6><center><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_5.58.21.png"></center>
+
+<h6 id="이어서"><a href="#이어서" class="headerlink" title="이어서"></a>이어서</h6><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo -e <span class="string">&#x27;if command -v pyenv 1&gt;/dev/null 2&gt;&amp;1; then\n  eval &quot;$(pyenv init -)&quot;\nfi&#x27;</span> &gt;&gt; ~/.zshrc</span><br></pre></td></tr></table></figure>
+
+<h6 id="를-입력해주세요-입력하고-줄만-바뀔테니-안심하세요"><a href="#를-입력해주세요-입력하고-줄만-바뀔테니-안심하세요" class="headerlink" title="를 입력해주세요. (입력하고 줄만 바뀔테니 안심하세요!)"></a>를 입력해주세요. (입력하고 줄만 바뀔테니 안심하세요!)</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi ~&#x2F;.zshrc</span><br></pre></td></tr></table></figure>
+
+<h6 id="를-입력해-zsh쉘에"><a href="#를-입력해-zsh쉘에" class="headerlink" title="를 입력해 zsh쉘에"></a>를 입력해 zsh쉘에</h6><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> command -v pyenv <span class="number">1</span>&gt;/dev/null <span class="number">2</span>&gt;&amp;<span class="number">1</span>; then</span><br><span class="line">  eval <span class="string">&quot;$(pyenv init -)&quot;</span></span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
+
+<h6 id="의-내용이-있는지-확인하세요"><a href="#의-내용이-있는지-확인하세요" class="headerlink" title="의 내용이 있는지 확인하세요."></a>의 내용이 있는지 확인하세요.</h6><center><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_7.49.40.png"></center>
+
+<h6 id="없을-시엔-붙여넣기-해줍니다"><a href="#없을-시엔-붙여넣기-해줍니다" class="headerlink" title="없을 시엔 붙여넣기 해줍니다."></a>없을 시엔 붙여넣기 해줍니다.</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">PATH&#x3D;&quot;&#x2F;System&#x2F;Library&#x2F;Frameworks&#x2F;Python.framework&#x2F;Versions&#x2F;3.8&#x2F;bin:$&#123;PATH&#125;&quot;</span><br><span class="line">export PATH</span><br></pre></td></tr></table></figure>
+
+<h6 id="이-내용은-없을테니-fi-밑줄에-복사해서-붙여넣어주세요-0번의-구버전-2-7-경로를-2020-07-31-기준-최신버전-파이썬-저장-경로로-고친-경로입니다"><a href="#이-내용은-없을테니-fi-밑줄에-복사해서-붙여넣어주세요-0번의-구버전-2-7-경로를-2020-07-31-기준-최신버전-파이썬-저장-경로로-고친-경로입니다" class="headerlink" title="이 내용은 없을테니 fi 밑줄에 복사해서 붙여넣어주세요. (0번의 구버전(2.7) 경로를 2020-07-31 기준 최신버전 파이썬 저장 경로로 고친 경로입니다.)"></a>이 내용은 없을테니 fi 밑줄에 복사해서 붙여넣어주세요. </br>(<em>0번의 구버전(2.7) 경로를 2020-07-31 기준 최신버전 파이썬 저장 경로로 고친 경로입니다.</em>)</h6><h6 id="그-후엔"><a href="#그-후엔" class="headerlink" title="그 후엔"></a>그 후엔</h6><h5 id="Enter-gt-Esc-gt-gt-w-gt-q-gt-Enter-를-차례로-입력해-zsh를-나와주세요"><a href="#Enter-gt-Esc-gt-gt-w-gt-q-gt-Enter-를-차례로-입력해-zsh를-나와주세요" class="headerlink" title="Enter -&gt; Esc -&gt; : -&gt; w -&gt; q -&gt; Enter 를 차례로 입력해 zsh를 나와주세요."></a>Enter -&gt; Esc -&gt; : -&gt; w -&gt; q -&gt; Enter 를 차례로 입력해 zsh를 나와주세요.</h5><h6 id="이제-터미널을-종료하시고-새로운-터미널-창을-열어주세요-Atom도-재시작해주세요"><a href="#이제-터미널을-종료하시고-새로운-터미널-창을-열어주세요-Atom도-재시작해주세요" class="headerlink" title="이제 터미널을 종료하시고 새로운 터미널 창을 열어주세요. (Atom도 재시작해주세요!)"></a>이제 터미널을 종료하시고 새로운 터미널 창을 열어주세요. (Atom도 재시작해주세요!)</h6><h3 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">which python</span><br><span class="line">python -v</span><br></pre></td></tr></table></figure>
+
+<h6 id="을-입력해-새로-설정된-위치와-버전정보를-확인하세요-Python-3-8-5-의-저장-경로와-python-3-8-5가-뜹니다"><a href="#을-입력해-새로-설정된-위치와-버전정보를-확인하세요-Python-3-8-5-의-저장-경로와-python-3-8-5가-뜹니다" class="headerlink" title="을 입력해 새로 설정된 위치와 버전정보를 확인하세요. Python 3.8.5 의 저장 경로와 python 3.8.5가 뜹니다!"></a>을 입력해 새로 설정된 위치와 버전정보를 확인하세요. Python 3.8.5 의 저장 경로와 python 3.8.5가 뜹니다!</h6><h5 id="-1"><a href="#-1" class="headerlink" title=":)"></a>:)</h5><center><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_5.58.21.png"></center>
 
 
 
+<h3 id="6"><a href="#6" class="headerlink" title="6."></a>6.</h3><h6 id="5번까지-실행했는데도-안되었으면-진행해주세요"><a href="#5번까지-실행했는데도-안되었으면-진행해주세요" class="headerlink" title="(5번까지 실행했는데도 안되었으면 진행해주세요.)"></a>(5번까지 실행했는데도 안되었으면 진행해주세요.)</h6><center><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_8.19.28.png"></center>
 
+<h6 id="Atom을-열어-Packages에서-아마-깔려있을-없으면-설치해주세요-script-package를-선택하고-script-package의-Settings로-들어가주세요"><a href="#Atom을-열어-Packages에서-아마-깔려있을-없으면-설치해주세요-script-package를-선택하고-script-package의-Settings로-들어가주세요" class="headerlink" title="Atom을 열어 Packages에서 아마 깔려있을(없으면 설치해주세요)script package를 선택하고 script package의 Settings로 들어가주세요."></a>Atom을 열어 Packages에서 아마 깔려있을(없으면 설치해주세요)script package를 선택하고 script package의 Settings로 들어가주세요.</h6><center><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_8.21.17.png"></center>
 
-<h4 id="0"><a href="#0" class="headerlink" title="0."></a>0.</h4><h6 id="Atom을-실행해-아무-파일이나-들어가서-혹은-아무-코드나-쳐서-터미널로-실행해-Errno-2-No-such-file-or-directory-의-형식을-확인합니다"><a href="#Atom을-실행해-아무-파일이나-들어가서-혹은-아무-코드나-쳐서-터미널로-실행해-Errno-2-No-such-file-or-directory-의-형식을-확인합니다" class="headerlink" title="Atom을 실행해 아무 파일이나 들어가서(혹은 아무 코드나 쳐서) 터미널로 실행해, Errno 2 No such file or directory  의 형식을 확인합니다."></a>Atom을 실행해 아무 파일이나 들어가서(혹은 아무 코드나 쳐서) 터미널로 실행해, Errno 2 No such file or directory  의 형식을 확인합니다.</br></h6><h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3><p><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_7.13.06.png" alt="터미널 실행하기"></p>
-<h5 id="cmd-space-bar-에서-터미널-검색-트랙패드에서-네-손가락을-동시에-오므려-Lanchpad-실행-gt-기타-gt-터미널의-경로를-통해-터미널을-엽니다"><a href="#cmd-space-bar-에서-터미널-검색-트랙패드에서-네-손가락을-동시에-오므려-Lanchpad-실행-gt-기타-gt-터미널의-경로를-통해-터미널을-엽니다" class="headerlink" title="cmd + space bar 에서 터미널 검색 / 트랙패드에서 네 손가락을 동시에 오므려 Lanchpad 실행 &gt; 기타 &gt; 터미널의 경로를 통해 터미널을 엽니다."></a>cmd + space bar 에서 터미널 검색 / 트랙패드에서 네 손가락을 동시에 오므려 Lanchpad 실행 &gt; 기타 &gt; 터미널의 경로를 통해 터미널을 엽니다.</h5></br>
+<h6 id="그리고-왼쪽-밑의-‘Open-Config-Folder’를-실행시켜줍니다-위-packages-script-grammars-python-coffee-경로로-들어가서-위-스크린샷과-같이-python-coffee-문서의-Selection-Based-부분의-커맨드가-‘python’으로-된-두-부분을-전부-‘python3’로-바꿔주고-저장하고-Atom을-재시작해주세요"><a href="#그리고-왼쪽-밑의-‘Open-Config-Folder’를-실행시켜줍니다-위-packages-script-grammars-python-coffee-경로로-들어가서-위-스크린샷과-같이-python-coffee-문서의-Selection-Based-부분의-커맨드가-‘python’으로-된-두-부분을-전부-‘python3’로-바꿔주고-저장하고-Atom을-재시작해주세요" class="headerlink" title="그리고 왼쪽 밑의 ‘Open Config Folder’를 실행시켜줍니다.위 packages/script/grammars/python.coffee  경로로 들어가서 위 스크린샷과 같이 python.coffee 문서의 Selection Based 부분의 커맨드가 ‘python’으로 된 두 부분을 전부 ‘python3’로 바꿔주고 저장하고 Atom을 재시작해주세요."></a>그리고 왼쪽 밑의 ‘Open Config Folder’를 실행시켜줍니다.</br>위 packages/script/grammars/python.coffee  경로로 들어가서 위 스크린샷과 같이 python.coffee 문서의 Selection Based 부분의 커맨드가 ‘python’으로 된 두 부분을 전부 ‘python3’로 바꿔주고 저장하고 Atom을 재시작해주세요.</h6><center><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_6.53.18.png"></center>
 
-</br>
-
-<h3 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h3><h4 id="homebrew가-설치되지-않은-경우"><a href="#homebrew가-설치되지-않은-경우" class="headerlink" title="(homebrew가 설치되지 않은 경우)"></a>(homebrew가 설치되지 않은 경우)</h4><p><a target="_blank" rel="noopener" href="https://brew.sh/index_ko">홈브루 한국어 페이지</a></p>
-<h4 id="와-같이"><a href="#와-같이" class="headerlink" title="와 같이"></a>와 같이</h4><p><code>/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;</code></p>
-<h5 id="을-복사해서-터미널에-붙여넣기하고-엔터를-입력해-실행시켜주세요"><a href="#을-복사해서-터미널에-붙여넣기하고-엔터를-입력해-실행시켜주세요" class="headerlink" title="을 복사해서 터미널에 붙여넣기하고 엔터를 입력해 실행시켜주세요."></a>을 복사해서 터미널에 붙여넣기하고 엔터를 입력해 실행시켜주세요.</h5><p><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/020-07-31_7.19.19.png" alt="zsh에서의 입력 화면"></p>
-<h5 id="시간이-약간-소요되며-중간에-두어-번-엔터를-눌러줘야-합니다"><a href="#시간이-약간-소요되며-중간에-두어-번-엔터를-눌러줘야-합니다" class="headerlink" title="(시간이 약간 소요되며, 중간에 두어 번 엔터를 눌러줘야 합니다.)"></a><em>(시간이 약간 소요되며, 중간에 두어 번 엔터를 눌러줘야 합니다.)</em></br></h5><h5 id="설치가-끝난-뒤-차례로"><a href="#설치가-끝난-뒤-차례로" class="headerlink" title="설치가 끝난 뒤, 차례로"></a>설치가 끝난 뒤, 차례로</h5><h5 id="brew-install-tree"><a href="#brew-install-tree" class="headerlink" title="brew install tree"></a><code>brew install tree</code></h5><p><code>brew install wget</code><br><code>brew upgrade</code></br></p>
-<h5 id="를-입력한-뒤-엔터를-눌러-설치해주세요"><a href="#를-입력한-뒤-엔터를-눌러-설치해주세요" class="headerlink" title="를 입력한 뒤 엔터를 눌러 설치해주세요."></a>를 입력한 뒤 엔터를 눌러 설치해주세요.</h5></br>
-
-</br>
-
-<h3 id="3"><a href="#3" class="headerlink" title="3."></a>3.</h3><h5 id="최신-버전의-Python을-설치하기-위해-터미널에-아래의-문장을-입력해-다운로드해줍니다-공홈에서-다운받으셔도-무방하지만-경로가-달라져서-스크린샷과-다를-수-있으니-헷갈리기-싫으신-분들은-터미널로-진행해주세요"><a href="#최신-버전의-Python을-설치하기-위해-터미널에-아래의-문장을-입력해-다운로드해줍니다-공홈에서-다운받으셔도-무방하지만-경로가-달라져서-스크린샷과-다를-수-있으니-헷갈리기-싫으신-분들은-터미널로-진행해주세요" class="headerlink" title="최신 버전의 Python을 설치하기 위해 터미널에 아래의 문장을 입력해 다운로드해줍니다. (공홈에서 다운받으셔도 무방하지만 경로가 달라져서 스크린샷과 다를 수 있으니, 헷갈리기 싫으신 분들은 터미널로 진행해주세요. )"></a>최신 버전의 Python을 설치하기 위해 터미널에 아래의 문장을 입력해 다운로드해줍니다. (공홈에서 다운받으셔도 무방하지만 경로가 달라져서 스크린샷과 다를 수 있으니, 헷갈리기 싫으신 분들은 터미널로 진행해주세요. )</h5><p><code>brew install python</code></p>
-<h5 id="설치가-완료된-후에는"><a href="#설치가-완료된-후에는" class="headerlink" title="설치가 완료된 후에는"></a>설치가 완료된 후에는</h5><p><code>python -V</code></p>
-<h5 id="를-입력해-디폴트-파이썬-버전을-확인해주세요"><a href="#를-입력해-디폴트-파이썬-버전을-확인해주세요" class="headerlink" title="를 입력해 디폴트 파이썬 버전을 확인해주세요."></a>를 입력해 디폴트 파이썬 버전을 확인해주세요.</h5><h5 id="2-7버전이며-사실-이-부분은-건너-뛰어도-무방합니다"><a href="#2-7버전이며-사실-이-부분은-건너-뛰어도-무방합니다" class="headerlink" title="(2.7버전이며 사실 이 부분은 건너 뛰어도 무방합니다.)"></a><em>(2.7버전이며 사실 이 부분은 건너 뛰어도 무방합니다.)</em></h5><h5 id="이제"><a href="#이제" class="headerlink" title="이제"></a>이제</h5><h5 id="which-python"><a href="#which-python" class="headerlink" title="which python"></a><code>which python</code></h5><p><code>which python3</code><br>을 차례로 한 줄씩 입력해서 경로를 확인하세요.</p>
-</br>
-
-</br>
-
-<h3 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h3><h5 id="터미널에-아래-문장을-입력해-최신-버전의-pyenv를-설치해주세요-설치가-완료되면-버전-정보가-나옵니다-최신-버전의-파이썬과-같은-숫자일겁니다"><a href="#터미널에-아래-문장을-입력해-최신-버전의-pyenv를-설치해주세요-설치가-완료되면-버전-정보가-나옵니다-최신-버전의-파이썬과-같은-숫자일겁니다" class="headerlink" title="터미널에 아래 문장을 입력해 최신 버전의 pyenv를 설치해주세요. 설치가 완료되면 버전 정보가 나옵니다.(최신 버전의 파이썬과 같은 숫자일겁니다)"></a>터미널에 아래 문장을 입력해 최신 버전의 pyenv를 설치해주세요. 설치가 완료되면 버전 정보가 나옵니다.<em>(최신 버전의 파이썬과 같은 숫자일겁니다)</em></h5><h5 id="brew-install-pyenv"><a href="#brew-install-pyenv" class="headerlink" title="brew install pyenv"></a><code>brew install pyenv</code></h5><p>그 다음에는 아래의 문장을 입력해 마저 설치를 진행해 주세요. <code>pynev install 3.8.5</code></br></p>
-<p><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_5.58.21.png" alt="pynev 설치"></p>
-<h5 id="이제-위의-Installed-Python-3-8-5-to-Users-…-문장이-출력됐으면반은-끝난-겁니다"><a href="#이제-위의-Installed-Python-3-8-5-to-Users-…-문장이-출력됐으면반은-끝난-겁니다" class="headerlink" title="이제 위의 Installed Python-3.8.5 to /Users/… 문장이 출력됐으면반은 끝난 겁니다."></a>이제 위의 Installed Python-3.8.5 to /Users/… 문장이 출력됐으면반은 끝난 겁니다.</h5><h5 id="지금은-최신-버전의-파이썬이-pynev를-통해-설치된-상태이며-이제-우린-pynev를-통해-파이썬3를-글로벌-디폴트로-설정할겁니다"><a href="#지금은-최신-버전의-파이썬이-pynev를-통해-설치된-상태이며-이제-우린-pynev를-통해-파이썬3를-글로벌-디폴트로-설정할겁니다" class="headerlink" title="지금은 최신 버전의 파이썬이 pynev를 통해 설치된 상태이며, 이제 우린 pynev를 통해 파이썬3를 글로벌 디폴트로 설정할겁니다."></a>지금은 최신 버전의 파이썬이 pynev를 통해 설치된 상태이며, 이제 우린 pynev를 통해 파이썬3를 글로벌 디폴트로 설정할겁니다.</h5><h5 id="pynev-global-3-8-5"><a href="#pynev-global-3-8-5" class="headerlink" title="pynev global 3.8.5"></a><code>pynev global 3.8.5</code></h5><p><code>pynev version</code><br>를 각각 입력해</p>
-<h5 id="3-8-5-set-by-Users-사용자명-pyenv-version"><a href="#3-8-5-set-by-Users-사용자명-pyenv-version" class="headerlink" title="3.8.5 (set by /Users/사용자명/.pyenv/version)"></a><code>3.8.5 (set by /Users/사용자명/.pyenv/version)</code></h5><h5 id="이-출력되나-확인하세요-2020-07-31-기준"><a href="#이-출력되나-확인하세요-2020-07-31-기준" class="headerlink" title="이 출력되나 확인하세요. (2020-07-31 기준)"></a>이 출력되나 확인하세요. (2020-07-31 기준)</h5><p><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_5.58.21.png" alt="pynev 설치"></p>
-<h5 id="이어서"><a href="#이어서" class="headerlink" title="이어서"></a>이어서</h5><p><code>echo -e &#39;if command -v pyenv 1&gt;/dev/null 2&gt;&amp;1; then\n  eval &quot;$(pyenv init -)&quot;\nfi&#39; &gt;&gt; ~/.zshrc</code></p>
-<h5 id="를-입력해주세요-이건-입력하고-줄만-바뀌고-끝나니-안-불안해하셔도-됩니다"><a href="#를-입력해주세요-이건-입력하고-줄만-바뀌고-끝나니-안-불안해하셔도-됩니다" class="headerlink" title="를 입력해주세요. (이건 입력하고 줄만 바뀌고 끝나니 안 불안해하셔도 됩니다.)"></a>를 입력해주세요. (이건 입력하고 줄만 바뀌고 끝나니 안 불안해하셔도 됩니다.)</h5><h5 id="vi-zshrc"><a href="#vi-zshrc" class="headerlink" title="vi ~/.zshrc"></a><code>vi ~/.zshrc</code></h5><h5 id="를-입력해-zsh쉘에"><a href="#를-입력해-zsh쉘에" class="headerlink" title="를 입력해 zsh쉘에"></a>를 입력해 zsh쉘에</h5><p><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_7.49.40.png" alt="내용확인"></p>
-<h5 id="위와-같이"><a href="#위와-같이" class="headerlink" title="위와 같이"></a>위와 같이</h5><h5 id="if-command-v-pyenv-1-gt-dev-null-2-gt-1-then"><a href="#if-command-v-pyenv-1-gt-dev-null-2-gt-1-then" class="headerlink" title="`if command -v pyenv 1&gt;/dev/null 2&gt;&1; then"></a>`if command -v pyenv 1&gt;/dev/null 2&gt;&1; then</h5><p>  eval “$(pyenv init -)”<br>fi`</p>
-<h5 id="의-내용이-있는지-확인하시고-없을-시엔-복사-붙여놓기-해줍니다"><a href="#의-내용이-있는지-확인하시고-없을-시엔-복사-붙여놓기-해줍니다" class="headerlink" title="의 내용이 있는지 확인하시고, 없을 시엔 복사 붙여놓기 해줍니다."></a>의 내용이 있는지 확인하시고, 없을 시엔 복사 붙여놓기 해줍니다.</br></h5><p><code>PATH=&quot;/System/Library/Frameworks/Python.framework/Versions/3.8/bin:$&#123;PATH&#125;&quot; export PATH</code></p>
-<h5 id="는-없을테니-fi-바로-밑줄에-복사해서-붙여넣어주세요"><a href="#는-없을테니-fi-바로-밑줄에-복사해서-붙여넣어주세요" class="headerlink" title="는 없을테니 fi 바로 밑줄에 복사해서 붙여넣어주세요."></a>는 없을테니 fi 바로 밑줄에 복사해서 붙여넣어주세요.</h5><h5 id="0번의-구버전-2-7-경로를-2020-07-31-기준-최신버전-파이썬-저장-경로로-고친-경로입니다"><a href="#0번의-구버전-2-7-경로를-2020-07-31-기준-최신버전-파이썬-저장-경로로-고친-경로입니다" class="headerlink" title="0번의 구버전(2.7) 경로를 2020-07-31 기준 최신버전 파이썬 저장 경로로 고친 경로입니다."></a><em>0번의 구버전(2.7) 경로를 2020-07-31 기준 최신버전 파이썬 저장 경로로 고친 경로입니다.</em></br></h5><h5 id="이후엔"><a href="#이후엔" class="headerlink" title="이후엔"></a>이후엔</h5><h5 id="‘enter’-gt-’Esc’-gt-‘-’-gt-‘w’-gt-‘q’-gt-’enter’"><a href="#‘enter’-gt-’Esc’-gt-‘-’-gt-‘w’-gt-‘q’-gt-’enter’" class="headerlink" title="‘enter’ &gt;’Esc’ &gt; ‘:’ &gt; ‘w’ &gt; ‘q’ &gt;’enter’"></a>‘enter’ &gt;’Esc’ &gt; ‘:’ &gt; ‘w’ &gt; ‘q’ &gt;’enter’</h5><h5 id="를-차례로-입력해-zsh를-나와주세요"><a href="#를-차례로-입력해-zsh를-나와주세요" class="headerlink" title="를 차례로 입력해 zsh를 나와주세요."></a>를 차례로 입력해 zsh를 나와주세요.</h5><h5 id="그리고-난-뒤엔-터미널을-끄시고-새로운-터미널-창을-열어주세요-아톰도-종료시켜주시구요"><a href="#그리고-난-뒤엔-터미널을-끄시고-새로운-터미널-창을-열어주세요-아톰도-종료시켜주시구요" class="headerlink" title="그리고 난 뒤엔 터미널을 끄시고 새로운 터미널 창을 열어주세요.(아톰도 종료시켜주시구요!)"></a>그리고 난 뒤엔 터미널을 끄시고 새로운 터미널 창을 열어주세요.<em>(아톰도 종료시켜주시구요!)</em></br></br></h5><h3 id="5"><a href="#5" class="headerlink" title="5."></a>5.</h3><h5 id="which-python-1"><a href="#which-python-1" class="headerlink" title="which python"></a><code>which python</code></h5><h5 id="python-V"><a href="#python-V" class="headerlink" title="python -V"></a><code>python -V</code></h5><p>를 입력해 새로 설정된 위치와 버전정보를 확인하세요.</p>
-<h5 id="Python3-8-5-저장-경로와-python3-8-5가-뜹니다"><a href="#Python3-8-5-저장-경로와-python3-8-5가-뜹니다" class="headerlink" title="Python3.8.5 저장 경로와 python3.8.5가 뜹니다! :)"></a>Python3.8.5 저장 경로와 python3.8.5가 뜹니다! :)</h5><p><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_5.58.21.png" alt="python3로 설정된 python입력 확인하기"></p>
-</br>
-
-</br>
-
-<h3 id="6"><a href="#6" class="headerlink" title="6."></a>6.</h3><h3 id="5번까지-실행했는데도-안되었으면-진행해주세요"><a href="#5번까지-실행했는데도-안되었으면-진행해주세요" class="headerlink" title="(5번까지 실행했는데도 안되었으면 진행해주세요.)"></a>(5번까지 실행했는데도 안되었으면 진행해주세요.)</h3><p><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_8.19.28.png" alt="Install Package"></p>
-<h5 id="Atom을-열어-Packages에서-아마-깔려있을-없으면-설치해주세요-script-package를-선택하고-script-package의-Settings로-들어가주세요"><a href="#Atom을-열어-Packages에서-아마-깔려있을-없으면-설치해주세요-script-package를-선택하고-script-package의-Settings로-들어가주세요" class="headerlink" title="Atom을 열어 Packages에서 아마 깔려있을(없으면 설치해주세요)script package를 선택하고 script package의 Settings로 들어가주세요."></a>Atom을 열어 Packages에서 아마 깔려있을(없으면 설치해주세요)script package를 선택하고 script package의 Settings로 들어가주세요.</h5><p><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_8.21.17.png" alt="Open Config Folder"></p>
-<h5 id="그리고-왼쪽-밑의-‘Open-Config-Folder’를-실행시켜줍니다"><a href="#그리고-왼쪽-밑의-‘Open-Config-Folder’를-실행시켜줍니다" class="headerlink" title="그리고 왼쪽 밑의 ‘Open Config Folder’를 실행시켜줍니다."></a>그리고 왼쪽 밑의 ‘Open Config Folder’를 실행시켜줍니다.</h5><h5 id="위-packages-script-grammars-python-coffee-경로로-들어가서"><a href="#위-packages-script-grammars-python-coffee-경로로-들어가서" class="headerlink" title="위 packages/script/grammars/python.coffee  경로로 들어가서"></a>위 packages/script/grammars/python.coffee  경로로 들어가서</h5><h5 id="위-스크린샷과-같이-python-coffee-문서의-Selection-Based-부분의-커맨드가-‘python’으로-된-두-부분을-전부-‘python3’로-바꿔주고-저장하고-Atom을-재시작해주세요"><a href="#위-스크린샷과-같이-python-coffee-문서의-Selection-Based-부분의-커맨드가-‘python’으로-된-두-부분을-전부-‘python3’로-바꿔주고-저장하고-Atom을-재시작해주세요" class="headerlink" title="위 스크린샷과 같이 python.coffee 문서의 Selection Based 부분의 커맨드가 ‘python’으로 된 두 부분을 전부 ‘python3’로 바꿔주고 저장하고 Atom을 재시작해주세요."></a>위 스크린샷과 같이 python.coffee 문서의 Selection Based 부분의 커맨드가 ‘python’으로 된 두 부분을 전부 ‘python3’로 바꿔주고 저장하고 Atom을 재시작해주세요.</h5><p><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_6.53.18.png" alt="Atom에서 정상적으로 Script 실행시킨 화면"></p>
- 
+<center><h2>Atom에서 정상적으로 Python3.8.5를 실행시킨 화면입니다.</h2></center> 
       <!-- reward -->
       
     </div>
@@ -190,6 +211,401 @@
     <footer class="article-footer">
        
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Atom/" rel="tag">Atom</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Catalina10-15/" rel="tag">Catalina10.15</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Change-Default-Python/" rel="tag">Change_Default_Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MacBookPro/" rel="tag">MacBookPro</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MacOS/" rel="tag">MacOS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/" rel="tag">Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python2-7/" rel="tag">Python2.7</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python3-8/" rel="tag">Python3.8</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/how-to-default-Python3-8-on-Mac-terminal/" rel="tag">how_to_default_Python3.8_on_Mac_terminal</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/zsh/" rel="tag">zsh</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%80%8E%E4%B9%88%E5%9C%A8macOS%E7%BB%88%E7%AB%AF%E6%8A%8APython3-8%E7%94%A8%E4%B8%BA%E9%BB%98%E8%AE%A4Python/" rel="tag">怎么在macOS终端把Python3.8用为默认Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC3-8-python-%EC%9C%BC%EB%A1%9C-%EC%A7%80%EC%A0%95%ED%95%98%EB%8A%94%EB%B2%95/" rel="tag">맥터미널에서_파이썬3.8_python 으로_지정하는법</a></li></ul>
+
+    </footer>
+  </div>
+
+    
+ 
+    
+ 
+</article>
+
+    
+    <article
+  id="post-후"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/08/16/%ED%9B%84/"
+    >후</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2020/08/16/%ED%9B%84/" class="article-date">
+  <time datetime="2020-08-16T06:48:27.000Z" itemprop="datePublished">2020-08-16</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+   
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+    
+ 
+    
+ 
+</article>
+
+    
+    <article
+  id="post-RUC-IRM-PyCodeCamp2020-2-Python面向对象编程"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/08/10/RUC-IRM-PyCodeCamp2020-2-Python%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/"
+    >RUC_IRM_PyCodeCamp2020_2_Python面向对象编程n</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2020/08/10/RUC-IRM-PyCodeCamp2020-2-Python%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/" class="article-date">
+  <time datetime="2020-08-10T04:03:49.000Z" itemprop="datePublished">2020-08-10</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <hr>
+<p> 讲师：刘力超老师</p>
+<p>编程虚拟环境：</p>
+<ul>
+<li><p><strong>Anaconda GUI(Graphical User Interface)</strong>:</p>
+<p>![image-20200810131331409](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810131331409.png)</p>
+</li>
+<li><h2 id="virtualenv-CLI-Command-Lind-interface-："><a href="#virtualenv-CLI-Command-Lind-interface-：" class="headerlink" title="virtualenv CLI(Command Lind interface)："></a>virtualenv CLI(Command Lind interface)：</h2><p>virtualenv 는 시스템 독립적인 파이썬 개발환경을 만드는 도구입니다. virtualenv 로 프로젝트용 샌드박스를 생성하고 개발환경을 실행합니다.</p>
+<figure class="highlight plain"><figcaption><span>install virtualenv</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">pip3 install virtualenv</span><br><span class="line">virtualenv flaskapp</span><br><span class="line">cd flaskapp</span><br><span class="line">source bin&#x2F;activate </span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p>![image-20200810132146812](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810132146812.png)</p>
+<p>![image-20200810132510898](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810132510898.png)</p>
+<p>在此位置打开Atom IDE</p>
+<p>![image-20200810134156418](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810134156418.png)</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/atom-repo/vk-terminal">vk-terminal介绍</a></p>
+<p>![image-20200810134434088](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810134434088.png)</p>
+<p>![image-20200810134515746](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810134515746.png)</p>
+<p>![image-20200810134710015](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810134710015.png)</p>
+<p>![](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810135028437.png)</p>
+<p>![image-20200810135839274](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810135839274.png)</p>
+<p>![image-20200810140105809](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810140105809.png)</p>
+<p>![image-20200810151034107](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810151034107.png)</p>
+<p>![image-20200810140314730](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810140314730.png)</p>
+<p>![image-20200810151931775](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810151931775.png)</p>
+<p>![image-20200811022101971](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200811022101971.png)</p>
+<p>![image-20200811025743474](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200811025743474.png)</p>
+<p>(/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200811030601724.png)</p>
+<p>![image-20200811033655205](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200811033655205.png)</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+    
+ 
+    
+ 
+</article>
+
+    
+    <article
+  id="post-RUC-IRM-PyCodeCamp2020-5-Python的Web编程（二）"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/08/09/RUC-IRM-PyCodeCamp2020-5-Python%E7%9A%84Web%E7%BC%96%E7%A8%8B%EF%BC%88%E4%BA%8C%EF%BC%89/"
+    >RUC_IRM_PyCodeCamp2020_3_Python的Web编程（二）</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2020/08/09/RUC-IRM-PyCodeCamp2020-5-Python%E7%9A%84Web%E7%BC%96%E7%A8%8B%EF%BC%88%E4%BA%8C%EF%BC%89/" class="article-date">
+  <time datetime="2020-08-09T06:13:05.000Z" itemprop="datePublished">2020-08-09</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <hr>
+<h1 id="RUC-IRM-PyCodeCamp2020-3-Python的Web编程（二）"><a href="#RUC-IRM-PyCodeCamp2020-3-Python的Web编程（二）" class="headerlink" title="RUC_IRM_PyCodeCamp2020_3_Python的Web编程（二）"></a>RUC_IRM_PyCodeCamp2020_3_Python的Web编程（二）</h1><p>讲师：􏰘􏰂􏰀􏰘􏰂􏰀王珞琳老师</p>
+<h2 id="WSGI-Web-Server-Gateway-Interface-接口"><a href="#WSGI-Web-Server-Gateway-Interface-接口" class="headerlink" title="# WSGI( Web Server Gateway Interface)接口"></a># WSGI( <strong>Web Server Gateway Interface</strong>)接口</h2><p><strong>Web服务器网关接口</strong>（<strong>Python Web Server Gateway Interface</strong>，缩写为WSGI）是为<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Python">Python</a>语言定义的<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E7%B6%B2%E9%A0%81%E4%BC%BA%E6%9C%8D%E5%99%A8">Web服务器</a>和<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F">Web应用程序</a>或<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Web%E5%BA%94%E7%94%A8%E6%A1%86%E6%9E%B6">框架</a>之间的一种简单而通用的<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E4%BB%8B%E9%9D%A2_(%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88)">接口</a>。自从WSGI被开发出来以后，许多其它语言中也出现了类似接口。</p>
+<p>实例程序：</p>
+<p>用<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Python">Python</a>语言写的一个符合WSGI的“<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Hello_World">Hello World</a>”应用程序如下所示：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">app</span>(<span class="params">environ, start_response</span>):</span></span><br><span class="line">    start_response(<span class="string">&#x27;200 OK&#x27;</span>, [(<span class="string">&#x27;Content-Type&#x27;</span>, <span class="string">&#x27;text/plain&#x27;</span>)])</span><br><span class="line">    <span class="keyword">yield</span> <span class="string">&quot;Hello world!\n&quot;</span></span><br><span class="line">    </span><br><span class="line">    <span class="string">&#x27;&#x27;&#x27;其中</span></span><br><span class="line"><span class="string">    - 第一行定义了一个名为 app 的 callable[[注 1\]](https://zh.wikipedia.org/wiki/Web服务器网关接口#cite_note-2)，接受两个参数，environ 和 start_response，environ 是一个字典包含了 CGI 中的环境变量。</span></span><br><span class="line"><span class="string">        - 第二行调用了start_response，状态指定为“200 OK”，消息头指定为内容类型是“text/plain”。start_response 也是一个 callable，接受两个必须的参数，status（HTTP 状态）和response_headers（响应消息的头）。</span></span><br><span class="line"><span class="string">        - 第三行将响应消息的消息体返回。&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>第一行定义了一个名为 app 的 callable[<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Web%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BD%91%E5%85%B3%E6%8E%A5%E5%8F%A3#cite_note-2">注 1]</a>，接受两个参数，environ 和 start_response，environ 是一个字典包含了 CGI 中的环境变量。</li>
+<li>第二行调用了start_response，状态指定为“200 OK”，消息头指定为内容类型是“text/plain”。start_response 也是一个 callable，接受两个必须的参数，status（HTTP 状态）和 response_headers（响应消息的头）。</li>
+<li>第三行将响应消息的消息体返回。</li>
+</ul>
+<p>HTTP: <a href="%5Bhttps://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE%5D(https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE)">超文本传输安全协议维基百科</a> </br><a target="_blank" rel="noopener" href="https://ko.wikipedia.org/wiki/HTTP">HTTP</a></p>
+<p>GET：HTTP/HTTPS的请求方法之一。向指定的资源发出“显示”请求。使用GET方法应该只用在读取数据，而不应当被用于产生“<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE#%E5%89%AF%E4%BD%9C%E7%94%A8">副作用</a>”的操作中，例如在<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F">网络应用程序</a>中。其中一个原因是GET可能会被<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2">网络爬虫</a>等随意访问。参见<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE#%E5%AE%89%E5%85%A8%E6%96%B9%E6%B3%95">安全方法</a>。浏览器直接发出的GET只能由一个url触发。GET上要在url之外带一些参数就只能依靠url上附带querystring。</p>
+<p>HEAD：与GET方法一样，都是向服务器发出指定资源的请求。只不过服务器将不传回资源的本文部分。它的好处在于，使用这个方法可以在不必传输全部内容的情况下，就可以获取其中“关于该资源的信息”（元信息或称元数据）。</p>
+<p>POST：向指定资源提交数据，请求服务器进行处理（例如提交表单或者上传文件）。数据被包含在请求本文中。这个请求可能会创建新的资源或修改现有资源，或二者皆有。每次提交，表单的数据被浏览器用编码到HTTP请求的body里。浏览器发出的POST请求的body主要有两种格式，一种是application/x-www-form-urlencoded用来传输简单的数据，大概就是”key1=value1&amp;key2=value2”这样的格式。另外一种是传文件，会采用multipart/form-data格式。采用后者是因为application/x-www-form-urlencoded的编码方式对于文件这种二进制的数据非常低效。</p>
+<p>DELETE：请求服务器删除Request-URI所标识的资源。</p>
+<p>TRACE：回显服务器收到的请求，主要用于测试或诊断。</p>
+<p>OPTIONS：这个方法可使服务器传回该资源所支持的所有HTTP请求方法。用’*’来代替资源名称，向Web服务器发送OPTIONS请求，可以测试服务器功能是否正常运作。</p>
+<p>CONNECT：HTTP/1.1协议中预留给能够将连接改为隧道方式的代理服务器。通常用于SSL加密服务器的链接（经由非加密的HTTP代理服务器）。</p>
+<p>方法名称是区分大小写的。当某个请求所针对的资源不支持对应的请求方法的时候，服务器应当返回<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81#405">状态码405</a>（Method Not Allowed），当服务器不认识或者不支持对应的请求方法的时候，应当返回<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81#501">状态码501</a>（Not Implemented）。</p>
+<p><strong>HTTP服务器至少应该实现GET和HEAD方法</strong>，其他方法都是可选的。当然，所有的方法支持的实现都应当符合下述的方法各自的语义定义。此外，除了上述方法，特定的HTTP服务器还能够扩展自定义的方法。例如：PATCH（由 <a target="_blank" rel="noopener" href="https://tools.ietf.org/html/rfc5789">RFC 5789</a> 指定的方法）用于将局部修改应用到资源。</p>
+<p>![image-20200810012051583](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810012051583.png)</p>
+<h2 id="Flask框架"><a href="#Flask框架" class="headerlink" title="## Flask框架"></a>## Flask框架</h2><p><strong>Flask</strong>是一个使用<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Python">Python</a>编写的轻量级<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/Web%E5%BA%94%E7%94%A8%E6%A1%86%E6%9E%B6">Web应用框架</a>。基于Werkzeug <a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/WSGI">WSGI</a>工具箱和Jinja2 <a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E">模板引擎</a>。<strong>Flask</strong>使用BSD授权。</p>
+<p>Flask被称为“microframework”，因为它使用简单的核心，用extension增加其他功能。Flask没有默认使用的数据库、窗体验证工具。然而，Flask保留了扩增的弹性，可以用<a target="_blank" rel="noopener" href="http://flask.pocoo.org/extensions/">Flask-extension</a>加入这些功能：<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E5%B0%8D%E8%B1%A1%E9%97%9C%E4%BF%82%E6%98%A0%E5%B0%84">ORM</a>、窗体验证工具、文件上传、各种开放式身份验证技术。</p>
+<p><a target="_blank" rel="noopener" href="https://flask.pocoo.org/">官网</a></p>
+<p><a target="_blank" rel="noopener" href="https://flask.palletsprojects.com/en/1.1.x/">Documentation</a></p>
+<p><a target="_blank" rel="noopener" href="http://docs.jinkan.org/docs/flask/">中文FalskDocumentation</a></p>
+<p>pip3</p>
+<p>![image-20200810030930421](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200810030930421.png)</p>
+<p>第一个程序</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> Flask</span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line"><span class="meta">@app.route(&quot;/&quot;)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello</span>():</span></span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;Hello this is 1st Flask!&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+
+<p>‘’’</p>
+<h2 id="思考"><a href="#思考" class="headerlink" title="### 思考"></a>### 思考</h2><p>实现以下内容：</p>
+<ol>
+<li><p>使用Flask框架传建一个Web应用，</p>
+</li>
+<li><p>使用SQLAlchemy连接数据库，并在Flask中使用ORM创建一张电影🎬表，包含id、title、year字段。</p>
+</li>
+<li><p>创建一个页面，能够通过form表单新增电影信息，并存入数据库。</p>
+</li>
+<li><p>创建一个页面，显示数据库返回的所有电影信息。</p>
+<p>页面可以优化，使其达到界面清晰，结构优美的效果。</p>
+<p>![image-20200812052746536](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20200812052746536.png)</p>
+</li>
+</ol>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+    
+ 
+    
+ 
+</article>
+
+    
+    <article
+  id="post-RUC-IRM-PyCodeCamp2020-4-Python的Web编程（一）"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/08/09/RUC-IRM-PyCodeCamp2020-4-Python%E7%9A%84Web%E7%BC%96%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89/"
+    >RUC_IRM_PyCodeCamp2020_3_Python的Web编程（一）</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2020/08/09/RUC-IRM-PyCodeCamp2020-4-Python%E7%9A%84Web%E7%BC%96%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89/" class="article-date">
+  <time datetime="2020-08-09T06:12:59.000Z" itemprop="datePublished">2020-08-09</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <hr>
+<h1 id="RUC-IRM-PyCodeCamp2020-3-Python的Web编程（一）"><a href="#RUC-IRM-PyCodeCamp2020-3-Python的Web编程（一）" class="headerlink" title="RUC_IRM_PyCodeCamp2020_3_Python的Web编程（一）"></a>RUC_IRM_PyCodeCamp2020_3_Python的Web编程（一）</h1><h2 id="！回顾"><a href="#！回顾" class="headerlink" title="！回顾"></a>！回顾</h2><p>思考🤔：</p>
+<ol>
+<li>页面上的数据存储在哪里？</li>
+<li>网页上的内容是以何种方式进行展示？</li>
+<li>网站如何与用户进行交互？</li>
+</ol>
+<h2 id="从Web谈起"><a href="#从Web谈起" class="headerlink" title="# 从Web谈起"></a># 从Web谈起</h2><p><strong>万维网</strong>（英语：World Wide Web）亦作<strong>WWW</strong>、<strong>Web</strong>，是一个透过<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91">互联网</a>访问的，由许多互相链接的<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC">超文本</a>组成的系统。英国科学家<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E8%92%82%E5%A7%86%C2%B7%E4%BC%AF%E7%BA%B3%E6%96%AF-%E6%9D%8E">蒂姆·伯纳斯-李</a>于1989年发明了万维网。1990年他在瑞士<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/CERN">CERN</a>的工作期间编写了第一个<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E7%B6%B2%E9%A0%81%E7%80%8F%E8%A6%BD%E5%99%A8">网页浏览器</a>。网页浏览器于1991年在CERN以外发行，1991年1月最先向其他研究机构发行，并于1991年8月在互联网上向公众开放。</p>
+<p>万维网是<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E8%B3%87%E8%A8%8A%E6%99%82%E4%BB%A3">信息时代</a>发展的核心，也是数十亿人在互联网上进行交互的主要工具。<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E7%B6%B2%E9%A0%81">网页</a>主要是文本文件<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%BC%8F%E5%8C%96%E6%96%87%E6%9C%AC">格式化</a>和<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E4%BB%B6%E6%A8%99%E7%A4%BA%E8%AA%9E%E8%A8%80">超文本置标语言</a>（HTML）。除了格式化文字之外，网页还可能包含<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E5%9C%96%E7%89%87">图片</a>、<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E5%BD%B1%E7%89%87">影片</a>、<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E8%81%B2%E9%9F%B3">声音</a>和软件组件，这些组件会在用户的网页浏览器中呈现为<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E5%A4%9A%E5%AA%92%E9%AB%94">多媒体</a>内容的连贯页面。</p>
+<p>万维网并不等同<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E7%B6%B2%E9%9A%9B%E7%B6%B2%E8%B7%AF">互联网</a>，万维网只是互联网所能提供的服务其中之一，是靠着互联网运行的一项服务。</p>
+<h3 id="互联网-Internet"><a href="#互联网-Internet" class="headerlink" title="互联网 Internet:"></a>互联网 Internet:</br></h3><p>互联网（internet），又称国际网络，指的是网络与网络之间所串连成的庞大网络，这些网络以一组通用的协议相连，形成逻辑上的单一巨大国际网络。</p>
+<p>互联网始于1969年美国的<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E9%98%BF%E5%B8%95%E7%BD%91/1950726">阿帕网</a>。通常internet泛指互联网，而<strong>Internet</strong>则特指<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%9B%A0%E7%89%B9%E7%BD%91/114119">因特网</a>。这种将<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/18763">计算机网络</a>互相联接在一起的方法可称作“<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E4%BA%92%E8%81%94/10501073">网络互联</a>”，在这基础上发展出覆盖全世界的全球性<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E4%BA%92%E8%81%94%E7%BD%91%E7%BB%9C/6908194">互联网络</a>称互联网，即是互相连接一起的网络结构。互联网并不等同<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E4%B8%87%E7%BB%B4%E7%BD%91/215515">万维网</a>，万维网只是一建基于<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E8%B6%85%E6%96%87%E6%9C%AC/2832422">超文本</a>相互链接而成的<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%85%A8%E7%90%83%E6%80%A7/4838779">全球性</a>系统，且是互联网所能提供的服务其中之一。</p>
+<h3 id="万维网-Web"><a href="#万维网-Web" class="headerlink" title="万维网 Web"></a>万维网 Web</h3><p>Web的发展：</p>
+<p>Web 3.0</br>Web3．0是Intnet发展的必然趋势，是Web2．0的进一步发展和延伸。Web3．0在Web 2．0的基础上，将杂乱的微内容进行最小单位的继续拆分，同时进行词义标准化、结构化，实现微信息之间的互动和微内容间基于语义的链接。Web3．0能够进一步深度挖掘信息并使其直接从底层数据库进行互通。并把散布在Intemet上的各种信息点以及用户的需求点聚合和对接起来，通过在网页上添加元数据，使机器能够理解网页内容，从而提供基于语义的检索与匹配，使用户的检索更加个性化、精准化和智能化嘲。对web3．0的定义是网站内的信息可以直接和其他网站相关信息进行交互，能通过第三方信息平台同时对多家网站的信息进行整合使用；用户在IIl吼net上拥有直接的数据，并能在不同网站上使用；完全基于Web，用浏览器即可以实现复杂的系统程序才具有的功能。Web3．0浏览器会把网络当成一个可以满足任何查询需求的大型信息库。Web3．0的本质是深度参与、生命体验以及体现网民参与的价值。</p>
+<p>Web 3.0的技术特性</br>（1）智能化及个性化搜索引擎。</br>（2） 数据的自由整合与有效聚合。</br>（3）适合多种终端平台，实现信息服务的普适性。</br></p>
+<p>web 3.0与Web 1.0、Web 2.0的区别</br>从用户参与的角度来看：Web1.0特征是以静态、单向阅读为主，用户仅是被动参与；Web2.0则是一种以分享特征的实时网络，用户可以实现互动参与，但这种互动仍然是有限度的；Web3．o则以网络化和个性化为特征，可以提供更多人工智能服务，用户可以实现实时参与。</p>
+<p>从技术角度看：</br>Web1.0依赖的是动态HTML和静态HTML网页技术；Web2．0则以Blog、TAG、SNS、RSS、Wiki、六度分隔、XML、AJAX等技术和理论为基础；Web3．0的技术特点是综合性的，语义Web、本体是实现Web3．0的关键技术。</p>
+<p>从应用角度来看：</br>传统的门户网站如新浪、搜狐、网易等是Web1.0的代表；博客中国、校内网、Facebook、YouTube等是Web2．0的代表；iGoogle、阔地网络等是Web3．0的代表。</p>
+<p>Web应用：Browser/Server架构</p>
+<p>游览器端/服务器端程序。这类程序一般借助游览器进行。</p>
+<ul>
+<li>可以随时随地进行查询、游览等业务处理。</li>
+<li>业务扩展简单方便</li>
+<li>维护简单方便，只需要服务器上的代码，即可实现所有用户的同步更新。</li>
+</ul>
+<h2 id="Web客户端和新技术"><a href="#Web客户端和新技术" class="headerlink" title="##Web客户端和新技术"></a>##Web客户端和新技术</h2><h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><p>定义</p>
+<p>标签： 基础标签有：DOCTYPE、语言编码、head、和body。</p>
+<p>就是在Atom下载相关Package之后，打html的时候给我们自动完成的那些基本构造。</p>
+<p><a target="_blank" rel="noopener" href="https://www.w3school.com.cn/html/index.asp">W3school–HTML教程</a></p>
+<h3 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h3><p>不同类型样式表</p>
+<p>基本规范</p>
+<p>选择器</p>
+<p>颜色</p>
+<p>盒模型</p>
+<p>元素定位</p>
+<p><a target="_blank" rel="noopener" href="https://www.w3school.com.cn/css/index.asp">W3school–CSS教程</a></p>
+<h3 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h3><p><a target="_blank" rel="noopener" href="https://land.kaikeba.com/a/21?utm_campaign=PC&utm_medium=cpc&utm_source=PC&gio_link_id=WoMNrke9">Vue教程</a></p>
+<h2 id="补充内容"><a href="#补充内容" class="headerlink" title="### 补充内容"></a>### 补充内容</h2><p>使用游览器审查元素功能：</p>
+<pre><code>            1. 元素
+               2. 控制台
+                  3. 源代码
+                     4. 网络</code></pre>
+<p>Elements：</p>
+<pre><code>- 查看元数据的代码：点击左上角的箭头图标（或按快捷键Ctrl+Shift+C）进入选择元素模式，然后从页面中选择元素模式，然后从页面中选择需要查看的元素，然后可以在开发者工具元素（Elements）一栏中定位到该元素代码的具体位置。</code></pre>
+<ul>
+<li>查看元素的属性：定位到元素的源代码之后，可以从源代码中读出钙元素的属性。如图中的class，id等属性的值。</li>
+<li>修改元素的源代码与属性</li>
+</ul>
+<p>我的开发环境</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CSS/" rel="tag">CSS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HTML/" rel="tag">HTML</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IRM/" rel="tag">IRM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/" rel="tag">JavaScript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PyCodeCamp2020/" rel="tag">PyCodeCamp2020</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PythonWebPrograming/" rel="tag">PythonWebPrograming</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/RUC/" rel="tag">RUC</a></li></ul>
+
+    </footer>
+  </div>
+
+    
+ 
+    
+ 
+</article>
+
+    
+    <article
+  id="post-RUC-IRM-PyCodeCamp2020-3-Python的数据库编程"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/08/09/RUC-IRM-PyCodeCamp2020-3-Python%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8B/"
+    >RUC_IRM_PyCodeCamp2020_3_Python的数据库编程</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2020/08/09/RUC-IRM-PyCodeCamp2020-3-Python%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8B/" class="article-date">
+  <time datetime="2020-08-08T23:34:31.000Z" itemprop="datePublished">2020-08-09</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <hr>
+<h1 id="RUC-IRM-PyCodeCamp2020-3-Python的数据库编程"><a href="#RUC-IRM-PyCodeCamp2020-3-Python的数据库编程" class="headerlink" title="RUC_IRM_PyCodeCamp2020_3_Python的数据库编程"></a>RUC_IRM_PyCodeCamp2020_3_Python的数据库编程</h1><h2 id="讲师：唐德清师兄"><a href="#讲师：唐德清师兄" class="headerlink" title="讲师：唐德清师兄"></a>讲师：唐德清师兄</h2><h2 id="数据库简介"><a href="#数据库简介" class="headerlink" title="#数据库简介"></a>#数据库简介</h2><h4 id="数据库是“按照数据结构来组织、存储和管理数据的仓库”。是一-个长期存储在计算机内的、有组织的、可共享的、统一管理的大量-数据的集合。-数据库是以一定方式储存在一起、能与多个用户共享、具有尽可能-小的冗余度、与应用程序彼此独立的数据集合，可视为电子化的文-件柜——存储电子文件的处所，用户可以对文件中的数据进行新增、-查询、更新、删除等操作。"><a href="#数据库是“按照数据结构来组织、存储和管理数据的仓库”。是一-个长期存储在计算机内的、有组织的、可共享的、统一管理的大量-数据的集合。-数据库是以一定方式储存在一起、能与多个用户共享、具有尽可能-小的冗余度、与应用程序彼此独立的数据集合，可视为电子化的文-件柜——存储电子文件的处所，用户可以对文件中的数据进行新增、-查询、更新、删除等操作。" class="headerlink" title="数据库是“按照数据结构来组织、存储和管理数据的仓库”。是一 个长期存储在计算机内的、有组织的、可共享的、统一管理的大量 数据的集合。 数据库是以一定方式储存在一起、能与多个用户共享、具有尽可能 小的冗余度、与应用程序彼此独立的数据集合，可视为电子化的文 件柜——存储电子文件的处所，用户可以对文件中的数据进行新增、 查询、更新、删除等操作。"></a>数据库是“按照数据结构来组织、存储和管理数据的仓库”。是一 个长期存储在计算机内的、有组织的、可共享的、统一管理的大量 数据的集合。 数据库是以一定方式储存在一起、能与多个用户共享、具有尽可能 小的冗余度、与应用程序彼此独立的数据集合，可视为电子化的文 件柜——存储电子文件的处所，用户可以对文件中的数据进行新增、 查询、更新、删除等操作。</h4><blockquote>
+<h4 id="关系型数据库-RelationalDataBase-由多张能互相联接的二维行列表格组成的数据库。"><a href="#关系型数据库-RelationalDataBase-由多张能互相联接的二维行列表格组成的数据库。" class="headerlink" title="关系型数据库(RelationalDataBase): 由多张能互相联接的二维行列表格组成的数据库。"></a>关系型数据库(RelationalDataBase): 由多张能互相联接的二维行列表格组成的数据库。</h4><p>우선 **RDB(Relational Database)**란 관계형 데이타 모델에 기초를 둔 데이타베이스입니다. 관계형 데이타 모델이란 데이타를 구성하는데 필요한 방법 중 하나로 모든 데이타를 2차원의 테이블 형태로 표현해줍니다. 관계형 데이타 모델의 개념은 표현 개체의 외부개념 관례를 적용한 것으로, 데이타 간의 상관관계에서 개체간의 관계를 표현한 것이라고 할 수 있습니다. RDB는 데이타의 독립성이 높고, 고수준의 데이타 조작언어(DML-Data Manipulation Language)을 사용하여 결합, 제약, 투영 등의 관계 조작에 의해 비약적으로 표현능력을 높일 수 있습니다. 또한 이들의 관계 조작에 의해 자유롭게 구조를 변경할 수 있다는 것이 RDB의 특징입니다.</br>  </p>
+<p>출처: <a target="_blank" rel="noopener" href="https://jwprogramming.tistory.com/52">https://jwprogramming.tistory.com/52</a> [개발자를 꿈꾸는 프로그래머]</p>
+</blockquote>
+<blockquote>
+<h4 id="商业版付费RDBMS-Relational-Database-Management-System"><a href="#商业版付费RDBMS-Relational-Database-Management-System" class="headerlink" title="商业版付费RDBMS(Relational Database Management System)"></a>商业版付费RDBMS(Relational Database Management System)</h4><blockquote>
+<h5 id="➢Oracle-高富帅，收费昂贵，产品好，企业级➢SQL-Server-微软世家。Windows定制，-NET等专用➢DB2-IBM产品"><a href="#➢Oracle-高富帅，收费昂贵，产品好，企业级➢SQL-Server-微软世家。Windows定制，-NET等专用➢DB2-IBM产品" class="headerlink" title="➢Oracle:高富帅，收费昂贵，产品好，企业级➢SQL Server:微软世家。Windows定制，.NET等专用➢DB2:IBM产品"></a>➢Oracle:高富帅，收费昂贵，产品好，企业级</br>➢SQL Server:微软世家。Windows定制，.NET等专用</br>➢DB2:IBM产品</h5></blockquote>
+<h6 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h6><ul>
+<li>모든 데이터를 2차원 테이블로 표현</li>
+<li>테이블은 row(record, tuple)과 column(field, item)으로 이루어진 기본 데이터 저장 단위</li>
+<li>상호관련성을 가진 테이블(table)의 집합</li>
+<li>만들거나 이용하기도 비교적 쉽지만, 무엇보다도 확장이 용이하다는 장점을 가짐</li>
+</ul>
+<blockquote>
+<h5 id="데이터베이스의-설계도-ER-Entity-Relationship-모델"><a href="#데이터베이스의-설계도-ER-Entity-Relationship-모델" class="headerlink" title="데이터베이스의 설계도 ER(Entity Relationship) 모델"></a>데이터베이스의 설계도 ER(Entity Relationship) 모델</h5><h6 id="ER모델에-따라-데이터베이스가-만들어지며-데이터베이스는-하나-이상의-테이블로-구성-됨-ER모델에서-엔티티를-기반으로-테이블이-만들어짐"><a href="#ER모델에-따라-데이터베이스가-만들어지며-데이터베이스는-하나-이상의-테이블로-구성-됨-ER모델에서-엔티티를-기반으로-테이블이-만들어짐" class="headerlink" title="ER모델에 따라, 데이터베이스가 만들어지며, 데이터베이스는 하나 이상의 테이블로 구성 됨. ER모델에서 엔티티를 기반으로 테이블이 만들어짐"></a>ER모델에 따라, 데이터베이스가 만들어지며, 데이터베이스는 하나 이상의 테이블로 구성 됨. ER모델에서 엔티티를 기반으로 테이블이 만들어짐</h6><h6 id="여기서-DB인-데이터베이스는-일종의-데이터-저장소-Storage-라고-생각하면-됩니다-정보를-단순하고-규칙적인-모양새로-구성한-저장소인-셈입니다-엑셀의-표처럼-테이블로-구성되어-있고-각-테이블은-행-row-와-칼럼-column-으로-구성됩니다-각-행은-레코드-record-라고-하고-레코드들은-몇-조각의-정보로-이뤄지는데-이때-조각이-칼럼이-됩니다"><a href="#여기서-DB인-데이터베이스는-일종의-데이터-저장소-Storage-라고-생각하면-됩니다-정보를-단순하고-규칙적인-모양새로-구성한-저장소인-셈입니다-엑셀의-표처럼-테이블로-구성되어-있고-각-테이블은-행-row-와-칼럼-column-으로-구성됩니다-각-행은-레코드-record-라고-하고-레코드들은-몇-조각의-정보로-이뤄지는데-이때-조각이-칼럼이-됩니다" class="headerlink" title="여기서 DB인 데이터베이스는 일종의 데이터 저장소(Storage)라고 생각하면 됩니다. 정보를 단순하고 규칙적인 모양새로 구성한 저장소인 셈입니다. 엑셀의 표처럼 테이블로 구성되어 있고 각 테이블은 행(row)와 칼럼(column)으로 구성됩니다. 각 행은 레코드(record)라고 하고, 레코드들은 몇 조각의 정보로 이뤄지는데 이때 조각이 칼럼이 됩니다."></a>여기서 DB인 데이터베이스는 일종의 데이터 저장소(Storage)라고 생각하면 됩니다. 정보를 단순하고 규칙적인 모양새로 구성한 저장소인 셈입니다. 엑셀의 표처럼 테이블로 구성되어 있고 각 테이블은 행(row)와 칼럼(column)으로 구성됩니다. 각 행은 레코드(record)라고 하고, 레코드들은 몇 조각의 정보로 이뤄지는데 이때 조각이 칼럼이 됩니다.</h6><h6 id="MS-관리-시스템-은-DB의-레코드들을-삽입-insert-탐색-select-수정-update-삭제-delete-할-수-있도록-해주는-소프트웨어를-지칭하게-됩니다-즉-데이터를-처리할-수-있는-기능을-의미하는데-많은-DBMS가-이러한-일들은-SQL-Structured-Query-Language-구조화된-질의-언어-를-지원해-줌으로서-가능해집니다"><a href="#MS-관리-시스템-은-DB의-레코드들을-삽입-insert-탐색-select-수정-update-삭제-delete-할-수-있도록-해주는-소프트웨어를-지칭하게-됩니다-즉-데이터를-처리할-수-있는-기능을-의미하는데-많은-DBMS가-이러한-일들은-SQL-Structured-Query-Language-구조화된-질의-언어-를-지원해-줌으로서-가능해집니다" class="headerlink" title="MS(관리 시스템)은 DB의 레코드들을 삽입(insert), 탐색(select), 수정(update), 삭제(delete)할 수 있도록 해주는 소프트웨어를 지칭하게 됩니다. 즉 데이터를 처리할 수 있는 기능을 의미하는데, 많은 DBMS가 이러한 일들은 SQL(Structured Query Language, 구조화된 질의 언어)를 지원해 줌으로서 가능해집니다."></a>MS(관리 시스템)은 DB의 레코드들을 삽입(insert), 탐색(select), 수정(update), 삭제(delete)할 수 있도록 해주는 소프트웨어를 지칭하게 됩니다. 즉 데이터를 처리할 수 있는 기능을 의미하는데, 많은 DBMS가 이러한 일들은 SQL(Structured Query Language, 구조화된 질의 언어)를 지원해 줌으로서 가능해집니다.</h6><h6 id="R-관계형-은-DBMS의-특정한-종류를-의미하고-여러-개의-테이블을-조합해-원하는-데이터를-찾아올-수-있게-합니다-보통-테이블-한-개로-답을-얻을-수-없는-상황에서-이-관계성을-사용해-더-복잡한-요구를-실현할-수-있습니다-SQL-또한-이것을-지원해주며-관계형을-지원하기-위해-트랜젝션-Transection-ACID-Atomicity-Consistency-Isolation-Durability-등의-개념도-도입되었습니다"><a href="#R-관계형-은-DBMS의-특정한-종류를-의미하고-여러-개의-테이블을-조합해-원하는-데이터를-찾아올-수-있게-합니다-보통-테이블-한-개로-답을-얻을-수-없는-상황에서-이-관계성을-사용해-더-복잡한-요구를-실현할-수-있습니다-SQL-또한-이것을-지원해주며-관계형을-지원하기-위해-트랜젝션-Transection-ACID-Atomicity-Consistency-Isolation-Durability-등의-개념도-도입되었습니다" class="headerlink" title="R(관계형)은 DBMS의 특정한 종류를 의미하고, 여러 개의 테이블을 조합해 원하는 데이터를 찾아올 수 있게 합니다. 보통 테이블 한 개로 답을 얻을 수 없는 상황에서 이 관계성을 사용해 더 복잡한 요구를 실현할 수 있습니다. SQL 또한 이것을 지원해주며, 관계형을 지원하기 위해 트랜젝션(Transection), ACID(Atomicity, Consistency, Isolation, Durability)등의 개념도 도입되었습니다."></a>R(관계형)은 DBMS의 특정한 종류를 의미하고, 여러 개의 테이블을 조합해 원하는 데이터를 찾아올 수 있게 합니다. 보통 테이블 한 개로 답을 얻을 수 없는 상황에서 이 관계성을 사용해 더 복잡한 요구를 실현할 수 있습니다. SQL 또한 이것을 지원해주며, 관계형을 지원하기 위해 <strong>트랜젝션</strong>(Transection), <strong>ACID</strong>(Atomicity, Consistency, Isolation, Durability)등의 개념도 도입되었습니다.</h6><h6 id="출처-https-jwprogramming-tistory-com-52-개발자를-꿈꾸는-프로그래머"><a href="#출처-https-jwprogramming-tistory-com-52-개발자를-꿈꾸는-프로그래머" class="headerlink" title="출처: https://jwprogramming.tistory.com/52 [개발자를 꿈꾸는 프로그래머]"></a>출처: <a target="_blank" rel="noopener" href="https://jwprogramming.tistory.com/52">https://jwprogramming.tistory.com/52</a> [개발자를 꿈꾸는 프로그래머]</h6></blockquote>
+<h4 id="开源免费RDBMS"><a href="#开源免费RDBMS" class="headerlink" title="开源免费RDBMS:"></a>开源免费RDBMS:</h4><blockquote>
+<h5 id="➢MySQL-应用最广泛的开源数据库-➢PostgreSQL-号称世界上最好的开源RDBMS，伯克利计-算机系出品-➢SQLite-小型文件型嵌入式数据库，适合小型桌面应用和-移动应用"><a href="#➢MySQL-应用最广泛的开源数据库-➢PostgreSQL-号称世界上最好的开源RDBMS，伯克利计-算机系出品-➢SQLite-小型文件型嵌入式数据库，适合小型桌面应用和-移动应用" class="headerlink" title="➢MySQL:应用最广泛的开源数据库 ➢PostgreSQL:号称世界上最好的开源RDBMS，伯克利计 算机系出品 ➢SQLite:小型文件型嵌入式数据库，适合小型桌面应用和 移动应用"></a>➢MySQL:应用最广泛的开源数据库 </br>➢PostgreSQL:号称世界上最好的开源RDBMS，伯克利计 算机系出品</br> ➢SQLite:小型文件型嵌入式数据库，适合小型桌面应用和 移动应用</h5></blockquote>
+</blockquote>
+<blockquote>
+<h4 id="非关系型数据库-NoSQL"><a href="#非关系型数据库-NoSQL" class="headerlink" title="非关系型数据库(NoSQL):"></a>非关系型数据库(NoSQL):</h4><blockquote>
+<h5 id="Not-Only-SQL”，泛指非关系型的数据库。不需要事先定义数据模式，预-定义表结构。数据中的每条记录都可能有不同的属性和格式。当插入数据时，并不需要预先定义它们的模式。"><a href="#Not-Only-SQL”，泛指非关系型的数据库。不需要事先定义数据模式，预-定义表结构。数据中的每条记录都可能有不同的属性和格式。当插入数据时，并不需要预先定义它们的模式。" class="headerlink" title="Not Only SQL”，泛指非关系型的数据库。不需要事先定义数据模式，预 定义表结构。数据中的每条记录都可能有不同的属性和格式。当插入数据时，并不需要预先定义它们的模式。"></a>Not Only SQL”，泛指非关系型的数据库。不需要事先定义数据模式，预 定义表结构。数据中的每条记录都可能有不同的属性和格式。当插入数据时，并不需要预先定义它们的模式。</h5><h5 id="➢键值存储数据库-redis-➢列存储数据库-Cassandra-➢文档型数据库-MongoDB-➢图形数据库-NEO4J"><a href="#➢键值存储数据库-redis-➢列存储数据库-Cassandra-➢文档型数据库-MongoDB-➢图形数据库-NEO4J" class="headerlink" title="➢键值存储数据库(redis) ➢列存储数据库(Cassandra) ➢文档型数据库(MongoDB) ➢图形数据库(NEO4J)"></a>➢键值存储数据库(redis)</br> ➢列存储数据库(Cassandra) </br>➢文档型数据库(MongoDB) </br>➢图形数据库(NEO4J)</h5></blockquote>
+</blockquote>
+<h2 id="使用Python连接SQLite"><a href="#使用Python连接SQLite" class="headerlink" title="##使用Python连接SQLite"></a>##使用Python连接SQLite</h2><h4 id="SQLite是一种嵌入式数据库，它的数据库就是一个文件。由于SQLite本身是C写的，而且体积很小，所-以，经常被集成到各种应用程序中，甚至在iOS和Android的App中都可以集成。Python内置了SQLite3，所以，在Python中使用SQLite，不需要安装任何东西，直接使用。"><a href="#SQLite是一种嵌入式数据库，它的数据库就是一个文件。由于SQLite本身是C写的，而且体积很小，所-以，经常被集成到各种应用程序中，甚至在iOS和Android的App中都可以集成。Python内置了SQLite3，所以，在Python中使用SQLite，不需要安装任何东西，直接使用。" class="headerlink" title="SQLite是一种嵌入式数据库，它的数据库就是一个文件。由于SQLite本身是C写的，而且体积很小，所 以，经常被集成到各种应用程序中，甚至在iOS和Android的App中都可以集成。Python内置了SQLite3，所以，在Python中使用SQLite，不需要安装任何东西，直接使用。"></a>SQLite是一种嵌入式数据库，它的数据库就是一个文件。由于SQLite本身是C写的，而且体积很小，所 以，经常被集成到各种应用程序中，甚至在iOS和Android的App中都可以集成。</br>Python内置了SQLite3，所以，在Python中使用SQLite，不需要安装任何东西，直接使用。</h4><h5 id="如何通过软件查看我的数据库"><a href="#如何通过软件查看我的数据库" class="headerlink" title="如何通过软件查看我的数据库?"></a>如何通过软件查看我的数据库?</h5><h5 id="同MySQL一样，SQLite也有GUI查看软件，同样也是Navicat。从已有的文件导入数据库"><a href="#同MySQL一样，SQLite也有GUI查看软件，同样也是Navicat。从已有的文件导入数据库" class="headerlink" title="同MySQL一样，SQLite也有GUI查看软件，同样也是Navicat。从已有的文件导入数据库"></a>同MySQL一样，SQLite也有GUI查看软件，同样也是Navicat。从已有的文件导入数据库</h5><h5 id="在连接中选择SQLite"><a href="#在连接中选择SQLite" class="headerlink" title="在连接中选择SQLite"></a>在连接中选择SQLite</h5><ul>
+<li><h6 id="1、建立数据库连接，获取连接对象，python会自动在当前目录下建立sqlite数据库文件"><a href="#1、建立数据库连接，获取连接对象，python会自动在当前目录下建立sqlite数据库文件" class="headerlink" title="1、建立数据库连接，获取连接对象，python会自动在当前目录下建立sqlite数据库文件"></a>1、建立数据库连接，获取连接对象，python会自动在当前目录下建立sqlite数据库文件</h6></li>
+<li><h6 id="2、从数据库连接中获取Cursor游标对象，Cursor允许用户执行SQL语句，并获取查询结果，Cursor的方法包-括"><a href="#2、从数据库连接中获取Cursor游标对象，Cursor允许用户执行SQL语句，并获取查询结果，Cursor的方法包-括" class="headerlink" title="2、从数据库连接中获取Cursor游标对象，Cursor允许用户执行SQL语句，并获取查询结果，Cursor的方法包 括"></a>2、从数据库连接中获取Cursor游标对象，Cursor允许用户执行SQL语句，并获取查询结果，Cursor的方法包 括</h6></li>
+<li><h6 id="3、sqlite的增删改查操作"><a href="#3、sqlite的增删改查操作" class="headerlink" title="3、sqlite的增删改查操作"></a>3、sqlite的增删改查操作</h6></li>
+</ul>
+<h3 id="课上练习"><a href="#课上练习" class="headerlink" title="课上练习:"></a>课上练习:</h3><h5 id="创建一个学生table，包括姓名，学号，专业，年级等信息，插入一-条自己的数据，完成增删改查操作"><a href="#创建一个学生table，包括姓名，学号，专业，年级等信息，插入一-条自己的数据，完成增删改查操作" class="headerlink" title="创建一个学生table，包括姓名，学号，专业，年级等信息，插入一 条自己的数据，完成增删改查操作"></a>创建一个学生table，包括姓名，学号，专业，年级等信息，插入一 条自己的数据，完成增删改查操作</h5><h3 id="使用Python操作MySQL"><a href="#使用Python操作MySQL" class="headerlink" title="使用Python操作MySQL"></a>使用Python操作MySQL</h3><h5 id="MySQL是一个关系型数据库管理系统，由瑞典MySQL-AB-公司开发，目前属于-Oracle-旗下产品。MySQL-是最流行-的关系型数据库管理系统，在-WEB-应用方面MySQL是最-好的-RDBMS-Relational-Database-Management-System，-关系数据库管理系统-应用软件之一。"><a href="#MySQL是一个关系型数据库管理系统，由瑞典MySQL-AB-公司开发，目前属于-Oracle-旗下产品。MySQL-是最流行-的关系型数据库管理系统，在-WEB-应用方面MySQL是最-好的-RDBMS-Relational-Database-Management-System，-关系数据库管理系统-应用软件之一。" class="headerlink" title="MySQL是一个关系型数据库管理系统，由瑞典MySQL AB 公司开发，目前属于 Oracle 旗下产品。MySQL 是最流行 的关系型数据库管理系统，在 WEB 应用方面MySQL是最 好的 RDBMS (Relational Database Management System， 关系数据库管理系统) 应用软件之一。"></a>MySQL是一个关系型数据库管理系统，由瑞典MySQL AB 公司开发，目前属于 Oracle 旗下产品。MySQL 是最流行 的关系型数据库管理系统，在 WEB 应用方面MySQL是最 好的 RDBMS (Relational Database Management System， 关系数据库管理系统) 应用软件之一。</h5><h5 id="由于其社区版的性能卓越，搭配-PHP-和-Apache-可组成良-好的开发环境-LAMP-。"><a href="#由于其社区版的性能卓越，搭配-PHP-和-Apache-可组成良-好的开发环境-LAMP-。" class="headerlink" title="由于其社区版的性能卓越，搭配 PHP 和 Apache 可组成良 好的开发环境(LAMP)。"></a>由于其社区版的性能卓越，搭配 PHP 和 Apache 可组成良 好的开发环境(LAMP)。</h5><h5 id="首先在navicat连接MySQL，右键点击左侧的连接，选择创建一个数据库"><a href="#首先在navicat连接MySQL，右键点击左侧的连接，选择创建一个数据库" class="headerlink" title="首先在navicat连接MySQL，右键点击左侧的连接，选择创建一个数据库:"></a>首先在navicat连接MySQL，右键点击左侧的连接，选择创建一个数据库:</h5><h5 id="PyMySQL-中操作数据库方法与SQLlite基本相同，唯一要注意的是在连接数据库时，需要指定连接的主机-地址-IP-、连接端口、要连接的数据库、用户名、密码。"><a href="#PyMySQL-中操作数据库方法与SQLlite基本相同，唯一要注意的是在连接数据库时，需要指定连接的主机-地址-IP-、连接端口、要连接的数据库、用户名、密码。" class="headerlink" title="PyMySQL 中操作数据库方法与SQLlite基本相同，唯一要注意的是在连接数据库时，需要指定连接的主机 地址(IP)、连接端口、要连接的数据库、用户名、密码。"></a>PyMySQL 中操作数据库方法与SQLlite基本相同，唯一要注意的是在连接数据库时，需要指定连接的主机 地址(IP)、连接端口、要连接的数据库、用户名、密码。</h5><h5 id="是不是很眼熟-实际上pymysql的接口与sqlite的接口非常相似。"><a href="#是不是很眼熟-实际上pymysql的接口与sqlite的接口非常相似。" class="headerlink" title="是不是很眼熟?实际上pymysql的接口与sqlite的接口非常相似。"></a>是不是很眼熟?实际上pymysql的接口与sqlite的接口非常相似。</h5><h5 id="不同点-fetchall方法放到了cursor对象内部，而非cursor对象execute方法的返回值"><a href="#不同点-fetchall方法放到了cursor对象内部，而非cursor对象execute方法的返回值" class="headerlink" title="不同点:fetchall方法放到了cursor对象内部，而非cursor对象execute方法的返回值"></a>不同点:fetchall方法放到了cursor对象内部，而非cursor对象execute方法的返回值</h5><h3 id="课上练习-1"><a href="#课上练习-1" class="headerlink" title="课上练习:"></a>课上练习:</h3><h5 id="创建一个学生table，包括姓名，学号，专业，年级等信息，插入一-条自己的数据，完成增删改查操作-1"><a href="#创建一个学生table，包括姓名，学号，专业，年级等信息，插入一-条自己的数据，完成增删改查操作-1" class="headerlink" title="创建一个学生table，包括姓名，学号，专业，年级等信息，插入一 条自己的数据，完成增删改查操作"></a>创建一个学生table，包括姓名，学号，专业，年级等信息，插入一 条自己的数据，完成增删改查操作</h5><h2 id="ORM-简介"><a href="#ORM-简介" class="headerlink" title="####ORM 简介"></a>####ORM 简介</h2><h4 id="直接在代码里写SQL语句实在是反人类，为了保护视力，我们希望把数-据库中的table与代码中实际处理的-class一一对应，就可以用操作对象-的方式操作数据库。对象关系映射，-即Object-Relationl-Mapping，就是-这样一种在关系型数据库和对象之-间建立的映射关系。"><a href="#直接在代码里写SQL语句实在是反人类，为了保护视力，我们希望把数-据库中的table与代码中实际处理的-class一一对应，就可以用操作对象-的方式操作数据库。对象关系映射，-即Object-Relationl-Mapping，就是-这样一种在关系型数据库和对象之-间建立的映射关系。" class="headerlink" title="直接在代码里写SQL语句实在是反人类，为了保护视力，我们希望把数 据库中的table与代码中实际处理的 class一一对应，就可以用操作对象 的方式操作数据库。对象关系映射， 即Object-Relationl Mapping，就是 这样一种在关系型数据库和对象之 间建立的映射关系。"></a>直接在代码里写SQL语句实在是反人类，为了保护视力，我们希望把数 据库中的table与代码中实际处理的 class一一对应，就可以用操作对象 的方式操作数据库。对象关系映射， 即Object-Relationl Mapping，就是 这样一种在关系型数据库和对象之 间建立的映射关系。</h4><h5 id="以刚刚定义的company为例"><a href="#以刚刚定义的company为例" class="headerlink" title="以刚刚定义的company为例:"></a>以刚刚定义的company为例:</h5><h6 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h6><h6 id="Class（对象）"><a href="#Class（对象）" class="headerlink" title="Class（对象）"></a>Class（对象）</h6><p><a target="_blank" rel="noopener" href="https://wikidocs.net/28">Jump to Python</a></p>
+<h4 id="Python中最著名的ORM框架-SQLAlchemy"><a href="#Python中最著名的ORM框架-SQLAlchemy" class="headerlink" title="Python中最著名的ORM框架: SQLAlchemy"></a>Python中最著名的ORM框架: SQLAlchemy</h4><h6 id="‘数据库类型-数据库驱动名称-用户名-口令-机器地址-端口号-数据库名’"><a href="#‘数据库类型-数据库驱动名称-用户名-口令-机器地址-端口号-数据库名’" class="headerlink" title="‘数据库类型+数据库驱动名称://用户名:口令@机器地址:端口号/数据库名’"></a>‘数据库类型+数据库驱动名称://用户名:口令@机器地址:端口号/数据库名’</h6><p><a target="_blank" rel="noopener" href="https://dongchans.github.io/2019/28/">SQL-PYTHON ORM</a></p>
+<h4 id="练习"><a href="#练习" class="headerlink" title="练习:"></a>练习:</h4><h5 id="创建一个电影的类，包括片名、导演、主演、评分与简介等属性，插入一条自己的数-据，完成增删改查操作"><a href="#创建一个电影的类，包括片名、导演、主演、评分与简介等属性，插入一条自己的数-据，完成增删改查操作" class="headerlink" title="创建一个电影的类，包括片名、导演、主演、评分与简介等属性，插入一条自己的数 据，完成增删改查操作"></a>创建一个电影的类，包括片名、导演、主演、评分与简介等属性，插入一条自己的数 据，完成增删改查操作</h5><h2 id="回顾"><a href="#回顾" class="headerlink" title="#####回顾"></a>#####回顾</h2><h5 id="练习-使用requests和beautifulSoup包爬取豆瓣主页的一周口碑榜，获取榜单内电影的片名、导演、主演、评-分与简介，并使用sqlalchemy存入mysql。在爬取完后将表导出为excel，与代码一并提交。"><a href="#练习-使用requests和beautifulSoup包爬取豆瓣主页的一周口碑榜，获取榜单内电影的片名、导演、主演、评-分与简介，并使用sqlalchemy存入mysql。在爬取完后将表导出为excel，与代码一并提交。" class="headerlink" title="练习: 使用requests和beautifulSoup包爬取豆瓣主页的一周口碑榜，获取榜单内电影的片名、导演、主演、评 分与简介，并使用sqlalchemy存入mysql。在爬取完后将表导出为excel，与代码一并提交。"></a>练习:</br> 使用requests和beautifulSoup包爬取豆瓣主页的一周口碑榜，获取榜单内电影的片名、导演、主演、评 分与简介，并使用sqlalchemy存入mysql。在爬取完后将表导出为excel，与代码一并提交。</h5> 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MySQL/" rel="tag">MySQL</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NoSQL/" rel="tag">NoSQL</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PyCodeCamp/" rel="tag">PyCodeCamp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/RDB/" rel="tag">RDB</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/RDBMS/" rel="tag">RDBMS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/RUC/" rel="tag">RUC</a></li></ul>
 
     </footer>
   </div>
@@ -574,7 +990,7 @@
 <!-- #reward -->
 <div id="reward">
   <span class="close"><i class="ri-close-line"></i></span>
-  <p class="reward-p"><i class="ri-cup-line"></i>Would you mind buying me a cup of Coffee?</p>
+  <p class="reward-p"><i class="ri-cup-line"></i>Would you mind buying me a cup of COFFEE?</p>
   <div class="reward-box">
     
     <div class="reward-item">
