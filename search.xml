@@ -355,7 +355,8 @@
 
 <h6 id="그리고-왼쪽-밑의-‘Open-Config-Folder’를-실행시켜줍니다-위-packages-script-grammars-python-coffee-경로로-들어가서-위-스크린샷과-같이-python-coffee-문서의-Selection-Based-부분의-커맨드가-‘python’으로-된-두-부분을-전부-‘python3’로-바꿔주고-저장하고-Atom을-재시작해주세요"><a href="#그리고-왼쪽-밑의-‘Open-Config-Folder’를-실행시켜줍니다-위-packages-script-grammars-python-coffee-경로로-들어가서-위-스크린샷과-같이-python-coffee-문서의-Selection-Based-부분의-커맨드가-‘python’으로-된-두-부분을-전부-‘python3’로-바꿔주고-저장하고-Atom을-재시작해주세요" class="headerlink" title="그리고 왼쪽 밑의 ‘Open Config Folder’를 실행시켜줍니다.위 packages/script/grammars/python.coffee  경로로 들어가서 위 스크린샷과 같이 python.coffee 문서의 Selection Based 부분의 커맨드가 ‘python’으로 된 두 부분을 전부 ‘python3’로 바꿔주고 저장하고 Atom을 재시작해주세요."></a>그리고 왼쪽 밑의 ‘Open Config Folder’를 실행시켜줍니다.</br>위 packages/script/grammars/python.coffee  경로로 들어가서 위 스크린샷과 같이 python.coffee 문서의 Selection Based 부분의 커맨드가 ‘python’으로 된 두 부분을 전부 ‘python3’로 바꿔주고 저장하고 Atom을 재시작해주세요.</h6><center><img src="/Users/gangjuhyeon/Documents/Blog/1stBlog/source/photos/2020-07-31_6.53.18.png"></center>
 
-<center><h2>Atom에서 정상적으로 Python3.8.5를 실행시킨 화면입니다.</h2></center>]]></content>
+<center><h2>Atom에서 정상적으로 Python3.8.5를 실행시킨 화면입니다.</h2></center>
+]]></content>
       <categories>
         <category>decorating</category>
       </categories>
