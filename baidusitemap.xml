@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://gwenchangit.github.io/2020/08/04/aboutME/</loc>
+    <lastmod>2020-08-30</lastmod>
+  </url>
+  <url>
     <loc>https://gwenchangit.github.io/2020/08/16/%E5%9C%A8Mac_Terminal%E6%8A%8APython3%E8%AE%BE%E4%B8%BA%E9%BB%98%E8%AE%A4Python/</loc>
     <lastmod>2020-08-28</lastmod>
   </url>
@@ -27,10 +31,6 @@
   <url>
     <loc>https://gwenchangit.github.io/2020/08/04/RUC-IRM-PyCodeCamp2020-1_Python-Basic/</loc>
     <lastmod>2020-08-05</lastmod>
-  </url>
-  <url>
-    <loc>https://gwenchangit.github.io/2020/08/04/aboutME/</loc>
-    <lastmod>2020-08-03</lastmod>
   </url>
   <url>
     <loc>https://gwenchangit.github.io/2020/08/03/RUC-IRM-PyCodeCamp2020-0/</loc>
