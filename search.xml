@@ -15,7 +15,7 @@
       </tags>
   </entry>
   <entry>
-    <title>맥터미널에서_Python3.8_사용하기</title>
+    <title>맥터미널과 Atom에서 Python3.8 사용하기</title>
     <url>/2020/09/02/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-Python3-7-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</url>
     <content><![CDATA[<h1 id="맥OS-터미널-Atom에서-최신-버전-파이썬-사용하기"><a href="#맥OS-터미널-Atom에서-최신-버전-파이썬-사용하기" class="headerlink" title="맥OS 터미널, Atom에서 최신 버전 파이썬 사용하기"></a>맥OS 터미널, Atom에서 최신 버전 파이썬 사용하기</h1><h5 id="안녕하세요-괜찮은-괜찮은입니다-맥에는-기본적으로-파이썬이-깔려있지만-이-디폴트-파이썬이-구버전인-2-7버전이어서-머지-않아-지원이-중단된다는-경고창이-뜨곤-하죠-문제는-최신-버전인-파이썬3을-설치해도-터미널에서-python버전-체크를-했을-때-계속-파이썬-2-7로-나오고-실행되는-것인데요-이-상태에서는-많은-분들이-사용하고-계시는-Atom-에디터에서-script-패키지를-설치해서-파이썬을-연동시켜봐도최신-버전-파이썬이-아닌-파이썬-2-7-버전으로-구동이-되어-Errno-2-No-such-file-or-directory-에러가-발생합니다-이번-글에서는-python을-쉘에서-입력했을-때-기본값-디폴트값-으로-설정된-2-7버전을-실행하는-대신-현재-보편적으로-사용하는-python3을-실행하게-하는-방법을-알아보겠습니다"><a href="#안녕하세요-괜찮은-괜찮은입니다-맥에는-기본적으로-파이썬이-깔려있지만-이-디폴트-파이썬이-구버전인-2-7버전이어서-머지-않아-지원이-중단된다는-경고창이-뜨곤-하죠-문제는-최신-버전인-파이썬3을-설치해도-터미널에서-python버전-체크를-했을-때-계속-파이썬-2-7로-나오고-실행되는-것인데요-이-상태에서는-많은-분들이-사용하고-계시는-Atom-에디터에서-script-패키지를-설치해서-파이썬을-연동시켜봐도최신-버전-파이썬이-아닌-파이썬-2-7-버전으로-구동이-되어-Errno-2-No-such-file-or-directory-에러가-발생합니다-이번-글에서는-python을-쉘에서-입력했을-때-기본값-디폴트값-으로-설정된-2-7버전을-실행하는-대신-현재-보편적으로-사용하는-python3을-실행하게-하는-방법을-알아보겠습니다" class="headerlink" title="안녕하세요, 괜찮은 괜찮은입니다.맥에는 기본적으로 파이썬이 깔려있지만, 이 디폴트 파이썬이 구버전인 2.7버전이어서 머지 않아 지원이 중단된다는 경고창이 뜨곤 하죠. 문제는 최신 버전인 파이썬3을 설치해도 터미널에서 python버전 체크를 했을 때 계속 파이썬 2.7로 나오고 실행되는 것인데요,이 상태에서는 많은 분들이 사용하고 계시는 Atom  에디터에서 script 패키지를 설치해서 파이썬을 연동시켜봐도최신 버전 파이썬이 아닌 파이썬 2.7 버전으로 구동이 되어 Errno 2 No such file or directory 에러가 발생합니다.이번 글에서는 python을 쉘에서 입력했을 때 기본값(디폴트값)으로 설정된 2.7버전을 실행하는 대신 현재 보편적으로 사용하는 python3을 실행하게 하는 방법을 알아보겠습니다."></a>안녕하세요, 괜찮은 괜찮은입니다.맥에는 기본적으로 파이썬이 깔려있지만, 이 디폴트 파이썬이 구버전인 2.7버전이어서 머지 않아 지원이 중단된다는 경고창이 뜨곤 하죠. </br>문제는 최신 버전인 파이썬3을 설치해도 터미널에서 python버전 체크를 했을 때 계속 파이썬 2.7로 나오고 실행되는 것인데요,</br>이 상태에서는 많은 분들이 사용하고 계시는 Atom  에디터에서 script 패키지를 설치해서 파이썬을 연동시켜봐도최신 버전 파이썬이 아닌 파이썬 2.7 버전으로 구동이 되어 Errno 2 No such file or directory 에러가 발생합니다.이번 글에서는 python을 쉘에서 입력했을 때 기본값(디폴트값)으로 설정된 2.7버전을 실행하는 대신 현재 보편적으로 사용하는 python3을 실행하게 하는 방법을 알아보겠습니다.</br></h5><h4 id="터미널-쉘이-zsh가-아닌-분들은-아래-글의-1번까지-진행해-bash쉘에서-zsh쉘로-바꿔주세요-macOS-카탈리나-2019년-10월이후-모델-혹은-이-이후-업데이트-부터는-터미널-기본-shell-환경이-zsh입니다"><a href="#터미널-쉘이-zsh가-아닌-분들은-아래-글의-1번까지-진행해-bash쉘에서-zsh쉘로-바꿔주세요-macOS-카탈리나-2019년-10월이후-모델-혹은-이-이후-업데이트-부터는-터미널-기본-shell-환경이-zsh입니다" class="headerlink" title="[터미널 쉘이 zsh가 아닌 분들은 아래 글의 1번까지 진행해 bash쉘에서 zsh쉘로 바꿔주세요!macOS 카탈리나(2019년 10월이후 모델 혹은 이 이후 업데이트) 부터는 터미널 기본 shell 환경이 zsh입니다!]"></a><em>[터미널 쉘이 zsh가 아닌 분들은 아래 글의 1번까지 진행해 bash쉘에서 zsh쉘로 바꿔주세요!<br>macOS 카탈리나(2019년 10월이후 모델 혹은 이 이후 업데이트) 부터는 터미널 기본 shell 환경이 zsh입니다!]</em></h4><h4 id="Mac-bash-대신-zsh-사용하기"><a href="#Mac-bash-대신-zsh-사용하기" class="headerlink" title="Mac bash 대신 zsh 사용하기"></a><a href="https://m.blog.naver.com/PostView.nhn?blogId=ecker&logNo=220820740145&proxyReferer=https://www.google.com/">Mac bash 대신 zsh 사용하기</a></h4><h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3><h6 id="cmd-space-bar-에서-터미널-검색-트랙패드에서-네-손가락을-동시에-오므려-Lanchpad-실행-gt-기타-gt-터미널의-경로를-통해-터미널을-엽니다"><a href="#cmd-space-bar-에서-터미널-검색-트랙패드에서-네-손가락을-동시에-오므려-Lanchpad-실행-gt-기타-gt-터미널의-경로를-통해-터미널을-엽니다" class="headerlink" title="cmd + space bar 에서 터미널 검색 / 트랙패드에서 네 손가락을 동시에 오므려 Lanchpad 실행 &gt; 기타 &gt; 터미널의 경로를 통해 터미널을 엽니다."></a>cmd + space bar 에서 터미널 검색 / 트랙패드에서 네 손가락을 동시에 오므려 Lanchpad 실행 &gt; 기타 &gt; 터미널의 경로를 통해 터미널을 엽니다.</h6><img src="2020/09/02/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-Python3-7-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/1.png" class="" title="[Example1]">
 
@@ -76,8 +76,22 @@
 <center><h2>Atom에서 정상적으로 Python3.8.5를 실행시킨 화면입니다.</h2></center>
 
 ]]></content>
+      <categories>
+        <category>settings</category>
+      </categories>
       <tags>
+        <tag>Python2.7</tag>
+        <tag>Python3.8</tag>
+        <tag>Catalina10.15</tag>
+        <tag>zsh</tag>
+        <tag>Atom</tag>
+        <tag>Change_Default_Python</tag>
+        <tag>how_to_default_Python3.8_on_Mac_terminal</tag>
+        <tag>맥터미널에서_파이썬3.8_python 으로_지정하는법</tag>
+        <tag>怎么在macOS终端把Python3.8用为默认Python</tag>
         <tag>Errno 2 No such file or directory</tag>
+        <tag>MacBookPro2020</tag>
+        <tag>homebrew</tag>
       </tags>
   </entry>
 </search>
