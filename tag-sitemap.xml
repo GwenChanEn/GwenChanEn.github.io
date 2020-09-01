@@ -3,6 +3,34 @@
 
 
     <url>
+        <loc>https://gwenchangit.github.io/tags/gauxap/</loc>
+        <lastmod>2020-09-01T20:46:06.916Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchangit.github.io/tags/WhoAmI/</loc>
+        <lastmod>2020-09-01T20:46:06.916Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchangit.github.io/tags/GwenChanEn/</loc>
+        <lastmod>2020-09-01T20:46:06.916Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchangit.github.io/tags/GwenChanGit/</loc>
+        <lastmod>2020-09-01T20:46:06.916Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://gwenchangit.github.io/tags/homebrew/</loc>
         <lastmod>2020-09-01T20:44:30.069Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -82,34 +110,6 @@
     <url>
         <loc>https://gwenchangit.github.io/tags/Python2-7/</loc>
         <lastmod>2020-09-01T20:44:30.069Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchangit.github.io/tags/gauxap/</loc>
-        <lastmod>2020-09-01T18:48:24.336Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchangit.github.io/tags/WhoAmI/</loc>
-        <lastmod>2020-09-01T18:48:24.336Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchangit.github.io/tags/GwenChanEn/</loc>
-        <lastmod>2020-09-01T18:48:24.336Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchangit.github.io/tags/GwenChanGit/</loc>
-        <lastmod>2020-09-01T18:48:24.336Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
