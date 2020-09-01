@@ -5,12 +5,12 @@
   <subtitle>괜찮은 기술블로그</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://gwenchangit.github.io/"/>
+  <link href="https://gwenchanen.github.io/"/>
   <updated>2020-09-01T21:28:12.269Z</updated>
-  <id>https://gwenchangit.github.io/</id>
+  <id>https://gwenchanen.github.io/</id>
   
   <author>
-    <name>gwenchangit</name>
+    <name>GwenChanEn</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>맥터미널과 Atom에서 Python3.8 사용하기</title>
-    <link href="https://gwenchangit.github.io/2020/09/02/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-Python3-7-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/"/>
-    <id>https://gwenchangit.github.io/2020/09/02/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-Python3-7-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</id>
+    <link href="https://gwenchanen.github.io/2020/09/02/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-Python3-7-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/"/>
+    <id>https://gwenchanen.github.io/2020/09/02/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-Python3-7-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</id>
     <published>2020-09-01T19:49:47.000Z</published>
     <updated>2020-09-01T21:28:12.269Z</updated>
     
@@ -36,39 +36,39 @@
     </summary>
     
     
-      <category term="settings" scheme="https://gwenchangit.github.io/categories/settings/"/>
+      <category term="settings" scheme="https://gwenchanen.github.io/categories/settings/"/>
     
     
-      <category term="Python2.7" scheme="https://gwenchangit.github.io/tags/Python2-7/"/>
+      <category term="Python2.7" scheme="https://gwenchanen.github.io/tags/Python2-7/"/>
     
-      <category term="Python3.8" scheme="https://gwenchangit.github.io/tags/Python3-8/"/>
+      <category term="Python3.8" scheme="https://gwenchanen.github.io/tags/Python3-8/"/>
     
-      <category term="Catalina10.15" scheme="https://gwenchangit.github.io/tags/Catalina10-15/"/>
+      <category term="Catalina10.15" scheme="https://gwenchanen.github.io/tags/Catalina10-15/"/>
     
-      <category term="zsh" scheme="https://gwenchangit.github.io/tags/zsh/"/>
+      <category term="zsh" scheme="https://gwenchanen.github.io/tags/zsh/"/>
     
-      <category term="Atom" scheme="https://gwenchangit.github.io/tags/Atom/"/>
+      <category term="Atom" scheme="https://gwenchanen.github.io/tags/Atom/"/>
     
-      <category term="Change_Default_Python" scheme="https://gwenchangit.github.io/tags/Change-Default-Python/"/>
+      <category term="Change_Default_Python" scheme="https://gwenchanen.github.io/tags/Change-Default-Python/"/>
     
-      <category term="how_to_default_Python3.8_on_Mac_terminal" scheme="https://gwenchangit.github.io/tags/how-to-default-Python3-8-on-Mac-terminal/"/>
+      <category term="how_to_default_Python3.8_on_Mac_terminal" scheme="https://gwenchanen.github.io/tags/how-to-default-Python3-8-on-Mac-terminal/"/>
     
-      <category term="맥터미널에서_파이썬3.8_python 으로_지정하는법" scheme="https://gwenchangit.github.io/tags/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC3-8-python-%EC%9C%BC%EB%A1%9C-%EC%A7%80%EC%A0%95%ED%95%98%EB%8A%94%EB%B2%95/"/>
+      <category term="맥터미널에서_파이썬3.8_python 으로_지정하는법" scheme="https://gwenchanen.github.io/tags/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC3-8-python-%EC%9C%BC%EB%A1%9C-%EC%A7%80%EC%A0%95%ED%95%98%EB%8A%94%EB%B2%95/"/>
     
-      <category term="怎么在macOS终端把Python3.8用为默认Python" scheme="https://gwenchangit.github.io/tags/%E6%80%8E%E4%B9%88%E5%9C%A8macOS%E7%BB%88%E7%AB%AF%E6%8A%8APython3-8%E7%94%A8%E4%B8%BA%E9%BB%98%E8%AE%A4Python/"/>
+      <category term="怎么在macOS终端把Python3.8用为默认Python" scheme="https://gwenchanen.github.io/tags/%E6%80%8E%E4%B9%88%E5%9C%A8macOS%E7%BB%88%E7%AB%AF%E6%8A%8APython3-8%E7%94%A8%E4%B8%BA%E9%BB%98%E8%AE%A4Python/"/>
     
-      <category term="Errno 2 No such file or directory" scheme="https://gwenchangit.github.io/tags/Errno-2-No-such-file-or-directory/"/>
+      <category term="Errno 2 No such file or directory" scheme="https://gwenchanen.github.io/tags/Errno-2-No-such-file-or-directory/"/>
     
-      <category term="MacBookPro2020" scheme="https://gwenchangit.github.io/tags/MacBookPro2020/"/>
+      <category term="MacBookPro2020" scheme="https://gwenchanen.github.io/tags/MacBookPro2020/"/>
     
-      <category term="homebrew" scheme="https://gwenchangit.github.io/tags/homebrew/"/>
+      <category term="homebrew" scheme="https://gwenchanen.github.io/tags/homebrew/"/>
     
   </entry>
   
   <entry>
     <title>aboutME</title>
-    <link href="https://gwenchangit.github.io/2020/08/04/aboutME/"/>
-    <id>https://gwenchangit.github.io/2020/08/04/aboutME/</id>
+    <link href="https://gwenchanen.github.io/2020/08/04/aboutME/"/>
+    <id>https://gwenchanen.github.io/2020/08/04/aboutME/</id>
     <published>2020-08-03T16:05:06.000Z</published>
     <updated>2020-09-01T21:32:40.291Z</updated>
     
@@ -86,13 +86,13 @@
     
     
     
-      <category term="GwenChanGit" scheme="https://gwenchangit.github.io/tags/GwenChanGit/"/>
+      <category term="GwenChanGit" scheme="https://gwenchanen.github.io/tags/GwenChanGit/"/>
     
-      <category term="GwenChanEn" scheme="https://gwenchangit.github.io/tags/GwenChanEn/"/>
+      <category term="GwenChanEn" scheme="https://gwenchanen.github.io/tags/GwenChanEn/"/>
     
-      <category term="WhoAmI" scheme="https://gwenchangit.github.io/tags/WhoAmI/"/>
+      <category term="WhoAmI" scheme="https://gwenchanen.github.io/tags/WhoAmI/"/>
     
-      <category term="gauxap" scheme="https://gwenchangit.github.io/tags/gauxap/"/>
+      <category term="gauxap" scheme="https://gwenchanen.github.io/tags/gauxap/"/>
     
   </entry>
   
