@@ -6,33 +6,33 @@
 
 <head>
   <meta charset="utf-8" />
-
+    
   <meta name="description" content="你好，这里是GwenChanEn的技术博客" />
-
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="naver-site-verification" content="5b512aa59500abdd78093a5464389d4c35ef8ace" />
   <title>
      GwenChanEn World
   </title>
   <meta name="generator" content="hexo-theme-ayer">
-
+  
   <link rel="shortcut icon" href="/favicon.ico" />
-
-
+  
+  
 <link rel="stylesheet" href="dist/main.css">
 
-
+  
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/css/remixicon.min.css">
 
-
+  
 <link rel="stylesheet" href="css/custom.css">
 
-
-
+  
+  
 <script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
 
-
-
+  
+  
 
 <script type="text/javascript">
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -47,13 +47,13 @@ ga('send', 'pageview');
 
 
 
-
+  
 <script>
 var _hmt = _hmt || [];
 (function() {
 	var hm = document.createElement("script");
 	hm.src = "https://hm.baidu.com/hm.js?2f789b865e0a193008da21f6cd274a01";
-	var s = document.getElementsByTagName("script")[0];
+	var s = document.getElementsByTagName("script")[0]; 
 	s.parentNode.insertBefore(hm, s);
 })();
 </script>
@@ -67,15 +67,15 @@ var _hmt = _hmt || [];
 
 <body>
   <div id="app">
-
-
+    
+      
       <canvas width="1777" height="841"
         style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
-
+      
     <main class="content on">
-
+      
 <section class="cover">
-
+    
   <div class="cover-frame">
     <div class="bg-box">
       <img src="/images/cover7.jpg" alt="image frame" />
@@ -83,12 +83,12 @@ var _hmt = _hmt || [];
     <div class="cover-inner text-center text-white">
       <h1><a href="index.html">GwenChanEn World</a></h1>
       <div id="subtitle-box">
-
+        
         <span id="subtitle"></span>
-
+        
       </div>
       <div>
-
+        
       </div>
     </div>
   </div>
@@ -118,14 +118,14 @@ var _hmt = _hmt || [];
       console.log(err)
     }
   </script>
-
+  
 <div id="main">
   <section class="outer">
   <article class="articles">
-
-
-
-
+    
+    
+    
+    
     <article
   id="post-맥터미널에서-Python3-7-사용하기"
   class="article article-type-post"
@@ -134,29 +134,29 @@ var _hmt = _hmt || [];
   data-scroll-reveal
 >
   <div class="article-inner">
-
+    
     <header class="article-header">
-
+       
 <h2 itemprop="name">
   <a class="article-title" href="2020/09/02/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-Python3-7-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/"
-    >맥터미널과 Atom에서 Python3.8 사용하기</a>
+    >맥터미널과 Atom에서 Python3.8 사용하기</a> 
 </h2>
-
+ 
 
     </header>
-
+     
     <div class="article-meta">
       <a href="2020/09/02/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-Python3-7-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/" class="article-date">
   <time datetime="2020-09-01T19:49:47.000Z" itemprop="datePublished">2020-09-02</time>
-</a>
+</a> 
   <div class="article-category">
     <a class="article-category-link" href="categories/settings/">settings</a>
   </div>
-
+   
     </div>
-
+      
     <div class="article-entry" itemprop="articleBody">
-
+       
   <h1 id="맥OS-터미널-Atom에서-최신-버전-파이썬-사용하기"><a href="#맥OS-터미널-Atom에서-최신-버전-파이썬-사용하기" class="headerlink" title="맥OS 터미널, Atom에서 최신 버전 파이썬 사용하기"></a>맥OS 터미널, Atom에서 최신 버전 파이썬 사용하기</h1><hr>
 <h5 id="안녕하세요-괜찮은-괜찮은입니다-맥에는-기본적으로-파이썬이-깔려있지만-이-디폴트-파이썬이-구버전인-2-7버전이어서-머지-않아-지원이-중단된다는-경고창이-뜨곤-하죠-문제는-최신-버전인-파이썬3을-설치해도-터미널에서-python버전-체크를-했을-때-계속-파이썬-2-7로-나오고-실행되는-것인데요-이-상태에서는-많은-분들이-사용하고-계시는-Atom-에디터에서-script-패키지를-설치해서-파이썬을-연동시켜봐도최신-버전-파이썬이-아닌-파이썬-2-7-버전으로-구동이-되어-Errno-2-No-such-file-or-directory-에러가-발생합니다-이번-글에서는-python을-쉘에서-입력했을-때-기본값-디폴트값-으로-설정된-2-7버전을-실행하는-대신-현재-보편적으로-사용하는-python3을-실행하게-하는-방법을-알아보겠습니다"><a href="#안녕하세요-괜찮은-괜찮은입니다-맥에는-기본적으로-파이썬이-깔려있지만-이-디폴트-파이썬이-구버전인-2-7버전이어서-머지-않아-지원이-중단된다는-경고창이-뜨곤-하죠-문제는-최신-버전인-파이썬3을-설치해도-터미널에서-python버전-체크를-했을-때-계속-파이썬-2-7로-나오고-실행되는-것인데요-이-상태에서는-많은-분들이-사용하고-계시는-Atom-에디터에서-script-패키지를-설치해서-파이썬을-연동시켜봐도최신-버전-파이썬이-아닌-파이썬-2-7-버전으로-구동이-되어-Errno-2-No-such-file-or-directory-에러가-발생합니다-이번-글에서는-python을-쉘에서-입력했을-때-기본값-디폴트값-으로-설정된-2-7버전을-실행하는-대신-현재-보편적으로-사용하는-python3을-실행하게-하는-방법을-알아보겠습니다" class="headerlink" title="안녕하세요, 괜찮은 괜찮은입니다.맥에는 기본적으로 파이썬이 깔려있지만, 이 디폴트 파이썬이 구버전인 2.7버전이어서 머지 않아 지원이 중단된다는 경고창이 뜨곤 하죠. 문제는 최신 버전인 파이썬3을 설치해도 터미널에서 python버전 체크를 했을 때 계속 파이썬 2.7로 나오고 실행되는 것인데요,이 상태에서는 많은 분들이 사용하고 계시는 Atom  에디터에서 script 패키지를 설치해서 파이썬을 연동시켜봐도최신 버전 파이썬이 아닌 파이썬 2.7 버전으로 구동이 되어 Errno 2 No such file or directory 에러가 발생합니다.이번 글에서는 python을 쉘에서 입력했을 때 기본값(디폴트값)으로 설정된 2.7버전을 실행하는 대신 현재 보편적으로 사용하는 python3을 실행하게 하는 방법을 알아보겠습니다."></a>안녕하세요, 괜찮은 괜찮은입니다.맥에는 기본적으로 파이썬이 깔려있지만, 이 디폴트 파이썬이 구버전인 2.7버전이어서 머지 않아 지원이 중단된다는 경고창이 뜨곤 하죠. </br>문제는 최신 버전인 파이썬3을 설치해도 터미널에서 python버전 체크를 했을 때 계속 파이썬 2.7로 나오고 실행되는 것인데요,</br>이 상태에서는 많은 분들이 사용하고 계시는 Atom  에디터에서 script 패키지를 설치해서 파이썬을 연동시켜봐도최신 버전 파이썬이 아닌 파이썬 2.7 버전으로 구동이 되어 Errno 2 No such file or directory 에러가 발생합니다.이번 글에서는 python을 쉘에서 입력했을 때 기본값(디폴트값)으로 설정된 2.7버전을 실행하는 대신 현재 보편적으로 사용하는 python3을 실행하게 하는 방법을 알아보겠습니다.</br></h5><h5 id="터미널-쉘이-zsh가-아닌-분들은-아래-글의-1번까지-진행해-bash쉘에서-zsh쉘로-바꿔주세요-macOS-카탈리나-2019년-10월이후-모델-혹은-이-이후-업데이트-부터는-터미널-기본-shell-환경이-zsh입니다"><a href="#터미널-쉘이-zsh가-아닌-분들은-아래-글의-1번까지-진행해-bash쉘에서-zsh쉘로-바꿔주세요-macOS-카탈리나-2019년-10월이후-모델-혹은-이-이후-업데이트-부터는-터미널-기본-shell-환경이-zsh입니다" class="headerlink" title="터미널 쉘이 zsh가 아닌 분들은 아래 글의 1번까지 진행해 bash쉘에서 zsh쉘로 바꿔주세요!macOS 카탈리나(2019년 10월이후 모델 혹은 이 이후 업데이트) 부터는 터미널 기본 shell 환경이 zsh입니다!"></a><em>터미널 쉘이 zsh가 아닌 분들은 아래 글의 1번까지 진행해 bash쉘에서 zsh쉘로 바꿔주세요!<br>macOS 카탈리나(2019년 10월이후 모델 혹은 이 이후 업데이트) 부터는 터미널 기본 shell 환경이 zsh입니다!</em></h5><h4 id="Mac-bash-대신-zsh-사용하기"><a href="#Mac-bash-대신-zsh-사용하기" class="headerlink" title="Mac bash 대신 zsh 사용하기"></a><a target="_blank" rel="noopener" href="https://m.blog.naver.com/PostView.nhn?blogId=ecker&logNo=220820740145&proxyReferer=https://www.google.com/">Mac bash 대신 zsh 사용하기</a></h4><h3 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h3><h6 id="cmd-space-bar-에서-터미널-검색-트랙패드에서-네-손가락을-동시에-오므려-Lanchpad-실행-gt-기타-gt-터미널의-경로를-통해-터미널을-엽니다"><a href="#cmd-space-bar-에서-터미널-검색-트랙패드에서-네-손가락을-동시에-오므려-Lanchpad-실행-gt-기타-gt-터미널의-경로를-통해-터미널을-엽니다" class="headerlink" title="cmd + space bar 에서 터미널 검색 / 트랙패드에서 네 손가락을 동시에 오므려 Lanchpad 실행 &gt; 기타 &gt; 터미널의 경로를 통해 터미널을 엽니다."></a>cmd + space bar 에서 터미널 검색 / 트랙패드에서 네 손가락을 동시에 오므려 Lanchpad 실행 &gt; 기타 &gt; 터미널의 경로를 통해 터미널을 엽니다.</h6><p><img src="https://pic.downk.cc/item/5f4ebaf9160a154a67bdb5b9.png"></p>
 <h3 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h3><h4 id="homebrew가-설치되지-않은-경우"><a href="#homebrew가-설치되지-않은-경우" class="headerlink" title="(homebrew가 설치되지 않은 경우)"></a>(homebrew가 설치되지 않은 경우)</h4><h4 id="홈브루-한국어-페이지-와-같이"><a href="#홈브루-한국어-페이지-와-같이" class="headerlink" title="홈브루 한국어 페이지 와 같이"></a><a target="_blank" rel="noopener" href="https://brew.sh/index_ko">홈브루 한국어 페이지</a> 와 같이</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;bin&#x2F;bash -c &quot;$(curl -fsSL https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;Homebrew&#x2F;install&#x2F;master&#x2F;install.sh)&quot;</span><br></pre></td></tr></table></figure>
@@ -199,26 +199,26 @@ var _hmt = _hmt || [];
 <h6 id="그리고-왼쪽-밑의-‘Open-Config-Folder’를-실행시켜줍니다-위-packages-script-grammars-python-coffee-경로로-들어가서-위-스크린샷과-같이-python-coffee-문서의-Selection-Based-부분의-커맨드가-‘python’으로-된-두-부분을-전부-‘python3’로-바꿔주고-저장하고-Atom을-재시작해주세요"><a href="#그리고-왼쪽-밑의-‘Open-Config-Folder’를-실행시켜줍니다-위-packages-script-grammars-python-coffee-경로로-들어가서-위-스크린샷과-같이-python-coffee-문서의-Selection-Based-부분의-커맨드가-‘python’으로-된-두-부분을-전부-‘python3’로-바꿔주고-저장하고-Atom을-재시작해주세요" class="headerlink" title="그리고 왼쪽 밑의 ‘Open Config Folder’를 실행시켜줍니다.위 packages/script/grammars/python.coffee  경로로 들어가서 위 스크린샷과 같이 python.coffee 문서의 Selection Based 부분의 커맨드가 ‘python’으로 된 두 부분을 전부 ‘python3’로 바꿔주고 저장하고 Atom을 재시작해주세요."></a>그리고 왼쪽 밑의 ‘Open Config Folder’를 실행시켜줍니다.</br>위 packages/script/grammars/python.coffee  경로로 들어가서 위 스크린샷과 같이 python.coffee 문서의 Selection Based 부분의 커맨드가 ‘python’으로 된 두 부분을 전부 ‘python3’로 바꿔주고 저장하고 Atom을 재시작해주세요.</h6><p><img src="https://pic.downk.cc/item/5f4ebb26160a154a67bdc045.png"></p>
 <center><h2>Atom에서 정상적으로 Python3.8.5를 실행시킨 화면입니다.</h2></center>
 
-
+ 
       <!-- reward -->
-
+      
     </div>
-
+    
 
     <!-- copyright -->
-
+    
     <footer class="article-footer">
-
+       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/Atom/" rel="tag">Atom</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/Catalina10-15/" rel="tag">Catalina10.15</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/Change-Default-Python/" rel="tag">Change_Default_Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/Errno-2-No-such-file-or-directory/" rel="tag">Errno 2 No such file or directory</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/MacBookPro2020/" rel="tag">MacBookPro2020</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/Python2-7/" rel="tag">Python2.7</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/Python3-8/" rel="tag">Python3.8</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/homebrew/" rel="tag">homebrew</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/how-to-default-Python3-8-on-Mac-terminal/" rel="tag">how_to_default_Python3.8_on_Mac_terminal</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/zsh/" rel="tag">zsh</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/%E6%80%8E%E4%B9%88%E5%9C%A8macOS%E7%BB%88%E7%AB%AF%E6%8A%8APython3-8%E7%94%A8%E4%B8%BA%E9%BB%98%E8%AE%A4Python/" rel="tag">怎么在macOS终端把Python3.8用为默认Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC3-8-python-%EC%9C%BC%EB%A1%9C-%EC%A7%80%EC%A0%95%ED%95%98%EB%8A%94%EB%B2%95/" rel="tag">맥터미널에서_파이썬3.8_python 으로_지정하는법</a></li></ul>
 
     </footer>
   </div>
 
-
-
+   
+   
 </article>
 
-
+    
     <article
   id="post-aboutME"
   class="article article-type-post"
@@ -227,25 +227,25 @@ var _hmt = _hmt || [];
   data-scroll-reveal
 >
   <div class="article-inner">
-
+    
     <header class="article-header">
-
+       
 <h2 itemprop="name">
   <a class="article-title" href="2020/08/04/aboutME/"
-    >aboutME</a>
+    >aboutME</a> 
 </h2>
-
+ 
 
     </header>
-
+     
     <div class="article-meta">
       <a href="2020/08/04/aboutME/" class="article-date">
   <time datetime="2020-08-03T16:05:06.000Z" itemprop="datePublished">2020-08-04</time>
-</a>
+</a>    
     </div>
-
+      
     <div class="article-entry" itemprop="articleBody">
-
+       
   <h5 id="Name-강주현-姜朱玹-Гаухар"><a href="#Name-강주현-姜朱玹-Гаухар" class="headerlink" title="Name: 강주현 | 姜朱玹 | Гаухар"></a>Name: 강주현 | 姜朱玹 | Гаухар</h5><h5 id="Living-in-Cheongju-si-Chungcheongbuk-do-Republic-of-Korea"><a href="#Living-in-Cheongju-si-Chungcheongbuk-do-Republic-of-Korea" class="headerlink" title="Living in: Cheongju-si, Chungcheongbuk-do, Republic of Korea"></a>Living in: Cheongju-si, Chungcheongbuk-do, Republic of Korea</h5><h5 id="FaceBook-JuhyeonKang"><a href="#FaceBook-JuhyeonKang" class="headerlink" title="FaceBook: JuhyeonKang"></a>FaceBook: <a target="_blank" rel="noopener" href="https://www.facebook.com/WoShiJuhyeonKang">JuhyeonKang</a></h5><h5 id="GitHub-GwenChanGit"><a href="#GitHub-GwenChanGit" class="headerlink" title="GitHub: GwenChanGit"></a>GitHub: <a target="_blank" rel="noopener" href="https://github.com/GwenChanGit">GwenChanGit</a></h5><h5 id="WeChat-gauhar-0430"><a href="#WeChat-gauhar-0430" class="headerlink" title="WeChat: gauhar_0430"></a>WeChat: gauhar_0430</h5><hr>
 <h6 id="2017-HUFS（Hankuk-University-of-Foreign-Studies）——중앙아시아학과（Central-Asian-Studies）"><a href="#2017-HUFS（Hankuk-University-of-Foreign-Studies）——중앙아시아학과（Central-Asian-Studies）" class="headerlink" title="2017 - HUFS（Hankuk University of Foreign Studies）——중앙아시아학과（Central Asian Studies）"></a>2017 - HUFS（Hankuk University of Foreign Studies）——중앙아시아학과（Central Asian Studies）</h6><h6 id="2019-RUC-Renmin-University-of-China-——信息资源管理专业（Information-Resource-Management-Studies）"><a href="#2019-RUC-Renmin-University-of-China-——信息资源管理专业（Information-Resource-Management-Studies）" class="headerlink" title="2019 - RUC(Renmin University of China)——信息资源管理专业（Information Resource Management Studies）"></a>2019 - RUC(Renmin University of China)——信息资源管理专业（Information Resource Management Studies）</h6><hr>
 <h6 id="Despite-the-plethora-of-information-there-are-so-many-opportunities-to-be-missed-by-not-acting-when-you-have-to-act"><a href="#Despite-the-plethora-of-information-there-are-so-many-opportunities-to-be-missed-by-not-acting-when-you-have-to-act" class="headerlink" title="Despite the plethora of information, there are so many opportunities to be missed by not acting when you have to act."></a>Despite the plethora of information, there are so many opportunities to be missed by not acting when you have to act.</h6><h6 id="Harvard-Business-School-faculty-who-have-produced-many-world-class-CEOs-point-to-the-recurrence-of-these-unfortunate-situations-as-“lack-of-information-processing-capabilities-”"><a href="#Harvard-Business-School-faculty-who-have-produced-many-world-class-CEOs-point-to-the-recurrence-of-these-unfortunate-situations-as-“lack-of-information-processing-capabilities-”" class="headerlink" title="Harvard Business School faculty, who have produced many world-class CEOs, point to the recurrence of these unfortunate situations as “lack of information processing capabilities.”"></a>Harvard Business School faculty, who have produced many world-class CEOs, point to the recurrence of these unfortunate situations as “lack of information processing capabilities.”</h6><h6 id="This-is-because-he-knows-‘the-technology-to-process-information’-but-has-not-learned-the-ability-to-process-information"><a href="#This-is-because-he-knows-‘the-technology-to-process-information’-but-has-not-learned-the-ability-to-process-information" class="headerlink" title="This is because he knows ‘the technology to process information’, but has not learned the ability to process information."></a>This is because he knows ‘the technology to process information’, but has not learned the ability to process information.</h6><h6 id="In-order-to-turn-data-that-is-merely-an-array-of-numbers-into-meaningful-information-we-need-to-know-that-the-last-step-in-information-processing-is-‘action’"><a href="#In-order-to-turn-data-that-is-merely-an-array-of-numbers-into-meaningful-information-we-need-to-know-that-the-last-step-in-information-processing-is-‘action’" class="headerlink" title="In order to turn data that is merely an array of numbers into meaningful information, we need to know that the last step in information processing is ‘action’."></a>In order to turn data that is merely an array of numbers into meaningful information, we need to know that the last step in information processing is ‘action’.</h6><h6 id="Businessmen-who-can-smell-money-like-this-once-they-get-information-they-act-immediately-and-find-a-hole-for-money"><a href="#Businessmen-who-can-smell-money-like-this-once-they-get-information-they-act-immediately-and-find-a-hole-for-money" class="headerlink" title="Businessmen who can smell money like this, once they get information, they act immediately and find a hole for money."></a>Businessmen who can smell money like this, once they get information, they act immediately and find a hole for money.</h6><h6 id="It-is-wrong-to-say-that-you-have-to-get-information-to-get-a-chance-for-success"><a href="#It-is-wrong-to-say-that-you-have-to-get-information-to-get-a-chance-for-success" class="headerlink" title="It is wrong to say that you have to get information to get a chance for success."></a>It is wrong to say that you have to get information to get a chance for success.</h6><h5 id="One-step-of-holding-information-in-your-hand-will-lead-you-to-real-success"><a href="#One-step-of-holding-information-in-your-hand-will-lead-you-to-real-success" class="headerlink" title="One step of holding information in your hand will lead you to real success."></a>One step of holding information in your hand will lead you to real success.</h5><br>
@@ -263,52 +263,31 @@ var _hmt = _hmt || [];
 ##### 정보를 손에 쥐고 내닫는 한걸음이
 ##### 진정한 성공으로 향하게 해줄 것이다.
 <br>
-#### MINING > TAKE ACTION!
 
+<h4 id="MINING-gt-TAKE-ACTION"><a href="#MINING-gt-TAKE-ACTION" class="headerlink" title="MINING &gt; TAKE ACTION!"></a>MINING &gt; TAKE ACTION!</h4> 
       <!-- reward -->
-
+      
     </div>
-
+    
 
     <!-- copyright -->
-
+    
     <footer class="article-footer">
-
+       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/GwenChanEn/" rel="tag">GwenChanEn</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/GwenChanGit/" rel="tag">GwenChanGit</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/WhoAmI/" rel="tag">WhoAmI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/gauxap/" rel="tag">gauxap</a></li></ul>
 
     </footer>
-    <div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://gwenchanen-world.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                        
   </div>
 
-
-
+   
+   
 </article>
 
-
+    
   </article>
+  
 
-
-
+  
 </section>
 </div>
 
@@ -323,34 +302,34 @@ s.setAttribute('data-timestamp', +new Date());
     </ul>
     <ul>
       <li>
-
-
-
+        
+        
+        
         Powered by <a href="https://hexo.io" target="_blank">Hexo</a>
         <span class="division">|</span>
         Theme - <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
-
+        
       </li>
     </ul>
     <ul>
       <li>
-
-
+        
+        
         <span>
   <span><i class="ri-user-3-fill"></i>Visitors:<span id="busuanzi_value_site_uv"></span></s>
   <span class="division">|</span>
   <span><i class="ri-eye-fill"></i>Views:<span id="busuanzi_value_page_pv"></span></span>
 </span>
-
+        
       </li>
     </ul>
     <ul>
-
+      
     </ul>
     <ul>
       <li>
         <!-- cnzz统计 -->
-
+        
       </li>
     </ul>
   </div>
@@ -369,48 +348,48 @@ s.setAttribute('data-timestamp', +new Date());
     <aside class="sidebar on">
       <button class="navbar-toggle"></button>
 <nav class="navbar">
-
+  
   <ul class="nav nav-main">
-
+    
     <li class="nav-item">
       <a class="nav-item-link" href="index.html">MAIN</a>
     </li>
-
+    
     <li class="nav-item">
       <a class="nav-item-link" href="/archives">ARCHV</a>
     </li>
-
+    
     <li class="nav-item">
       <a class="nav-item-link" href="/categories">CTGRS</a>
     </li>
-
+    
     <li class="nav-item">
       <a class="nav-item-link" href="/tags">TAGS</a>
     </li>
-
+    
     <li class="nav-item">
       <a class="nav-item-link" target="_blank" rel="noopener" href="http://www.instagram.com/real_gauxap">INS</a>
     </li>
-
+    
     <li class="nav-item">
       <a class="nav-item-link" href="/2020/08/04/aboutME">ME</a>
     </li>
-
+    
   </ul>
 </nav>
 <nav class="navbar navbar-bottom">
   <ul class="nav">
     <li class="nav-item">
-
+      
       <a class="nav-item-link nav-item-search"  title="Search">
         <i class="ri-search-line"></i>
       </a>
-
-
+      
+      
       <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
         <i class="ri-rss-line"></i>
       </a>
-
+      
     </li>
   </ul>
 </nav>
@@ -434,21 +413,21 @@ s.setAttribute('data-timestamp', +new Date());
   <span class="close"><i class="ri-close-line"></i></span>
   <p class="reward-p"><i class="ri-cup-line"></i>Would you mind buying me a cup of COFFEE?</p>
   <div class="reward-box">
-
+    
     <div class="reward-item">
       <img class="reward-img" src="/images/alipay.jpg">
       <span class="reward-type">支付宝</span>
     </div>
-
-
+    
+    
     <div class="reward-item">
       <img class="reward-img" src="https://postfiles.pstatic.net/MjAyMDA4MDZfOTgg/MDAxNTk2NjUyMDQwNTM0.3ULGZzVdwWo1-uW8tDASUS8NMjDXLDLTRkjTdsFbZn0g.guxKhcHnkTicaEQza4yROlme1ekge6z8hlEIihdEQ78g.JPEG.gwenchanen/wechat.jpg?type=w966">
       <span class="reward-type">微信</span>
     </div>
-
+    
   </div>
 </div>
-
+    
 <script src="/js/jquery-2.0.3.min.js"></script>
 
 
@@ -467,14 +446,14 @@ s.setAttribute('data-timestamp', +new Date());
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe.
+    <!-- Background of PhotoSwipe. 
          It's a separate element as animating opacity is faster than rgba(). -->
     <div class="pswp__bg"></div>
 
     <!-- Slides wrapper with overflow:hidden. -->
     <div class="pswp__scroll-wrap">
 
-        <!-- Container that holds slides.
+        <!-- Container that holds slides. 
             PhotoSwipe keeps only 3 of them in the DOM to save memory.
             Don't modify these 3 pswp__item elements, data is added later on. -->
         <div class="pswp__container">
@@ -647,7 +626,7 @@ s.setAttribute('data-timestamp', +new Date());
         $icon.addClass('ri-checkbox-circle-line');
         let $span = $($btn.find('span'));
         $span[0].innerText = 'COPIED';
-
+        
         wait(function () { // 等待两秒钟后恢复
           $icon.removeClass('ri-checkbox-circle-line');
           $icon.addClass('ri-file-copy-2-line');
@@ -663,7 +642,7 @@ s.setAttribute('data-timestamp', +new Date());
         $icon.addClass('ri-time-line');
         let $span = $($btn.find('span'));
         $span[0].innerText = 'COPY FAILED';
-
+        
         wait(function () { // 等待两秒钟后恢复
           $icon.removeClass('ri-time-line');
           $icon.addClass('ri-file-copy-2-line');
@@ -679,7 +658,7 @@ s.setAttribute('data-timestamp', +new Date());
 <!-- CanvasBackground -->
 
 
-
+    
   </div>
 </body>
 
