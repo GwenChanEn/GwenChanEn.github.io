@@ -4,7 +4,7 @@
 
     <sitemap>
         <loc>https://gwenchangit.github.io/post-sitemap.xml</loc>
-        <lastmod>2020-09-01T18:48:24.336Z</lastmod>
+        <lastmod>2020-09-01T20:27:17.062Z</lastmod>
     </sitemap>
 
     <sitemap>
@@ -13,13 +13,8 @@
     </sitemap>
 
     <sitemap>
-        <loc>https://gwenchangit.github.io/category-sitemap.xml</loc>
-        <lastmod>2020-08-28T14:24:41.153Z</lastmod>
-    </sitemap>
-
-    <sitemap>
         <loc>https://gwenchangit.github.io/tag-sitemap.xml</loc>
-        <lastmod>2020-09-01T18:48:24.336Z</lastmod>
+        <lastmod>2020-09-01T20:27:17.062Z</lastmod>
     </sitemap>
 
 </sitemapindex>

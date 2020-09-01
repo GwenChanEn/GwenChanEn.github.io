@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gwenchangit.github.io/"/>
-  <updated>2020-08-28T14:24:41.153Z</updated>
+  <updated>2020-09-01T20:27:17.062Z</updated>
   <id>https://gwenchangit.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>맥 터미널, Atom에서 최신 버전 파이썬 사용하기</title>
-    <link href="https://gwenchangit.github.io/2020/08/16/%E5%9C%A8Mac_Terminal%E6%8A%8APython3%E8%AE%BE%E4%B8%BA%E9%BB%98%E8%AE%A4Python/"/>
-    <id>https://gwenchangit.github.io/2020/08/16/%E5%9C%A8Mac_Terminal%E6%8A%8APython3%E8%AE%BE%E4%B8%BA%E9%BB%98%E8%AE%A4Python/</id>
-    <published>2020-08-16T09:43:52.000Z</published>
-    <updated>2020-08-28T14:24:41.153Z</updated>
+    <title>맥터미널에서_Python3.8_사용하기</title>
+    <link href="https://gwenchangit.github.io/2020/09/02/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-Python3-7-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/"/>
+    <id>https://gwenchangit.github.io/2020/09/02/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-Python3-7-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</id>
+    <published>2020-09-01T19:49:47.000Z</published>
+    <updated>2020-09-01T20:27:17.062Z</updated>
     
     <summary type="html">
     
@@ -36,204 +36,8 @@
     </summary>
     
     
-      <category term="decorating" scheme="https://gwenchangit.github.io/categories/decorating/"/>
     
-    
-      <category term="Python" scheme="https://gwenchangit.github.io/tags/Python/"/>
-    
-      <category term="Python2.7" scheme="https://gwenchangit.github.io/tags/Python2-7/"/>
-    
-      <category term="Python3.8" scheme="https://gwenchangit.github.io/tags/Python3-8/"/>
-    
-      <category term="MacBookPro" scheme="https://gwenchangit.github.io/tags/MacBookPro/"/>
-    
-      <category term="MacOS" scheme="https://gwenchangit.github.io/tags/MacOS/"/>
-    
-      <category term="Catalina10.15" scheme="https://gwenchangit.github.io/tags/Catalina10-15/"/>
-    
-      <category term="zsh" scheme="https://gwenchangit.github.io/tags/zsh/"/>
-    
-      <category term="Atom" scheme="https://gwenchangit.github.io/tags/Atom/"/>
-    
-      <category term="Change_Default_Python" scheme="https://gwenchangit.github.io/tags/Change-Default-Python/"/>
-    
-      <category term="how_to_default_Python3.8_on_Mac_terminal" scheme="https://gwenchangit.github.io/tags/how-to-default-Python3-8-on-Mac-terminal/"/>
-    
-      <category term="맥터미널에서_파이썬3.8_python 으로_지정하는법" scheme="https://gwenchangit.github.io/tags/%EB%A7%A5%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC3-8-python-%EC%9C%BC%EB%A1%9C-%EC%A7%80%EC%A0%95%ED%95%98%EB%8A%94%EB%B2%95/"/>
-    
-      <category term="怎么在macOS终端把Python3.8用为默认Python" scheme="https://gwenchangit.github.io/tags/%E6%80%8E%E4%B9%88%E5%9C%A8macOS%E7%BB%88%E7%AB%AF%E6%8A%8APython3-8%E7%94%A8%E4%B8%BA%E9%BB%98%E8%AE%A4Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>후</title>
-    <link href="https://gwenchangit.github.io/2020/08/16/%ED%9B%84/"/>
-    <id>https://gwenchangit.github.io/2020/08/16/%ED%9B%84/</id>
-    <published>2020-08-16T06:48:27.000Z</published>
-    <updated>2020-08-16T06:48:27.517Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>RUC_IRM_PyCodeCamp2020_2_Python面向对象编程n</title>
-    <link href="https://gwenchangit.github.io/2020/08/10/RUC-IRM-PyCodeCamp2020-2-Python%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/"/>
-    <id>https://gwenchangit.github.io/2020/08/10/RUC-IRM-PyCodeCamp2020-2-Python%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/</id>
-    <published>2020-08-10T04:03:49.000Z</published>
-    <updated>2020-08-15T15:50:26.057Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;hr&gt;
-&lt;p&gt; 讲师：刘力超老师&lt;/p&gt;
-&lt;p&gt;编程虚拟环境：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Anaconda GUI(Graphical User
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>RUC_IRM_PyCodeCamp2020_3_Python的Web编程（二）</title>
-    <link href="https://gwenchangit.github.io/2020/08/09/RUC-IRM-PyCodeCamp2020-5-Python%E7%9A%84Web%E7%BC%96%E7%A8%8B%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
-    <id>https://gwenchangit.github.io/2020/08/09/RUC-IRM-PyCodeCamp2020-5-Python%E7%9A%84Web%E7%BC%96%E7%A8%8B%EF%BC%88%E4%BA%8C%EF%BC%89/</id>
-    <published>2020-08-09T06:13:05.000Z</published>
-    <updated>2020-08-16T03:12:30.724Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;hr&gt;
-&lt;h1 id=&quot;RUC-IRM-PyCodeCamp2020-3-Python的Web编程（二）&quot;&gt;&lt;a href=&quot;#RUC-IRM-PyCodeCamp2020-3-Python的Web编程（二）&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>RUC_IRM_PyCodeCamp2020_3_Python的Web编程（一）</title>
-    <link href="https://gwenchangit.github.io/2020/08/09/RUC-IRM-PyCodeCamp2020-4-Python%E7%9A%84Web%E7%BC%96%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89/"/>
-    <id>https://gwenchangit.github.io/2020/08/09/RUC-IRM-PyCodeCamp2020-4-Python%E7%9A%84Web%E7%BC%96%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89/</id>
-    <published>2020-08-09T06:12:59.000Z</published>
-    <updated>2020-08-15T15:51:48.868Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;hr&gt;
-&lt;h1 id=&quot;RUC-IRM-PyCodeCamp2020-3-Python的Web编程（一）&quot;&gt;&lt;a href=&quot;#RUC-IRM-PyCodeCamp2020-3-Python的Web编程（一）&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="IRM" scheme="https://gwenchangit.github.io/tags/IRM/"/>
-    
-      <category term="RUC" scheme="https://gwenchangit.github.io/tags/RUC/"/>
-    
-      <category term="PyCodeCamp2020" scheme="https://gwenchangit.github.io/tags/PyCodeCamp2020/"/>
-    
-      <category term="PythonWebPrograming" scheme="https://gwenchangit.github.io/tags/PythonWebPrograming/"/>
-    
-      <category term="HTML" scheme="https://gwenchangit.github.io/tags/HTML/"/>
-    
-      <category term="CSS" scheme="https://gwenchangit.github.io/tags/CSS/"/>
-    
-      <category term="JavaScript" scheme="https://gwenchangit.github.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RUC_IRM_PyCodeCamp2020_3_Python的数据库编程</title>
-    <link href="https://gwenchangit.github.io/2020/08/09/RUC-IRM-PyCodeCamp2020-3-Python%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8B/"/>
-    <id>https://gwenchangit.github.io/2020/08/09/RUC-IRM-PyCodeCamp2020-3-Python%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8B/</id>
-    <published>2020-08-08T23:34:31.000Z</published>
-    <updated>2020-08-10T06:21:29.211Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;hr&gt;
-&lt;h1 id=&quot;RUC-IRM-PyCodeCamp2020-3-Python的数据库编程&quot;&gt;&lt;a href=&quot;#RUC-IRM-PyCodeCamp2020-3-Python的数据库编程&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="PyCodeCamp" scheme="https://gwenchangit.github.io/tags/PyCodeCamp/"/>
-    
-      <category term="RUC" scheme="https://gwenchangit.github.io/tags/RUC/"/>
-    
-      <category term="MySQL" scheme="https://gwenchangit.github.io/tags/MySQL/"/>
-    
-      <category term="RDB" scheme="https://gwenchangit.github.io/tags/RDB/"/>
-    
-      <category term="RDBMS" scheme="https://gwenchangit.github.io/tags/RDBMS/"/>
-    
-      <category term="NoSQL" scheme="https://gwenchangit.github.io/tags/NoSQL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RUC_IRM_PyCodeCamp2020_1_Python-Basic</title>
-    <link href="https://gwenchangit.github.io/2020/08/04/RUC-IRM-PyCodeCamp2020-1_Python-Basic/"/>
-    <id>https://gwenchangit.github.io/2020/08/04/RUC-IRM-PyCodeCamp2020-1_Python-Basic/</id>
-    <published>2020-08-03T18:34:54.000Z</published>
-    <updated>2020-08-05T14:51:28.850Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;#Pyformat_코드 예쁘게 작성하기&lt;/p&gt;
-&lt;h5 id=&quot;안녕하세요-괜찮은-괜찮은입니다-사실-Python-기본-문법은-다른-많은-분들께서-이미-너무-많이-정리해주셔서-저는-그냥-제가-보충-자료로-보는-사이트를-올리고-가겠습니다&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="RUC_IRM_PyCodeCamp2020" scheme="https://gwenchangit.github.io/categories/RUC-IRM-PyCodeCamp2020/"/>
-    
-    
-      <category term="python3.8" scheme="https://gwenchangit.github.io/tags/python3-8/"/>
-    
-      <category term="IDLE" scheme="https://gwenchangit.github.io/tags/IDLE/"/>
-    
-      <category term="PyFormat" scheme="https://gwenchangit.github.io/tags/PyFormat/"/>
+      <category term="Errno 2 No such file or directory" scheme="https://gwenchangit.github.io/tags/Errno-2-No-such-file-or-directory/"/>
     
   </entry>
   
@@ -265,84 +69,6 @@
       <category term="WhoAmI" scheme="https://gwenchangit.github.io/tags/WhoAmI/"/>
     
       <category term="gauxap" scheme="https://gwenchangit.github.io/tags/gauxap/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RUC_IRM_PyCodeCamp2020_0_GeneratingHexoBlog</title>
-    <link href="https://gwenchangit.github.io/2020/08/03/RUC-IRM-PyCodeCamp2020-0/"/>
-    <id>https://gwenchangit.github.io/2020/08/03/RUC-IRM-PyCodeCamp2020-0/</id>
-    <published>2020-08-02T20:42:42.000Z</published>
-    <updated>2020-08-03T11:10:42.338Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h4 id=&quot;안녕하세요-블로그-주인인-괜찮은-‘괜찮은’입니다-모쪼록-잘-부탁드립니다-x1F609-大家好，我是博主괜찮은’GwenChanEn’。请多多关照！&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="RUC_IRM_PyCodeCamp2020" scheme="https://gwenchangit.github.io/categories/RUC-IRM-PyCodeCamp2020/"/>
-    
-    
-      <category term="hexo" scheme="https://gwenchangit.github.io/tags/hexo/"/>
-    
-      <category term="첫글" scheme="https://gwenchangit.github.io/tags/%EC%B2%AB%EA%B8%80/"/>
-    
-      <category term="기술블로그" scheme="https://gwenchangit.github.io/tags/%EA%B8%B0%EC%88%A0%EB%B8%94%EB%A1%9C%EA%B7%B8/"/>
-    
-      <category term="技术博客" scheme="https://gwenchangit.github.io/tags/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
-    
-      <category term="IRM" scheme="https://gwenchangit.github.io/tags/IRM/"/>
-    
-      <category term="InformationResourcesManagement" scheme="https://gwenchangit.github.io/tags/InformationResourcesManagement/"/>
-    
-      <category term="信息资源管理系" scheme="https://gwenchangit.github.io/tags/%E4%BF%A1%E6%81%AF%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E7%B3%BB/"/>
-    
-      <category term="PyCodeCamp" scheme="https://gwenchangit.github.io/tags/PyCodeCamp/"/>
-    
-      <category term="GwenChanGit" scheme="https://gwenchangit.github.io/tags/GwenChanGit/"/>
-    
-      <category term="GitHub Blog" scheme="https://gwenchangit.github.io/tags/GitHub-Blog/"/>
-    
-      <category term="HUFS" scheme="https://gwenchangit.github.io/tags/HUFS/"/>
-    
-      <category term="韩国外国语大学" scheme="https://gwenchangit.github.io/tags/%E9%9F%A9%E5%9B%BD%E5%A4%96%E5%9B%BD%E8%AF%AD%E5%A4%A7%E5%AD%A6/"/>
-    
-      <category term="GitHub博客" scheme="https://gwenchangit.github.io/tags/GitHub%E5%8D%9A%E5%AE%A2/"/>
-    
-      <category term="RUC" scheme="https://gwenchangit.github.io/tags/RUC/"/>
-    
-      <category term="中国人民大学" scheme="https://gwenchangit.github.io/tags/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%A4%A7%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://gwenchangit.github.io/2020/08/02/hello-world/"/>
-    <id>https://gwenchangit.github.io/2020/08/02/hello-world/</id>
-    <published>2020-08-01T20:56:08.168Z</published>
-    <updated>2020-08-01T20:56:08.168Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;
-        
-      
-    
-    </summary>
-    
-    
     
   </entry>
   
