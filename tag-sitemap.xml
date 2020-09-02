@@ -3,169 +3,162 @@
 
 
     <url>
-        <loc>https://gwenchanen.github.io/tags/Python-%25EA%25B8%25B0%25EC%25B4%2588%25EC%2597%25B0%25EC%258A%25B5%25EB%25AC%25B8%25EC%25A0%259C/</loc>
-        <lastmod>2020-09-02T20:39:18.170Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/%25EA%25B5%2590%25EC%2588%2598%25EB%258B%2598%25EC%25B6%2594%25EC%25B2%259C%25EC%259E%2590%25EB%25A3%258C/</loc>
-        <lastmod>2020-09-02T20:39:18.170Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/Scikit-learn/</loc>
-        <lastmod>2020-09-02T20:39:18.170Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/Pandas/</loc>
-        <lastmod>2020-09-02T20:39:18.170Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/Matplotlib/</loc>
-        <lastmod>2020-09-02T20:39:18.170Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/Numpy/</loc>
-        <lastmod>2020-09-02T20:39:18.170Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/Google-Colab/</loc>
-        <lastmod>2020-09-02T20:39:18.170Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/Jupyter-notebook/</loc>
-        <lastmod>2020-09-02T20:39:18.170Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/gauxap/</loc>
-        <lastmod>2020-09-02T09:25:01.625Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/WhoAmI/</loc>
-        <lastmod>2020-09-02T09:25:01.625Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/GwenChanEn/</loc>
-        <lastmod>2020-09-02T09:25:01.625Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/GwenChanGit/</loc>
-        <lastmod>2020-09-02T09:25:01.625Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://gwenchanen.github.io/tags/homebrew/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://gwenchanen.github.io/tags/MacBookPro2020/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://gwenchanen.github.io/tags/Errno-2-No-such-file-or-directory/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://gwenchanen.github.io/tags/%25E6%2580%258E%25E4%25B9%2588%25E5%259C%25A8macOS%25E7%25BB%2588%25E7%25AB%25AF%25E6%258A%258APython3-8%25E7%2594%25A8%25E4%25B8%25BA%25E9%25BB%2598%25E8%25AE%25A4Python/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://gwenchanen.github.io/tags/%25EB%25A7%25A5%25ED%2584%25B0%25EB%25AF%25B8%25EB%2584%2590%25EC%2597%2590%25EC%2584%259C-%25ED%258C%258C%25EC%259D%25B4%25EC%258D%25AC3-8-python-%25EC%259C%25BC%25EB%25A1%259C-%25EC%25A7%2580%25EC%25A0%2595%25ED%2595%2598%25EB%258A%2594%25EB%25B2%2595/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://gwenchanen.github.io/tags/how-to-default-Python3-8-on-Mac-terminal/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://gwenchanen.github.io/tags/Change-Default-Python/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://gwenchanen.github.io/tags/Atom/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://gwenchanen.github.io/tags/zsh/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://gwenchanen.github.io/tags/Catalina10-15/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://gwenchanen.github.io/tags/Python3-8/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://gwenchanen.github.io/tags/Python2-7/</loc>
-        <lastmod>2020-09-01T21:28:12.269Z</lastmod>
+        <lastmod>2020-09-02T21:08:26.279Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/tags/gauxap/</loc>
+        <lastmod>2020-09-02T21:03:10.211Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/tags/WhoAmI/</loc>
+        <lastmod>2020-09-02T21:03:10.211Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/tags/GwenChanEn/</loc>
+        <lastmod>2020-09-02T21:03:10.211Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/tags/Python-%25EA%25B8%25B0%25EC%25B4%2588%25EC%2597%25B0%25EC%258A%25B5%25EB%25AC%25B8%25EC%25A0%259C/</loc>
+        <lastmod>2020-09-02T20:56:23.321Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/tags/%25EA%25B5%2590%25EC%2588%2598%25EB%258B%2598%25EC%25B6%2594%25EC%25B2%259C%25EC%259E%2590%25EB%25A3%258C/</loc>
+        <lastmod>2020-09-02T20:56:23.321Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/tags/Scikit-learn/</loc>
+        <lastmod>2020-09-02T20:56:23.321Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/tags/Pandas/</loc>
+        <lastmod>2020-09-02T20:56:23.321Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/tags/Matplotlib/</loc>
+        <lastmod>2020-09-02T20:56:23.321Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/tags/Numpy/</loc>
+        <lastmod>2020-09-02T20:56:23.321Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/tags/Google-Colab/</loc>
+        <lastmod>2020-09-02T20:56:23.321Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/tags/Jupyter-notebook/</loc>
+        <lastmod>2020-09-02T20:56:23.321Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
