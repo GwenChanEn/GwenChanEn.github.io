@@ -145,7 +145,8 @@
 </br>
 
 <h1 id="머신러닝을위한python기초"><a href="#머신러닝을위한python기초" class="headerlink" title="머신러닝을위한python기초"></a>머신러닝을위한python기초</h1><hr>
-<h4 id="자주-쓰는-개발환경"><a href="#자주-쓰는-개발환경" class="headerlink" title="자주 쓰는 개발환경"></a>자주 쓰는 개발환경</h4><ul>
+<h4 id="자주-쓰는-개발환경"><a href="#자주-쓰는-개발환경" class="headerlink" title="자주 쓰는 개발환경"></a>자주 쓰는 개발환경</h4><hr>
+<ul>
 <li><p>Jupyter notebook </p>
 <p><a href="https://jupyter.org/">https://jupyter.org/</a></p>
 </li>
@@ -159,7 +160,8 @@
 
 
 
-<h4 id="math-module-math-모듈-math-模块"><a href="#math-module-math-모듈-math-模块" class="headerlink" title="math module_math 모듈_math 模块"></a>math module_math 모듈_math 模块</h4><ul>
+<h4 id="math-module-math-모듈-math-模块"><a href="#math-module-math-모듈-math-模块" class="headerlink" title="math module_math 모듈_math 模块"></a>math module_math 모듈_math 模块</h4><hr>
+<ul>
 <li><a href="https://docs.python.org/3/library/math.html">https://docs.python.org/3/library/math.html</a></li>
 </ul>
 </br>
@@ -168,7 +170,8 @@
 
 
 
-<h4 id="문서-호출-및-편집"><a href="#문서-호출-및-편집" class="headerlink" title="문서 호출 및 편집"></a>문서 호출 및 편집</h4><ul>
+<h4 id="문서-호출-및-편집"><a href="#문서-호출-및-편집" class="headerlink" title="문서 호출 및 편집"></a>문서 호출 및 편집</h4><hr>
+<ul>
 <li><p><code>.open</code></p>
 <p>一个文件操作对象由内嵌函数 ‘open’ 创建</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>f = open(<span class="string">&#x27;test.txt&#x27;</span>)      <span class="comment"># 默认: 只读模式</span></span><br></pre></td></tr></table></figure>
@@ -243,7 +246,8 @@
 
 </li>
 </ul>
-<h4 id="주로-사용할-패키지-Numpy-Matplotlib-Pandas……"><a href="#주로-사용할-패키지-Numpy-Matplotlib-Pandas……" class="headerlink" title="주로 사용할 패키지_Numpy,Matplotlib,Pandas……"></a>주로 사용할 패키지_Numpy,Matplotlib,Pandas……</h4><h5 id="1st-Numpy-Numercial-Python-Extensions"><a href="#1st-Numpy-Numercial-Python-Extensions" class="headerlink" title="1st. Numpy(Numercial Python Extensions) :"></a>1st. Numpy(Numercial Python Extensions) :</h5><ol>
+<h4 id="주로-사용할-패키지-Numpy-Matplotlib-Pandas……"><a href="#주로-사용할-패키지-Numpy-Matplotlib-Pandas……" class="headerlink" title="주로 사용할 패키지_Numpy,Matplotlib,Pandas……"></a>주로 사용할 패키지_Numpy,Matplotlib,Pandas……</h4><hr>
+<h5 id="1st-Numpy-Numercial-Python-Extensions"><a href="#1st-Numpy-Numercial-Python-Extensions" class="headerlink" title="1st. Numpy(Numercial Python Extensions) :"></a>1st. Numpy(Numercial Python Extensions) :</h5><ol>
 <li><p><code>import</code>하기</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br></pre></td></tr></table></figure>
 </li>
@@ -528,11 +532,13 @@
 
 </br>
 
-<h4 id="교수님-추천자료"><a href="#교수님-추천자료" class="headerlink" title="교수님 추천자료"></a>교수님 추천자료</h4><h6 id="•Python文档：https-docs-python-org-3-•用Python玩转数据：https-www-coursera-org-learn-hipython-•Codecademy：https-www-codecademy-com-learn-learn-python-•Dataquest：https-www-dataquest-io"><a href="#•Python文档：https-docs-python-org-3-•用Python玩转数据：https-www-coursera-org-learn-hipython-•Codecademy：https-www-codecademy-com-learn-learn-python-•Dataquest：https-www-dataquest-io" class="headerlink" title="•Python文档：https://docs.python.org/3/•用Python玩转数据：https://www.coursera.org/learn/hipython/•Codecademy：https://www.codecademy.com/learn/learn-python •Dataquest：https://www.dataquest.io/"></a>•Python文档：<a href="https://docs.python.org/3/">https://docs.python.org/3/</a></br>•用Python玩转数据：<a href="https://www.coursera.org/learn/hipython/">https://www.coursera.org/learn/hipython/</a></br>•Codecademy：<a href="https://www.codecademy.com/learn/learn-python">https://www.codecademy.com/learn/learn-python</a></br> •Dataquest：<a href="https://www.dataquest.io/">https://www.dataquest.io</a><a href="https://www.dataquest.io/">/</a></h6></br>
+<h4 id="교수님-추천자료"><a href="#교수님-추천자료" class="headerlink" title="교수님 추천자료"></a>교수님 추천자료</h4><hr>
+<h6 id="•Python文档：https-docs-python-org-3-•用Python玩转数据：https-www-coursera-org-learn-hipython-•Codecademy：https-www-codecademy-com-learn-learn-python-•Dataquest：https-www-dataquest-io"><a href="#•Python文档：https-docs-python-org-3-•用Python玩转数据：https-www-coursera-org-learn-hipython-•Codecademy：https-www-codecademy-com-learn-learn-python-•Dataquest：https-www-dataquest-io" class="headerlink" title="•Python文档：https://docs.python.org/3/•用Python玩转数据：https://www.coursera.org/learn/hipython/•Codecademy：https://www.codecademy.com/learn/learn-python •Dataquest：https://www.dataquest.io/"></a>•Python文档：<a href="https://docs.python.org/3/">https://docs.python.org/3/</a></br>•用Python玩转数据：<a href="https://www.coursera.org/learn/hipython/">https://www.coursera.org/learn/hipython/</a></br>•Codecademy：<a href="https://www.codecademy.com/learn/learn-python">https://www.codecademy.com/learn/learn-python</a></br> •Dataquest：<a href="https://www.dataquest.io/">https://www.dataquest.io</a><a href="https://www.dataquest.io/">/</a></h6></br>
 
 </br>
 
-<h4 id="처음으로-수행한-문제들"><a href="#처음으로-수행한-문제들" class="headerlink" title="처음으로 수행한 문제들"></a>처음으로 수행한 문제들</h4><ul>
+<h4 id="처음으로-수행한-문제들"><a href="#처음으로-수행한-문제들" class="headerlink" title="처음으로 수행한 문제들"></a>처음으로 수행한 문제들</h4><hr>
+<ul>
 <li><p>Pandas활용 예제: </p>
 </li>
 <li><p>python기초 문제들</p>
