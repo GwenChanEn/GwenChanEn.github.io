@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gwenchanen.github.io/"/>
-  <updated>2020-09-01T21:28:12.269Z</updated>
+  <updated>2020-09-02T20:23:36.261Z</updated>
   <id>https://gwenchanen.github.io/</id>
   
   <author>
@@ -15,6 +15,49 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>머신러닝을위한Python기초</title>
+    <link href="https://gwenchanen.github.io/2020/09/02/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84%EC%9C%84%ED%95%9Cpython%EA%B8%B0%EC%B4%88/"/>
+    <id>https://gwenchanen.github.io/2020/09/02/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84%EC%9C%84%ED%95%9Cpython%EA%B8%B0%EC%B4%88/</id>
+    <published>2020-09-02T11:30:00.571Z</published>
+    <updated>2020-09-02T20:23:36.261Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h4 id=&quot;자주-쓰는-개발환경&quot;&gt;&lt;a href=&quot;#자주-쓰는-개발환경&quot; class=&quot;headerlink&quot; title=&quot;자주 쓰는 개발환경&quot;&gt;&lt;/a&gt;자주 쓰는 개발환경&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Jupyter notebook
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Machine Learning" scheme="https://gwenchanen.github.io/categories/Machine-Learning/"/>
+    
+    
+      <category term="Jupyter notebook" scheme="https://gwenchanen.github.io/tags/Jupyter-notebook/"/>
+    
+      <category term="Google Colab" scheme="https://gwenchanen.github.io/tags/Google-Colab/"/>
+    
+      <category term="Numpy" scheme="https://gwenchanen.github.io/tags/Numpy/"/>
+    
+      <category term="Matplotlib" scheme="https://gwenchanen.github.io/tags/Matplotlib/"/>
+    
+      <category term="Pandas" scheme="https://gwenchanen.github.io/tags/Pandas/"/>
+    
+      <category term="Scikit-learn" scheme="https://gwenchanen.github.io/tags/Scikit-learn/"/>
+    
+      <category term="교수님추천자료" scheme="https://gwenchanen.github.io/tags/%EA%B5%90%EC%88%98%EB%8B%98%EC%B6%94%EC%B2%9C%EC%9E%90%EB%A3%8C/"/>
+    
+      <category term="Python 기초연습문제" scheme="https://gwenchanen.github.io/tags/Python-%EA%B8%B0%EC%B4%88%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>맥터미널과 Atom에서 Python3.8 사용하기</title>
