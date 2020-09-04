@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gwenchanen.github.io/"/>
-  <updated>2020-09-04T14:46:39.971Z</updated>
+  <updated>2020-09-04T14:50:19.177Z</updated>
   <id>https://gwenchanen.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://gwenchanen.github.io/2020/09/04/StudyPlace_Edit/"/>
     <id>https://gwenchanen.github.io/2020/09/04/StudyPlace_Edit/</id>
     <published>2020-09-04T11:17:36.745Z</published>
-    <updated>2020-09-04T14:46:39.971Z</updated>
+    <updated>2020-09-04T14:50:19.177Z</updated>
     
     <summary type="html">
     
@@ -36,6 +36,8 @@
     
     </summary>
     
+    
+      <category term="日常" scheme="https://gwenchanen.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
     
     
       <category term="KOR" scheme="https://gwenchanen.github.io/tags/KOR/"/>
