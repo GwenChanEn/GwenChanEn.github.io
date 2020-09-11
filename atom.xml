@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gwenchanen.github.io/"/>
-  <updated>2020-09-11T16:59:42.169Z</updated>
+  <updated>2020-09-11T17:21:54.879Z</updated>
   <id>https://gwenchanen.github.io/</id>
   
   <author>
@@ -18,25 +18,10 @@
   
   <entry>
     <title>Problems</title>
-    <link href="https://gwenchanen.github.io/2020/09/12/Problems-1/"/>
-    <id>https://gwenchanen.github.io/2020/09/12/Problems-1/</id>
-    <published>2020-09-11T16:59:42.000Z</published>
-    <updated>2020-09-11T16:59:42.169Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Problems</title>
     <link href="https://gwenchanen.github.io/2020/09/12/Problems/"/>
     <id>https://gwenchanen.github.io/2020/09/12/Problems/</id>
     <published>2020-09-11T16:56:36.000Z</published>
-    <updated>2020-09-11T17:11:43.725Z</updated>
+    <updated>2020-09-11T17:21:54.879Z</updated>
     
     <summary type="html">
     
@@ -52,6 +37,8 @@
     
     
     
+      <category term="Prb" scheme="https://gwenchanen.github.io/tags/Prb/"/>
+    
   </entry>
   
   <entry>
@@ -59,7 +46,7 @@
     <link href="https://gwenchanen.github.io/2020/09/11/JAVAinstallation/"/>
     <id>https://gwenchanen.github.io/2020/09/11/JAVAinstallation/</id>
     <published>2020-09-11T14:56:09.135Z</published>
-    <updated>2020-09-11T16:10:33.058Z</updated>
+    <updated>2020-09-11T17:21:34.470Z</updated>
     
     <summary type="html">
     
