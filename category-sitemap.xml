@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>https://gwenchanen.github.io/categories/settings/</loc>
+        <lastmod>2020-09-11T18:04:26.302Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://gwenchanen.github.io/categories/Machine-Learning/</loc>
+        <lastmod>2020-09-11T18:02:22.506Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://gwenchanen.github.io/categories/ThoughtStream/</loc>
         <lastmod>2020-09-11T18:01:31.642Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,20 +31,6 @@
     <url>
         <loc>https://gwenchanen.github.io/categories/%25E6%2597%25A5%25E5%25B8%25B8/</loc>
         <lastmod>2020-09-11T17:58:12.135Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/categories/settings/</loc>
-        <lastmod>2020-09-11T17:52:13.840Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/categories/Machine-Learning/</loc>
-        <lastmod>2020-09-11T17:50:34.411Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
