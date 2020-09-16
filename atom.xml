@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gwenchanen.github.io/"/>
-  <updated>2020-09-16T23:21:51.122Z</updated>
+  <updated>2020-09-16T23:24:54.144Z</updated>
   <id>https://gwenchanen.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://gwenchanen.github.io/2020/09/16/DuringCov19/"/>
     <id>https://gwenchanen.github.io/2020/09/16/DuringCov19/</id>
     <published>2020-09-16T03:15:40.041Z</published>
-    <updated>2020-09-16T23:21:51.122Z</updated>
+    <updated>2020-09-16T23:24:54.144Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,8 @@
     
     </summary>
     
+    
+      <category term="중국대학" scheme="https://gwenchanen.github.io/categories/%EC%A4%91%EA%B5%AD%EB%8C%80%ED%95%99/"/>
     
     
       <category term="RenminUniversityOfChina" scheme="https://gwenchanen.github.io/tags/RenminUniversityOfChina/"/>
