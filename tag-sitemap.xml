@@ -3,6 +3,13 @@
 
 
     <url>
+        <loc>https://gwenchanen.github.io/tags/HotelWANJIA/</loc>
+        <lastmod>2020-10-07T14:48:37.255Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://gwenchanen.github.io/tags/BALABALA/</loc>
         <lastmod>2020-10-02T21:28:00.452Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -12,13 +19,6 @@
     <url>
         <loc>https://gwenchanen.github.io/tags/Prb/</loc>
         <lastmod>2020-10-02T21:09:16.753Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://gwenchanen.github.io/tags/HotelWANJIA/</loc>
-        <lastmod>2020-10-02T20:27:24.985Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
