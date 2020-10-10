@@ -1101,7 +1101,7 @@
   <entry>
     <title>Tijiaoyong</title>
     <url>/2020/10/10/tijiaoyong/</url>
-    <content><![CDATA[<h1 id="信息计量学第四周作业"><a href="#信息计量学第四周作业" class="headerlink" title="信息计量学第四周作业"></a>信息计量学第四周作业</h1><p>(请于 <strong>10</strong> 月 <strong>11</strong> 日前发送书面作业至邮箱 <strong><a href="mailto:&#x7a;&#104;&#x6f;&#117;&#x79;&#97;&#110;&#x74;&#105;&#110;&#103;&#64;&#x72;&#x75;&#x63;&#x2e;&#101;&#x64;&#117;&#x2e;&#99;&#x6e;">&#x7a;&#104;&#x6f;&#117;&#x79;&#97;&#110;&#x74;&#105;&#110;&#103;&#64;&#x72;&#x75;&#x63;&#x2e;&#101;&#x64;&#117;&#x2e;&#99;&#x6e;</a></strong>，文件标注姓名。)</p>
+    <content><![CDATA[<h1 id="信息计量学第四周作业"><a href="#信息计量学第四周作业" class="headerlink" title="信息计量学第四周作业"></a>信息计量学第四周作业</h1><p>(请于 <strong>10</strong> 月 <strong>11</strong> 日前发送书面作业至邮箱 <strong><a href="mailto:&#x7a;&#104;&#111;&#117;&#121;&#97;&#110;&#116;&#x69;&#110;&#x67;&#64;&#114;&#x75;&#x63;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;">&#x7a;&#104;&#111;&#117;&#121;&#97;&#110;&#116;&#x69;&#110;&#x67;&#64;&#114;&#x75;&#x63;&#46;&#x65;&#x64;&#x75;&#46;&#x63;&#x6e;</a></strong>，文件标注姓名。)</p>
 <h3 id="书面作业-P84-第-1、2-题"><a href="#书面作业-P84-第-1、2-题" class="headerlink" title="书面作业 P84 第 1、2 题"></a>书面作业 P84 第 1、2 题</h3><p>（1）布拉德福定律的产生背景是什么?该定律是怎样形成的?</p>
 <ul>
 <li><p>布拉德富定律产生的客观背景：</p>
@@ -1121,9 +1121,9 @@
 <p>​        他按照年平均载文量的多少，把应用地球物理学和润滑的期刊都分成三个区：a，四篇以上的期刊；b，多于一篇而少于四篇的期刊；c，一篇或不足一篇的期刊。经过分析，他认为每个学科期刊的各区相关论文数大体相等，而相继各区的期刊数基本上成等比数列，公比近似等于5。</p>
 <p>2）图像观察</p>
 <p>​        布拉德福以横轴表示期刊累积数的对数、纵轴表示相关论文累积数，描绘了这两个学科的相关论文分布的曲线。他观察这一图像后认为，若略去下部分的弯曲部分，则是一条直线；并由此出发，得出了前一、二、三个区的期刊数量也是成等比增加的结论。</p>
-<p>![image-20201010194129664](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20201010194129664.png)</p>
+<p><img src="https://github.com/GwenChanEn/FigureBed/blob/master/img/image-20201010194129664.png?raw=true" alt="image-20201010194129664"></p>
 <p>3）数学推导</p>
-<p>![image-20201010194247596](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20201010194247596.png)</p>
+<p><img src="https://github.com/GwenChanEn/FigureBed/blob/master/img/image-20201010194247596.png?raw=true" alt="image-20201010194247596"></p>
 <p><img src="https://github.com/GwenChanEn/FigureBed/blob/master/img/image-20201010194316569.png?raw=true" alt="image-20201010194316569"></p>
 </li>
 </ul>
