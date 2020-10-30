@@ -1112,4 +1112,60 @@
 
 ]]></content>
   </entry>
+  <entry>
+    <title>1stsql</title>
+    <url>/2020/10/30/1stsql/</url>
+    <content><![CDATA[<h1 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h1><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> mysty&#123;</span><br><span class="line">    <span class="keyword">sid</span> <span class="built_in">char</span>(<span class="number">10</span>) primary <span class="keyword">key</span>,</span><br><span class="line">    sname <span class="built_in">char</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">    ssfzh <span class="built_in">char</span>(<span class="number">18</span>) <span class="keyword">unique</span>,</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">alter</span> <span class="keyword">table</span> mystu <span class="keyword">add</span> sphone <span class="built_in">char</span>(<span class="number">9</span>)</span><br><span class="line">    <span class="keyword">alter</span> <span class="keyword">table</span> mystu <span class="keyword">add</span> <span class="keyword">constraint</span> chk_phone</span><br><span class="line"><span class="keyword">check</span>(sphone <span class="keyword">like</span> <span class="string">&#x27;([])&#x27;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>뭐 대충 이런거 하고 있었는데 수업시간이 끝나기 20분 전에 교수님께서 上机练习하라고 하시는데 자꾸 zsh terminal shell 이나 navicat이나 잘 안돼서 멘붕이 와서 막 다시 깔고 난리가 났었다. </p>
+<p>결국 <a href="https://velog.io/@rkdms0204/ftsever-mysql-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95">이 글</a> 을 참조해 문제를 해결할 수 있었다. </p>
+<p>ERROR 1045 (28000): Access denied for user ‘root’@’localhost’ (using password: <strong>NO</strong>)</p>
+<p>ERROR 1045 (28000): Access denied for user ‘root’@’localhost’ (using password: <strong>YES</strong>)</p>
+<p>오류가 발생해서 </p>
+<p> <strong>config.inc.php</strong> 파일에서 $cfg[‘Servers’][$i][‘password’] =  부분의 뒷부분에 mysql 비밀번호를 입력해뒀더니 연결에 성공했다. </p>
+<p><img src="https://github.com/GwenChanEn/FigureBed/blob/master/img/image-20201030114838739.png?raw=true" alt="glaemfdjTdjtktlf"></p>
+]]></content>
+      <categories>
+        <category>DB</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>1024+996</title>
+    <url>/2020/10/24/1024-996/</url>
+    <content><![CDATA[<h1 id="오늘-안-것"><a href="#오늘-안-것" class="headerlink" title="오늘 안 것"></a>오늘 안 것</h1><ul>
+<li>유학생 기숙사 비용 현금지불하거나 은련으로 내야하는건 이게 아마 용돈으로 쓰이기 때문ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 마스터나 비자는 수수료가 3% ^^</li>
+<li>따뜻하면 안일어난다. 그러니까 전기장판 6시간 수면시간 맞춰두고 그거에 맞게 일어나기 (추워야 일어나니까 7시간 전에 맞춰두기)</li>
+<li>방에서는 서서 공부하기</li>
+<li>자바는 매 수업마다 연습문제 싹 다 풀어야 합니다. </li>
+<li>水课인줄만 알았던 자바와 정보계량학은 헬이었다. </li>
+<li>도서관 입장 무슨 티켓팅이야? </li>
+<li></li>
+</ul>
+<h1 id="오늘-해야할-것"><a href="#오늘-해야할-것" class="headerlink" title="오늘 해야할 것"></a>오늘 해야할 것</h1><p>수학 22강 쭉 그냥 밤 새서 듣고 <a href="https://mp.weixin.qq.com/s/s8f6FcNDXxsLpNFoe81ARQ">장학금신청 준비하기</a></p>
+<p>1강</p>
+<p>2강</p>
+<p>3강</p>
+<p>4강</p>
+<p>5강</p>
+<p>6강</p>
+<p>7강</p>
+<p>8강</p>
+<p>9강</p>
+<p>10강</p>
+<p>11강</p>
+<p>12강</p>
+<p>13강</p>
+<p>14강</p>
+<p>15강</p>
+<p>16강</p>
+<p>17강</p>
+<p>18강</p>
+<p>19강</p>
+<p>20강</p>
+<p>21강</p>
+<p>22강</p>
+<p>![image-20201025012632543](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20201025012632543.png)</p>
+<p>![image-20201025021751750](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20201025021751750.png)</p>
+]]></content>
+  </entry>
 </search>

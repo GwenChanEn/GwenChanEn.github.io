@@ -127,6 +127,143 @@ var _hmt = _hmt || [];
     
     
     <article
+  id="post-1stsql"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="2020/10/30/1stsql/"
+    >1stsql</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="2020/10/30/1stsql/" class="article-date">
+  <time datetime="2020-10-30T02:49:54.000Z" itemprop="datePublished">2020-10-30</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="categories/DB/">DB</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h1><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> mysty&#123;</span><br><span class="line">    <span class="keyword">sid</span> <span class="built_in">char</span>(<span class="number">10</span>) primary <span class="keyword">key</span>,</span><br><span class="line">    sname <span class="built_in">char</span>(<span class="number">20</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">    ssfzh <span class="built_in">char</span>(<span class="number">18</span>) <span class="keyword">unique</span>,</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    <span class="keyword">alter</span> <span class="keyword">table</span> mystu <span class="keyword">add</span> sphone <span class="built_in">char</span>(<span class="number">9</span>)</span><br><span class="line">    <span class="keyword">alter</span> <span class="keyword">table</span> mystu <span class="keyword">add</span> <span class="keyword">constraint</span> chk_phone</span><br><span class="line"><span class="keyword">check</span>(sphone <span class="keyword">like</span> <span class="string">&#x27;([])&#x27;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>뭐 대충 이런거 하고 있었는데 수업시간이 끝나기 20분 전에 교수님께서 上机练习하라고 하시는데 자꾸 zsh terminal shell 이나 navicat이나 잘 안돼서 멘붕이 와서 막 다시 깔고 난리가 났었다. </p>
+<p>결국 <a target="_blank" rel="noopener" href="https://velog.io/@rkdms0204/ftsever-mysql-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95">이 글</a> 을 참조해 문제를 해결할 수 있었다. </p>
+<p>ERROR 1045 (28000): Access denied for user ‘root’@’localhost’ (using password: <strong>NO</strong>)</p>
+<p>ERROR 1045 (28000): Access denied for user ‘root’@’localhost’ (using password: <strong>YES</strong>)</p>
+<p>오류가 발생해서 </p>
+<p> <strong>config.inc.php</strong> 파일에서 $cfg[‘Servers’][$i][‘password’] =  부분의 뒷부분에 mysql 비밀번호를 입력해뒀더니 연결에 성공했다. </p>
+<p><img src="https://github.com/GwenChanEn/FigureBed/blob/master/img/image-20201030114838739.png?raw=true" alt="glaemfdjTdjtktlf"></p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+   
+   
+</article>
+
+    
+    <article
+  id="post-1024-996"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="2020/10/24/1024-996/"
+    >1024+996</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="2020/10/24/1024-996/" class="article-date">
+  <time datetime="2020-10-24T06:57:40.000Z" itemprop="datePublished">2020-10-24</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id="오늘-안-것"><a href="#오늘-안-것" class="headerlink" title="오늘 안 것"></a>오늘 안 것</h1><ul>
+<li>유학생 기숙사 비용 현금지불하거나 은련으로 내야하는건 이게 아마 용돈으로 쓰이기 때문ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 마스터나 비자는 수수료가 3% ^^</li>
+<li>따뜻하면 안일어난다. 그러니까 전기장판 6시간 수면시간 맞춰두고 그거에 맞게 일어나기 (추워야 일어나니까 7시간 전에 맞춰두기)</li>
+<li>방에서는 서서 공부하기</li>
+<li>자바는 매 수업마다 연습문제 싹 다 풀어야 합니다. </li>
+<li>水课인줄만 알았던 자바와 정보계량학은 헬이었다. </li>
+<li>도서관 입장 무슨 티켓팅이야? </li>
+<li></li>
+</ul>
+<h1 id="오늘-해야할-것"><a href="#오늘-해야할-것" class="headerlink" title="오늘 해야할 것"></a>오늘 해야할 것</h1><p>수학 22강 쭉 그냥 밤 새서 듣고 <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/s8f6FcNDXxsLpNFoe81ARQ">장학금신청 준비하기</a></p>
+<p>1강</p>
+<p>2강</p>
+<p>3강</p>
+<p>4강</p>
+<p>5강</p>
+<p>6강</p>
+<p>7강</p>
+<p>8강</p>
+<p>9강</p>
+<p>10강</p>
+<p>11강</p>
+<p>12강</p>
+<p>13강</p>
+<p>14강</p>
+<p>15강</p>
+<p>16강</p>
+<p>17강</p>
+<p>18강</p>
+<p>19강</p>
+<p>20강</p>
+<p>21강</p>
+<p>22강</p>
+<p>![image-20201025012632543](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20201025012632543.png)</p>
+<p>![image-20201025021751750](/Users/gangjuhyeon/Library/Application Support/typora-user-images/image-20201025021751750.png)</p>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+    </footer>
+  </div>
+
+   
+   
+</article>
+
+    
+    <article
   id="post-tijiaoyong2"
   class="article article-type-post"
   itemscope
@@ -906,158 +1043,6 @@ var _hmt = _hmt || [];
     <footer class="article-footer">
        
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/KOR/" rel="tag">KOR</a></li></ul>
-
-    </footer>
-  </div>
-
-   
-   
-</article>
-
-    
-    <article
-  id="post-ByteDance-Notice"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="2020/09/03/ByteDance-Notice/"
-    >ByteDance_Notice</a> 
-</h2>
- 
-
-    </header>
-     
-    <div class="article-meta">
-      <a href="2020/09/03/ByteDance-Notice/" class="article-date">
-  <time datetime="2020-09-03T11:07:34.321Z" itemprop="datePublished">2020-09-03</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="categories/ByteDance/">ByteDance</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <h1 id="字节跳动【0903信息汇总】"><a href="#字节跳动【0903信息汇总】" class="headerlink" title="字节跳动【0903信息汇总】"></a>字节跳动【0903信息汇总】</h1><p> 🇨🇳【抗战胜利75周年】<br>🎈我们胜利了：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/dSyL3e10X64OgCzy9Tu_Mg">https://mp.weixin.qq.com/s/dSyL3e10X64OgCzy9Tu_Mg</a><br>🔔【互联网资讯】<br> 🎈 农夫山泉有点难：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/imAZ7WdOrcsrnEmOTebNag">https://mp.weixin.qq.com/s/imAZ7WdOrcsrnEmOTebNag</a><br> 🎈 即时配送的中场战事：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/T3Vkgm1WANMFN9cXC4E4pw">https://mp.weixin.qq.com/s/T3Vkgm1WANMFN9cXC4E4pw</a><br> 🎈2020，中国手机大变天：<a target="_blank" rel="noopener" href="https://36kr.com/p/865639966432387">https://36kr.com/p/865639966432387</a><br>📝【笔面经】<br>✨字节跳动游戏数据分析师5面面经（已offer）<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/206901777">https://zhuanlan.zhihu.com/p/206901777</a><br>✨字节跳动商业变现-后端-2020/4/2-第一次技术面试 <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_36807551/article/details/105274842?ops_request_misc=">https://blog.csdn.net/qq_36807551/article/details/105274842?ops_request_misc=</a><br>✨字节跳动后端实习一二面凉经<a target="_blank" rel="noopener" href="https://blog.nowcoder.net/n/50de6c72aa6d4930ac0479c79f734a26">https://blog.nowcoder.net/n/50de6c72aa6d4930ac0479c79f734a26</a><br> 🔗【内推投递连接】 💥字节跳动2021校招正式开启，官方内推连接：<a target="_blank" rel="noopener" href="https://job.toutiao.com/campus/?spread=6JV47MT">https://job.toutiao.com/campus/?spread=6JV47MT</a></p>
-<hr>
-<h1 id="字节跳动【0908信息汇总】"><a href="#字节跳动【0908信息汇总】" class="headerlink" title="字节跳动【0908信息汇总】"></a>字节跳动【0908信息汇总】</h1><p>🔔【互联网资讯】<br>🎈 阿里赛道明星班全国招募， 打造智能制造新高地<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/nPPWxAXPo0thVS2tgdYO4g">https://mp.weixin.qq.com/s/nPPWxAXPo0thVS2tgdYO4g</a><br>🎈 人人都不想当产品经理了<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/NDuWXzNTi84pJJCBs-lRcA">https://mp.weixin.qq.com/s/NDuWXzNTi84pJJCBs-lRcA</a><br>🎈 字节跳动能否孵化下一个蚂蚁金服？<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/7iJTFQlXlW5FHodxR1yRjA">https://mp.weixin.qq.com/s/7iJTFQlXlW5FHodxR1yRjA</a><br>🎈 谁杀死了腾讯微博？<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/-6-sFfo0u04a54HEtTmnBg">https://mp.weixin.qq.com/s/-6-sFfo0u04a54HEtTmnBg</a><br>📝【笔面经】<br>✨字节电商用户产品面经｜两岗六面，意向书已发<a target="_blank" rel="noopener" href="http://www.woshipm.com/zhichang/2904280.html">http://www.woshipm.com/zhichang/2904280.html</a><br>✨秋招职能岗｜字节跳动-HRBP招聘方向-1、2面经<a target="_blank" rel="noopener" href="https://www.nowcoder.com/discuss/317754">https://www.nowcoder.com/discuss/317754</a><br>✨字节跳动算法岗-数据挖掘三面面经<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/60915257">https://zhuanlan.zhihu.com/p/60915257</a><br>🔗【内推投递连接】<br>💥字节跳动2021校招正式开启，官方内推连接：<a target="_blank" rel="noopener" href="https://job.bytedance.com/campus/?spread=6JV47MT">https://job.bytedance.com/campus/?spread=6JV47MT</a></p>
-</br>
-
-</br>
-
-<hr>
-<h1 id="字节跳动【0909信息汇总】"><a href="#字节跳动【0909信息汇总】" class="headerlink" title="字节跳动【0909信息汇总】"></a>字节跳动【0909信息汇总】</h1><p>🔔【互联网资讯】<br> 🎈 揭秘美团投资全景图：<a target="_blank" rel="noopener" href="https://36kr.com/p/873923736483207">https://36kr.com/p/873923736483207</a><br> 🎈马斯克脑机接口技术能彻底根除残疾吗？科学家说有可能：<a target="_blank" rel="noopener" href="https://36kr.com/p/873903854991233">https://36kr.com/p/873903854991233</a><br> 🎈通用汽车、特斯拉“电动皮卡之战”，氢燃料或成“双刃剑”：<a target="_blank" rel="noopener" href="https://36kr.com/p/874277351687169">https://36kr.com/p/874277351687169</a><br>📝【笔面经】<br>✨字节客户端面经–可0基础：  <a target="_blank" rel="noopener" href="https://bytedancecampus.feishu.cn/docs/doccnL4y3yIL8PyrPnplAydwCjf">https://bytedancecampus.feishu.cn/docs/doccnL4y3yIL8PyrPnplAydwCjf</a><br>✨字节跳动2020届秋招提前批前端面经：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/228170247">https://zhuanlan.zhihu.com/p/228170247</a><br>✨2020年初，字节跳动后端开发面经（已通过）：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/112709825">https://zhuanlan.zhihu.com/p/112709825</a><br> 🔗【内推投递连接】<br>💥字节跳动2021校招正式开启，官方内推连接：<a target="_blank" rel="noopener" href="https://job.toutiao.com/campus/?spread=VFBFW6R">https://job.toutiao.com/campus/?spread=VFBFW6R</a><br>🌟【今日讨论】<br>在面试时遇到不了解的问题该如何得体地回答？积极参与互动有机会获得精美礼品哦<br>🙌 【知识竞答】<br>职位投递成功后，还可以修改投递职位吗？</p>
-</br>
-
-</br>
-
-</br>
-
-<hr>
-<p>‌</p>
-<p><img src="https://media.giphy.com/media/QX6ruFElzFdeIfblrg/giphy.gif"></p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A82020%E7%A7%8B%E6%8B%9B%E5%AE%98%E6%96%B9%E7%AD%94%E7%96%911%E7%BE%A4/" rel="tag">字节跳动2020秋招官方答疑1群</a></li></ul>
-
-    </footer>
-  </div>
-
-   
-   
-</article>
-
-    
-    <article
-  id="post-thoughtStream"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="2020/09/03/thoughtStream/"
-    >thoughtStream</a> 
-</h2>
- 
-
-    </header>
-     
-    <div class="article-meta">
-      <a href="2020/09/03/thoughtStream/" class="article-date">
-  <time datetime="2020-09-03T10:24:56.768Z" itemprop="datePublished">2020-09-03</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="categories/ThoughtStream/">ThoughtStream</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <h1 id="첫번째-수업-복습-글을-쓰고"><a href="#첫번째-수업-복습-글을-쓰고" class="headerlink" title="첫번째 수업 복습 글을 쓰고"></a>첫번째 수업 복습 글을 쓰고</h1><p>영어 중국어 다 어느 정도 되는 친구들 셋에게 블로그를 보여주었더니, 내용에 대한 말은 없고 이펙트나 디자인같은 외적인 부분에 대한 평가만이 전부였다. </p>
-<p>친구1,2 - 한국거주 20년up|한국어&gt;중국어&gt;&gt;영어</p>
-<p>친구3 - 중국거주 10년up | 중국어&gt;=한국어&gt;&gt;영어</p>
-<p>넷 다 전공이 다른게 문제일까 내용이 많은게 문제일까..? </p>
-<p>그렇다고 동영상으로 올리면 독자가 단기간에 지식을 습득하기도 쉽지 않고 언어가 3개이다 보니 찍고 편집하는데도 시간이 어마무시하게 들 것 같은데… </p>
-<p><img src="https://i.pinimg.com/originals/53/86/50/538650cc9036d2be8a12ef239d123f90.gif"></p>
-</br>
-
-</br>
-
-<hr>
-<h1 id="개강날"><a href="#개강날" class="headerlink" title="개강날"></a>개강날</h1><p>오늘부터 드랍할 수 있는 기간인데, 시스템이 열려서 평소에 되게 잘해주시던 교수님(하지만 수강신청 실패하무ㅠㅜㅠ 인생 최초로)께 旁听가능하냐 여쭤봄. 근데 학교 시스템에 올해 여시는 과목 보니까 딱 이 과목 하나밖에 안하시는 걸 보아 아마 코로나가 불안하신게 아닌가 싶다. Stanford에서 박사하셨나 암튼 기억은 안남 쨌든 영미권에서 학산가 박사? 아니면 둘 다 하셨던 분으로 기억해서… (작년에 성균관대학교에서 ischool 의장님께서 오셨을 때도 이 분께서 담당하셨다) 역시 비행기표 10월 중순으로 사길 잘한 것 같다. (코로나 확산돼서 명절+국민 탓 해도 되잖아?) DK….SJANSKEOtSK EKQDL DJQTDJTU…. dkrmsiddoemfdlduddjfmfahtgkrhsorkwlrmawndrnrdpdjqtdjtjrmfjtlsmsrjrnsk 일단 조용히 聊群에 들어갔는데 나중에 조교해야지</p>
-</br>
-
-</br>
-
-<p>+) 哦哦 成为CSA传媒部副部长了</p>
-<p><img src="https://github.com/GwenChanEn/FigureBed/blob/master/img/RUCCSA.png?raw=true"></p>
-</br>
-
-</br>
-
-<hr>
-<h1 id="0909-오후수업-3연강으로-털리고-난-뒤-오전수업-드랍"><a href="#0909-오후수업-3연강으로-털리고-난-뒤-오전수업-드랍" class="headerlink" title="0909 오후수업 3연강으로 털리고 난 뒤 오전수업 드랍"></a>0909 오후수업 3연강으로 털리고 난 뒤 오전수업 드랍</h1><p>人大信管在中国很强，尤其是数据库 》》 数据库로 간드아!!</p>
-<p>앞단은,, 너무 자주 바뀌어서 적응도 힘들고 맨날 갈리니까 초중반에 힘들게 하기만 하면 나중엔 나름 편한 数据库로 가렵니다.</p>
-<p>(설마 이거 또 중국에서 유학했다고 데이터 관리하는거 뭐라하진 않겠지… )</p>
-</br>
-
-</br>
-
-<hr>
-<p><img src="https://media.giphy.com/media/JppvX9nkPq3vAwA36K/giphy.gif"></p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/%EB%84%8B%EB%91%90%EB%A6%AC/" rel="tag">넋두리</a></li></ul>
 
     </footer>
   </div>
