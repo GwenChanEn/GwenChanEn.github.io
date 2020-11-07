@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gwenchanen.github.io/"/>
-  <updated>2020-11-07T04:38:19.164Z</updated>
+  <updated>2020-11-07T04:39:25.722Z</updated>
   <id>https://gwenchanen.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://gwenchanen.github.io/2020/11/07/%EC%9D%B4%EC%9C%A0/"/>
     <id>https://gwenchanen.github.io/2020/11/07/%EC%9D%B4%EC%9C%A0/</id>
     <published>2020-11-07T04:04:36.000Z</published>
-    <updated>2020-11-07T04:38:19.164Z</updated>
+    <updated>2020-11-07T04:39:25.722Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,8 @@
     
     </summary>
     
+    
+      <category term="중국유학" scheme="https://gwenchanen.github.io/categories/%EC%A4%91%EA%B5%AD%EC%9C%A0%ED%95%99/"/>
     
     
       <category term="insight" scheme="https://gwenchanen.github.io/tags/insight/"/>
